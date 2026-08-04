@@ -21,8 +21,10 @@ Refresh source data with:
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install requests beautifulsoup4
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 npm run scrape
+npm run validate
 ```
 
 This project is independent and is not an official Great Global Greyhound Walk website. Visitors should confirm event details on the linked official listing before travelling.
