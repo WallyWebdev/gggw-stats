@@ -46,7 +46,7 @@ const structuredData = JSON.stringify({
       <nav class="topbar" aria-label="Primary navigation">
         <a class="brand" href="#top" aria-label="GGGW stats home">
           <span class="brand-mark" aria-hidden="true">G</span>
-          <span>GLOBAL WALK<br />FIELD NOTES · 2026</span>
+          <span>GGGW 2026<br />Global statistics</span>
         </a>
         <div class="nav-links">
           <a href="#countries">Countries</a>
@@ -57,10 +57,10 @@ const structuredData = JSON.stringify({
 
       <div id="top" class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Sunday 27 September 2026</p>
-          <h1>One day.<br /><em>One long</em><br />global walk.</h1>
-          <p class="intro">A living atlas of every registered Great Global Greyhound Walk currently listed for 2026—from Dayboro to Daylesford, Bristol to Bend.</p>
-          <a class="hero-cta" href="#map-section">Explore all walks <span aria-hidden="true">↘</span></a>
+          <p class="eyebrow"><span></span> Great Global Greyhound Walk · 27 September 2026</p>
+          <h1>Global walk<br /><em>dashboard.</em></h1>
+          <p class="intro">Explore every currently registered 2026 walk, compare countries and find event details on one practical dashboard.</p>
+          <a class="hero-cta" href="#map-section">View interactive map <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-figure" aria-hidden="true">
           <div class="orbit orbit-one"></div>
@@ -108,7 +108,7 @@ const structuredData = JSON.stringify({
       <section id="countries" class="countries" aria-labelledby="countries-title">
         <div class="section-kicker light"><span>02</span><p>Where the walks are</p></div>
         <div class="section-heading">
-          <h2 id="countries-title">The world,<br /><em>by walk count.</em></h2>
+          <h2 id="countries-title">Countries &amp;<br /><em>territories</em></h2>
           <p>{leadingCountry.country} currently leads with {leadingCountry.count} walks. Select any country to isolate its markers and listings.</p>
         </div>
         <div class="country-layout">
@@ -140,8 +140,8 @@ const structuredData = JSON.stringify({
         <div class="section-kicker"><span>03</span><p>Find the pack</p></div>
         <div class="map-heading">
           <div>
-            <h2 id="map-title">Every walk.<br /><em>On the map.</em></h2>
-            <p>Pan, zoom, or choose a country. Select a red marker for walk details and the official listing.</p>
+            <h2 id="map-title">Walk locations</h2>
+            <p>Use the mouse wheel over the map to zoom. Pan, filter by country, or select a marker for details.</p>
           </div>
           <div class="map-controls">
             <label for="country-filter">Filter country</label>
@@ -162,13 +162,13 @@ const structuredData = JSON.stringify({
       <section id="walks" class="walk-directory" aria-labelledby="walks-title">
         <div class="section-kicker light"><span>04</span><p>The full roll call</p></div>
         <div class="directory-heading">
-          <h2 id="walks-title">Find your<br /><em>local walk.</em></h2>
+          <h2 id="walks-title">Registered walks</h2>
           <div class="search-wrap">
             <label for="walk-search">Search location, postcode or organiser</label>
             <input id="walk-search" type="search" placeholder="Try ‘Dayboro’ or ‘Bristol’" autocomplete="off" />
           </div>
         </div>
-        <p class="result-count" aria-live="polite"><strong id="visible-list-count">{walks.length}</strong> walks shown</p>
+        <p class="result-count" aria-live="polite"><strong id="visible-list-count">{walks.length}</strong> walks found</p>
         <div class="walk-list" id="walk-list">
           {walks.map((walk, index) => (
             <article class="walk-card" data-country={walk.country} data-search={`${walk.title} ${walk.postcode} ${walk.organiser} ${walk.leader}`.toLowerCase()}>
@@ -185,6 +185,7 @@ const structuredData = JSON.stringify({
             </article>
           ))}
         </div>
+        <button id="show-more" class="show-more" type="button">Show 20 more walks</button>
         <p id="no-results" class="no-results" hidden>No walks match that search yet.</p>
       </section>
     </main>
@@ -225,6 +226,7 @@ const structuredData = JSON.stringify({
       const dataElement = document.querySelector<HTMLScriptElement>('#walk-data');
       const walks: Walk[] = JSON.parse(dataElement?.textContent ?? '[]');
       const map = L.map('walk-map', { scrollWheelZoom: false, minZoom: 2, worldCopyJump: true });
+      const mapElement = document.querySelector<HTMLElement>('#walk-map');
       const initialBounds = L.latLngBounds(walks.map((walk) => [walk.location.lat, walk.location.lng]));
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -246,29 +248,59 @@ const structuredData = JSON.stringify({
       }
 
       if (initialBounds.isValid()) map.fitBounds(initialBounds, { padding: [30, 30] });
+      if (mapElement) {
+        const syncZoom = () => { mapElement.dataset.zoom = String(map.getZoom()); };
+        let wheelDelta = 0;
+        let wheelTimer: number | undefined;
+        map.on('zoomend', syncZoom);
+        syncZoom();
+        mapElement.addEventListener('wheel', (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          const deltaScale = event.deltaMode === WheelEvent.DOM_DELTA_LINE
+            ? 16
+            : event.deltaMode === WheelEvent.DOM_DELTA_PAGE
+              ? mapElement.clientHeight
+              : 1;
+          wheelDelta += event.deltaY * deltaScale;
+          window.clearTimeout(wheelTimer);
+          wheelTimer = window.setTimeout(() => {
+            if (wheelDelta !== 0) {
+              const nextZoom = map.getZoom() + (wheelDelta < 0 ? 1 : -1);
+              map.setZoom(Math.max(map.getMinZoom(), Math.min(map.getMaxZoom(), nextZoom)), { animate: true });
+            }
+            wheelDelta = 0;
+          }, 28);
+        }, { passive: false, capture: true });
+      }
       const countrySelect = document.querySelector<HTMLSelectElement>('#country-filter');
       const count = document.querySelector<HTMLElement>('#visible-map-count');
       const search = document.querySelector<HTMLInputElement>('#walk-search');
       const listCount = document.querySelector<HTMLElement>('#visible-list-count');
       const noResults = document.querySelector<HTMLElement>('#no-results');
+      const showMore = document.querySelector<HTMLButtonElement>('#show-more');
       let activeCountry = 'all';
+      let visibleLimit = 20;
 
       const filterListings = () => {
         const query = search?.value.trim().toLowerCase() ?? '';
-        let visible = 0;
+        let matches = 0;
         document.querySelectorAll<HTMLElement>('.walk-card').forEach((card) => {
           const matchesCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
           const matchesQuery = !query || (card.dataset.search ?? '').includes(query);
-          const show = matchesCountry && matchesQuery;
+          const matchesFilters = matchesCountry && matchesQuery;
+          const show = matchesFilters && matches < visibleLimit;
           card.hidden = !show;
-          if (show) visible += 1;
+          if (matchesFilters) matches += 1;
         });
-        if (listCount) listCount.textContent = String(visible);
-        if (noResults) noResults.hidden = visible !== 0;
+        if (listCount) listCount.textContent = String(matches);
+        if (noResults) noResults.hidden = matches !== 0;
+        if (showMore) showMore.hidden = matches <= visibleLimit;
       };
 
       const filterCountry = (country: string) => {
         activeCountry = country;
+        visibleLimit = 20;
         const visible: L.LatLngExpression[] = [];
         for (const walk of walks) {
           const marker = markers.get(walk.id);
@@ -292,7 +324,15 @@ const structuredData = JSON.stringify({
         filterCountry(country);
         document.querySelector('#map-section')?.scrollIntoView({ behavior: 'smooth' });
       }));
-      search?.addEventListener('input', filterListings);
+      search?.addEventListener('input', () => {
+        visibleLimit = 20;
+        filterListings();
+      });
+      showMore?.addEventListener('click', () => {
+        visibleLimit += 20;
+        filterListings();
+      });
+      filterListings();
     </script>
   </body>
 </html>
