@@ -9,7 +9,8 @@
     "check": "astro check",
     "preview": "astro preview",
     "test": "playwright test",
-    "validate": "python3 scripts/validate_data.py --live && npm run build && npm test",
+    "validate": "python3 scripts/validate_data.py && npm run build && npm test",
+    "validate:live": "python3 scripts/validate_data.py --live",
     "scrape": "python3 scripts/scrape_walks.py"
   },
   "dependencies": {
