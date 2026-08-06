@@ -2,9 +2,9 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-06T01:58:40.832167+00:00",
-    "walkCount": 128,
-    "mappedCount": 128,
+    "scrapedAt": "2026-08-06T04:42:12.625761+00:00",
+    "walkCount": 129,
+    "mappedCount": 129,
     "countryCount": 23
   },
   "countries": [
@@ -41,11 +41,11 @@
       "count": 4
     },
     {
-      "country": "Germany",
-      "count": 3
+      "country": "New Zealand",
+      "count": 4
     },
     {
-      "country": "New Zealand",
+      "country": "Germany",
       "count": 3
     },
     {
@@ -2965,6 +2965,39 @@
       }
     },
     {
+      "id": "new-zealand-hawkes-bay-napier",
+      "title": "New Zealand, Hawkes Bay, Napier",
+      "country": "New Zealand",
+      "region": "Hawkes Bay",
+      "locality": "Napier",
+      "address": "Clive Square, Napier Napier Hawkes Bay",
+      "postcode": "4110",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:30 am",
+      "duration": "45minutes slow walking in town.",
+      "meetingPoint": "Clive Square, Emerson St, Napier",
+      "parking": "Sunday is free parking around Clive Square. Parking is plentiful",
+      "organiser": "Greyhounds As Pets, Hawkes Bay",
+      "leader": "Maree Patton",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Option to go to one of the many cafes in town, don't forget your wallet!",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-hawkes-bay-napier/",
+      "location": {
+        "lat": -39.48348,
+        "lng": 176.892093,
+        "displayName": "Napier Sailing Club, Hawkes Bay Trails, Pandora, Napier City, Hawke's Bay, 4110, New Zealand / Aotearoa",
+        "query": "Napier, Hawkes Bay, 4110, New Zealand",
+        "precision": "locality",
+        "countryCode": "nz",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "new-zealand-wellington-wellington",
       "title": "New Zealand, Wellington",
       "country": "New Zealand",
@@ -3328,10 +3361,10 @@
     },
     {
       "id": "switzerland-zurich-hongg-trinkbrunnen-zurich",
-      "title": "Switzerland, Zurich, Höngg, (Trinkbrunnen), Zürich",
+      "title": "Switzerland, Zurich, Höngg",
       "country": "Switzerland",
-      "region": "Zurich, Höngg, (Trinkbrunnen)",
-      "locality": "Zürich",
+      "region": "Zurich",
+      "locality": "Höngg",
       "address": "https://www.google.com/maps?q=Trinkbrunnen,+H%C3%B6ngg,+8037+Z%C3%BCrich&ftid=0x47900b72a46c7d6f:0x7b5a10bf19436672&entry=gps&shh=CAE&lucs=,94297699,94231188,94280568,47071704,94218641,100808659,94282134,94286869,100820247&g_ep=CAISEjI2LjE3LjIuOTAyNzg4MTI0MBgAIIgnKlMsOTQyOTc2OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsMTAwODA4NjU5LDk0MjgyMTM0LDk0Mjg2ODY5LDEwMDgyMDI0N0ICQ0g%3D&skid=77502a72-fc4e-455b-8ba7-93ec1c11421b&g_st=iw Höngg, (Trinkbrunnen), Zürich Zurich",
       "postcode": "8037",
       "what3words": "",
