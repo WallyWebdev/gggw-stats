@@ -11,8 +11,9 @@ EXPECTED_COUNTRY_CODES = {
     "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
     "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
     "Gibraltar": "gi", "Hungary": "hu", "Italy": "it", "Japan": "jp",
-    "Mexico": "mx", "New Zealand": "nz", "San Marino": "sm", "Scotland": "gb",
-    "South Africa": "za", "United States": "us", "Wales": "gb",
+    "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
+    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch",
+    "United States": "us", "Wales": "gb",
 }
 
 parser = argparse.ArgumentParser()

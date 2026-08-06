@@ -22,8 +22,9 @@ EXPECTED_COUNTRY_CODES = {
     "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
     "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
     "Gibraltar": "gi", "Hungary": "hu", "Italy": "it", "Japan": "jp",
-    "Mexico": "mx", "New Zealand": "nz", "San Marino": "sm", "Scotland": "gb",
-    "South Africa": "za", "United States": "us", "Wales": "gb",
+    "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
+    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch",
+    "United States": "us", "Wales": "gb",
 }
 MANUAL_LOCATIONS = {
     "australia-south-australia-adelaide-wynne-vale-dam": {
@@ -105,6 +106,22 @@ MANUAL_LOCATIONS = {
         "query": "The Muny, 1 Theatre Drive, St. Louis, MO 63112",
         "precision": "published meeting point",
         "verificationUrl": "https://www.lewisandclark.travel/listing/the-muny/",
+    },
+    "sweden-uppland-solna": {
+        "lat": 59.353491,
+        "lng": 18.039839,
+        "displayName": "Haga tingshus, 12 Annerovägen, Solna, Sweden",
+        "query": "Annerovägen 12, 16970 Solna, Sweden",
+        "precision": "published meeting point",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/sweden-uppland-solna/",
+    },
+    "switzerland-zurich-hongg-trinkbrunnen-zurich": {
+        "lat": 47.400813,
+        "lng": 8.517188,
+        "displayName": "Trinkbrunnen, Höngg, Zürich, Switzerland",
+        "query": "Trinkbrunnen, Höngg, 8037 Zürich",
+        "precision": "published meeting point",
+        "verificationUrl": "https://www.google.com/maps?q=Trinkbrunnen,+H%C3%B6ngg,+8037+Z%C3%BCrich&ftid=0x47900b72a46c7d6f:0x7b5a10bf19436672&entry=gps",
     },
 }
 
