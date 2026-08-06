@@ -41,6 +41,13 @@ for walk in walks:
     assert location.get("query"), f"Missing geocode provenance: {walk['title']}"
     if location["precision"].startswith("published"):
         assert location.get("verificationUrl"), f"Missing manual verification source: {walk['title']}"
+    elif location.get("sourceType") == "what3words":
+        assert location.get("accuracy") == "three-metre square", f"Missing W3W accuracy record: {walk['title']}"
+        assert location.get("what3words"), f"Missing W3W code record: {walk['title']}"
+        assert location.get("coordinateStatus") == "confirmed", f"Unconfirmed W3W coordinate: {walk['title']}"
+        assert location["what3words"].replace("///", "").lower() in walk["what3words"].lower(), (
+            f"W3W code does not match listing: {walk['title']}"
+        )
     else:
         assert location.get("provider") == "OpenStreetMap Nominatim", f"Missing geocoder provider: {walk['title']}"
         assert location.get("countryCode") == EXPECTED_COUNTRY_CODES[walk["country"]], f"Wrong geocoder country: {walk['title']}"

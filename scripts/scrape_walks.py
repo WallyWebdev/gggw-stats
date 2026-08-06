@@ -18,6 +18,7 @@ USER_AGENT = "GGGW-Stats/0.1 (non-commercial community stats prototype; source: 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "src" / "data" / "walks.json"
 CACHE = ROOT / ".cache" / "geocodes.json"
+VERIFIED_LOCATIONS_FILE = ROOT / "scripts" / "verified-locations.json"
 EXPECTED_COUNTRY_CODES = {
     "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
     "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
@@ -126,6 +127,16 @@ MANUAL_LOCATIONS = {
 }
 
 
+def verified_locations() -> dict[str, dict[str, Any]]:
+    """Load durable, human-confirmed locations before any automated geocoding."""
+    if not VERIFIED_LOCATIONS_FILE.exists():
+        return {}
+    locations = json.loads(VERIFIED_LOCATIONS_FILE.read_text())
+    if not isinstance(locations, dict):
+        raise ValueError(f"{VERIFIED_LOCATIONS_FILE} must contain an object keyed by walk ID")
+    return locations
+
+
 def clean(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
@@ -204,7 +215,14 @@ def query_candidates(walk: dict[str, Any]) -> list[str]:
     return list(dict.fromkeys(clean(item) for item in candidates if clean(item)))
 
 
-def geocode(session: requests.Session, walk: dict[str, Any], cache: dict[str, Any]) -> dict[str, Any] | None:
+def geocode(
+    session: requests.Session,
+    walk: dict[str, Any],
+    cache: dict[str, Any],
+    confirmed_locations: dict[str, dict[str, Any]],
+) -> dict[str, Any] | None:
+    if walk["id"] in confirmed_locations:
+        return confirmed_locations[walk["id"]]
     if walk["id"] in MANUAL_LOCATIONS:
         return MANUAL_LOCATIONS[walk["id"]]
     expected_country_code = EXPECTED_COUNTRY_CODES.get(walk["country"])
@@ -269,15 +287,18 @@ def main() -> None:
         time.sleep(0.12)
 
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    confirmed_locations = verified_locations()
     if not args.skip_geocode:
         for index, walk in enumerate(walks, 1):
-            location = geocode(session, walk, cache)
+            location = geocode(session, walk, cache, confirmed_locations)
             walk["location"] = location
             state = "ok" if location else "FAILED"
             print(f"[{index:03}/{len(walks):03}] geocode {state}: {walk['title']}")
     else:
         for walk in walks:
-            walk["location"] = MANUAL_LOCATIONS.get(walk["id"], cache.get(walk["id"]))
+            walk["location"] = confirmed_locations.get(
+                walk["id"], MANUAL_LOCATIONS.get(walk["id"], cache.get(walk["id"]))
+            )
 
     countries = Counter(walk["country"] for walk in walks)
     payload = {
