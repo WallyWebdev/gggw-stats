@@ -291,13 +291,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-new-south-wales-tuncurry/",
       "location": {
-        "lat": -32.172998,
-        "lng": 152.506609,
-        "displayName": "Tuncurry Rockpool Playground, Rockpool Road, Tuncurry, New South Wales, 2428, Australia",
-        "query": "Tuncurry Rockpool/ rockpool Rd Tuncurry Tuncurry New South Wales, 2428, Australia",
-        "precision": "address",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Australia, New South Wales, Tuncurry",
+        "lat": -32.173041,
+        "lng": 152.506323,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///sprain.panning.fury",
+        "sourceType": "what3words",
+        "what3words": "///sprain.panning.fury"
       }
     },
     {
@@ -388,13 +391,16 @@
       "organiserUrl": "https://www.facebook.com/share/1EihcbNmAf/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-dayboro/",
       "location": {
-        "lat": -27.195918,
-        "lng": 152.82454,
-        "displayName": "Dayboro, Queensland, Australia",
-        "query": "Dayboro, Queensland, 4521, Australia",
-        "precision": "locality",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Australia, Queensland, Dayboro",
+        "lat": -27.195734,
+        "lng": 152.825258,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///fluke.chaos.tadpole",
+        "sourceType": "what3words",
+        "what3words": "///fluke.chaos.tadpole"
       }
     },
     {
@@ -651,13 +657,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-victoria-diamond-creek/",
       "location": {
-        "lat": -37.680042,
-        "lng": 145.149371,
-        "displayName": "53, Challenger Street, Diamond Creek, Melbourne, Victoria, 3089, Australia",
-        "query": "53 Challenger St Diamond Creek Victoria, 3089, Australia",
-        "precision": "address",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Australia, Victoria, Diamond Creek",
+        "lat": -37.679859,
+        "lng": 145.149377,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///moons.agree.hang",
+        "sourceType": "what3words",
+        "what3words": "///moons.agree.hang"
       }
     },
     {
@@ -750,13 +759,16 @@
       "organiserUrl": "https://greytgreys.org/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-victoria-reservoir/",
       "location": {
-        "lat": -37.716842,
-        "lng": 145.006994,
-        "displayName": "Reservoir, Spring Street, Reservoir, Melbourne, Victoria, 3073, Australia",
-        "query": "Reservoir, Victoria, 3073, Australia",
-        "precision": "locality",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Australia, Victoria, Reservoir",
+        "lat": -37.713387,
+        "lng": 144.994357,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///until.risen.move",
+        "sourceType": "what3words",
+        "what3words": "///until.risen.move"
       }
     },
     {
@@ -1014,13 +1026,16 @@
       "organiserUrl": "https://www.112carlotagalgos.com/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/canada-ontario-mississauga-jack-darling-park/",
       "location": {
-        "lat": 43.527036,
-        "lng": -79.602353,
-        "displayName": "Jack Darling Memorial Park Picnic Site A, Waterfront Trail, Lorne Park Estates, Lorne Park, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5H 3J2, Canada",
-        "query": "Jack Darling Park, Ontario, Mississauga, L5H 1A1, Canada",
-        "precision": "locality",
-        "countryCode": "ca",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Canada, Ontario, Mississauga, Jack Darling Park",
+        "lat": 43.526291,
+        "lng": -79.60242,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///scores.banter.betrayal",
+        "sourceType": "what3words",
+        "what3words": "///scores.banter.betrayal"
       }
     },
     {
@@ -1146,13 +1161,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/czech-republic-karlovy-vary-potucky/",
       "location": {
-        "lat": 50.428162,
-        "lng": 12.736479,
-        "displayName": "Potůčky, okres Karlovy Vary, Karlovarský kraj, Česko",
-        "query": "Potůčky, Karlovy Vary, 362 35, Czech Republic",
-        "precision": "locality",
-        "countryCode": "cz",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Czech Republic, Karlovy Vary, Potůčky",
+        "lat": 50.400375,
+        "lng": 12.806662,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///mrknul.fenka.kolínko",
+        "sourceType": "what3words",
+        "what3words": "///mrknul.fenka.kolínko"
       }
     },
     {
@@ -1244,13 +1262,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-bristol/",
       "location": {
-        "lat": 51.486183,
-        "lng": -2.544618,
-        "displayName": "Snuff Mills Carpark, River View, Stapleton, Bristol, City of Bristol, West of England, England, BS16 1DL, United Kingdom",
-        "query": "Snuff Mills, River View Bristol Bristol, BS16 1DL, England",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Bristol",
+        "lat": 51.486349,
+        "lng": -2.542425,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///zone.about.boots",
+        "sourceType": "what3words",
+        "what3words": "///zone.about.boots"
       }
     },
     {
@@ -1277,13 +1298,16 @@
       "organiserUrl": "https://foreverhoundstrust.org/events/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-bristol-long-ashton/",
       "location": {
-        "lat": 51.44613,
-        "lng": -2.643786,
-        "displayName": "Ashton Court Estate, Long Ashton, North Somerset, West of England, England, United Kingdom",
-        "query": "Ashton Court Estate, Bristol, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Bristol, Ashton Court Estate",
+        "lat": 51.438053,
+        "lng": -2.642069,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///marble.labs.wipe",
+        "sourceType": "what3words",
+        "what3words": "///marble.labs.wipe"
       }
     },
     {
@@ -1310,13 +1334,16 @@
       "organiserUrl": "https://dawg.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-bristol-bristol/",
       "location": {
-        "lat": 51.493203,
-        "lng": -2.638858,
-        "displayName": "Blaise Castle Estate, The Dingle, Coombe Dingle, Bristol, City of Bristol, West of England, England, BS9 2RG, United Kingdom",
-        "query": "Blaise Castle Estate Bristol Bristol, BS10 7QT, England",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Bristol, Blaise Castle Estate",
+        "lat": 51.504622,
+        "lng": -2.638419,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///chain.sketch.nails",
+        "sourceType": "what3words",
+        "what3words": "///chain.sketch.nails"
       }
     },
     {
@@ -1375,13 +1402,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-cornwall-bude/",
       "location": {
-        "lat": 50.83552,
-        "lng": -4.553032,
-        "displayName": "Crooklets Beach Cafe, Crooklets, Bude–Stratton, Bude, Cornwall, England, EX23 8NE, United Kingdom",
-        "query": "Crooklets Beach Cafe Bude Cornwall, EX23 8NE, England",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Cornwall, Bude",
+        "lat": 50.835557,
+        "lng": -4.553013,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///devoured.under.downturn",
+        "sourceType": "what3words",
+        "what3words": "///devoured.under.downturn"
       }
     },
     {
@@ -1474,13 +1504,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-essex-harlow/",
       "location": {
-        "lat": 51.778221,
-        "lng": 0.101693,
-        "displayName": "The Greyhound Public House, 12, School Lane, Burnt Mill, Harlow, Essex, England, CM20 2QB, United Kingdom",
-        "query": "The Greyhound Pub, School Lane Harlow Essex, CM20 2QD, England",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Essex, Harlow",
+        "lat": 51.778151,
+        "lng": 0.101617,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///adopt.sock.works",
+        "sourceType": "what3words",
+        "what3words": "///adopt.sock.works"
       }
     },
     {
@@ -1540,13 +1573,16 @@
       "organiserUrl": "https://www.facebook.com/share/g/1DDuu7enE9/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-greater-london-bromley/",
       "location": {
-        "lat": 51.402805,
-        "lng": 0.014814,
-        "displayName": "Bromley, Greater London, England, BR1 1EY, United Kingdom",
-        "query": "Bromley, Greater London, BR2 6AJ, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Greater London, Bromley",
+        "lat": 51.364368,
+        "lng": 0.02826,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///verbs.vets.legal",
+        "sourceType": "what3words",
+        "what3words": "///verbs.vets.legal"
       }
     },
     {
@@ -1639,13 +1675,16 @@
       "organiserUrl": "https://www.yarmouth-greyhound-homefinders.co.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-norfolk-aylsham/",
       "location": {
-        "lat": 52.795003,
-        "lng": 1.251189,
-        "displayName": "Aylsham, Broadland, Norfolk, England, United Kingdom",
-        "query": "Aylsham, Norfolk, NR11 6UE, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Norfolk, Aylsham",
+        "lat": 52.783864,
+        "lng": 1.251315,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///retrieves.wording.delusions",
+        "sourceType": "what3words",
+        "what3words": "///retrieves.wording.delusions"
       }
     },
     {
@@ -1672,13 +1711,16 @@
       "organiserUrl": "https://greyhoundsofscarborough.co.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-north-yorkshire-scarborough/",
       "location": {
-        "lat": 54.282001,
-        "lng": -0.401187,
-        "displayName": "Scarborough, North Yorkshire, York and North Yorkshire, England, United Kingdom",
-        "query": "Scarborough, North Yorkshire, YO139QU, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, North Yorkshire, Scarborough",
+        "lat": 54.225757,
+        "lng": -0.485165,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///bakers.tungsten.mondays",
+        "sourceType": "what3words",
+        "what3words": "///bakers.tungsten.mondays"
       }
     },
     {
@@ -1837,12 +1879,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-staffordshire-stoke-on-trent/",
       "location": {
-        "lat": 53.000329,
-        "lng": -2.106948,
-        "displayName": "Park Hall Country Park, Bolton Gate, Stoke-on-Trent",
-        "query": "Park Hall Country Park, Bolton Gate, ST3 6QD",
-        "precision": "published meeting point",
-        "verificationUrl": "https://www.waze.com/live-map/directions/gb/england/park-hall-country-park-(bolton-gate)?to=place.ChIJu388hzhqekgRLsqkUdJpHm8"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Staffordshire, Stoke-on-Trent",
+        "lat": 52.998019,
+        "lng": -2.096617,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///ridge.wrong.fakes",
+        "sourceType": "what3words",
+        "what3words": "///ridge.wrong.fakes"
       }
     },
     {
@@ -1869,13 +1915,16 @@
       "organiserUrl": "https://daybreakstrust.co.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-west-midlands-solihull/",
       "location": {
-        "lat": 52.413019,
-        "lng": -1.776893,
-        "displayName": "Solihull, West Midlands, England, B91 3AX, United Kingdom",
-        "query": "Solihull, West Midlands, B91 3HG, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, West Midlands, Solihull",
+        "lat": 52.408756,
+        "lng": -1.761687,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///alert.soak.feared",
+        "sourceType": "what3words",
+        "what3words": "///alert.soak.feared"
       }
     },
     {
@@ -3021,13 +3070,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-wellington-wellington/",
       "location": {
-        "lat": -41.288795,
-        "lng": 174.777211,
-        "displayName": "Wellington, Wellington City, Wellington, 6011, New Zealand / Aotearoa",
-        "query": "Wellington, 6011, New Zealand",
-        "precision": "locality",
-        "countryCode": "nz",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — New Zealand, Wellington",
+        "lat": -41.285023,
+        "lng": 174.778442,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///transmitted.banana.vets",
+        "sourceType": "what3words",
+        "what3words": "///transmitted.banana.vets"
       }
     },
     {
@@ -3054,13 +3106,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-wellington-paraparaumu-beach/",
       "location": {
-        "lat": -40.891477,
-        "lng": 174.981287,
-        "displayName": "Paraparaumu Beach, Paraparaumu, Kāpiti Coast District, Wellington, 5252, New Zealand / Aotearoa",
-        "query": "Paraparaumu Beach, Wellington, 5032, New Zealand",
-        "precision": "locality",
-        "countryCode": "nz",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — New Zealand, Wellington, Paraparaumu Beach",
+        "lat": -40.893286,
+        "lng": 174.979399,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///walks.remedies.stealth",
+        "sourceType": "what3words",
+        "what3words": "///walks.remedies.stealth"
       }
     },
     {
@@ -3120,13 +3175,16 @@
       "organiserUrl": "https://dcgr.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-dumfries-and-galloway-lochmaben/",
       "location": {
-        "lat": 55.128876,
-        "lng": -3.441277,
-        "displayName": "Lochmaben, Dumfries and Galloway, Alba / Scotland, DG11 1NQ, United Kingdom",
-        "query": "Lochmaben, Dumfries and Galloway, DG11 1LP, Scotland",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Scotland, Dumfries and Galloway, Lochmaben",
+        "lat": 55.122884,
+        "lng": -3.428002,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///issues.sailor.producers",
+        "sourceType": "what3words",
+        "what3words": "///issues.sailor.producers"
       }
     },
     {
@@ -3252,13 +3310,16 @@
       "organiserUrl": "https://www.facebook.com/share/g/1FcbVx7jxU/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-west-lothian-livingston/",
       "location": {
-        "lat": 55.885456,
-        "lng": -3.539967,
-        "displayName": "Livingston Village square, Livingston Village, Livingston, West Lothian, Alba / Scotland, United Kingdom",
-        "query": "Livingston Village square Livingston West Lothian, EH547AF, Scotland",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Scotland, West Lothian, Livingston",
+        "lat": 55.885498,
+        "lng": -3.540055,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///risky.when.social",
+        "sourceType": "what3words",
+        "what3words": "///risky.when.social"
       }
     },
     {
@@ -3679,13 +3740,16 @@
       "organiserUrl": "https://greyhoundsinmotion.com/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-georgia-blairsville/",
       "location": {
-        "lat": 34.875907,
-        "lng": -83.958371,
-        "displayName": "Blairsville, Union County, Georgia, United States",
-        "query": "Blairsville, Georgia, 30512, United States",
-        "precision": "locality",
-        "countryCode": "us",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — United States, Georgia, Blairsville",
+        "lat": 34.869273,
+        "lng": -83.979676,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///changes.fingerprints.silences",
+        "sourceType": "what3words",
+        "what3words": "///changes.fingerprints.silences"
       }
     },
     {
@@ -4008,13 +4072,16 @@
       "organiserUrl": "https://buffalogreyhound.org/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-new-york-elma/",
       "location": {
-        "lat": 42.823715,
-        "lng": -78.637222,
-        "displayName": "Town of Elma, Erie County, New York, 14059, United States",
-        "query": "Elma, New York, 14059, United States",
-        "precision": "locality",
-        "countryCode": "us",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — United States, New York, Elma",
+        "lat": 42.819548,
+        "lng": -78.588937,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///fragments.good.reluctantly",
+        "sourceType": "what3words",
+        "what3words": "///fragments.good.reluctantly"
       }
     },
     {
@@ -4173,13 +4240,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-carmarthenshire-pembrey/",
       "location": {
-        "lat": 51.675847,
-        "lng": -4.310911,
-        "displayName": "Pembrey Country Park, Factory Road, Pembrey and Burry Port Town, Pembrey, Sir Gaerfyrddin / Carmarthenshire, Cymru / Wales, SA16 0EJ, United Kingdom",
-        "query": "Pembrey Country Park Pembrey Carmarthenshire, SA16 0EJ, Wales",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Carmarthenshire, Pembrey",
+        "lat": 51.677542,
+        "lng": -4.314392,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///campsites.rang.certainty",
+        "sourceType": "what3words",
+        "what3words": "///campsites.rang.certainty"
       }
     },
     {
@@ -4206,13 +4276,16 @@
       "organiserUrl": "https://www.skylorsanimalrescue.com/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-flintshire-dobshill/",
       "location": {
-        "lat": 53.164746,
-        "lng": -3.03794,
-        "displayName": "Chester Road, Dobshill, Penyffordd, Flintshire, Cymru / Wales, CH5 3LZ, United Kingdom",
-        "query": "Chester Road Dobshill Flintshire, CH5 3LZ, Wales",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Flintshire, Dobshill",
+        "lat": 53.164281,
+        "lng": -3.030857,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///cork.become.swear",
+        "sourceType": "what3words",
+        "what3words": "///cork.become.swear"
       }
     },
     {
@@ -4239,13 +4312,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-isle-of-anglesey-holyhead/",
       "location": {
-        "lat": 53.310671,
-        "lng": -4.633097,
-        "displayName": "Holyhead, Ynys Môn / Isle of Anglesey, Cymru / Wales, LL65 1UL, United Kingdom",
-        "query": "Holyhead, Isle Of Anglesey, LL652JD, Wales",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Isle Of Anglesey, Holyhead",
+        "lat": 53.294402,
+        "lng": -4.58936,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///penny.grudging.dancer",
+        "sourceType": "what3words",
+        "what3words": "///penny.grudging.dancer"
       }
     },
     {
@@ -4272,13 +4348,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-monmouthshire-monmouth/",
       "location": {
-        "lat": 51.809888,
-        "lng": -2.716044,
-        "displayName": "Monmouth, Monmouthshire, Cymru / Wales, NP25 3UZ, United Kingdom",
-        "query": "Monmouth, Monmouthshire, NP25 4PN, Wales",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Monmouthshire, Monmouth",
+        "lat": 51.72317,
+        "lng": -2.689154,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///minivans.rank.fact",
+        "sourceType": "what3words",
+        "what3words": "///minivans.rank.fact"
       }
     },
     {
@@ -4305,13 +4384,16 @@
       "organiserUrl": "https://www.facebook.com/groups/southwalessighthoundhub",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-vale-of-glamorgan-penarth/",
       "location": {
-        "lat": 51.416012,
-        "lng": -3.182139,
-        "displayName": "Cosmeston Lakes Country Park Visitor Car Park, Lavernock Road, Sully and Lavernock, Penarth, Vale of Glamorgan, Cymru / Wales, CF64 5UY, United Kingdom",
-        "query": "Cosmeston Lakes Country Park, Lavernock Road Penarth Vale Of Glamorgan, CF64 5UY, Wales",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Vale Of Glamorgan, Penarth",
+        "lat": 51.415656,
+        "lng": -3.182119,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///mild.breeze.elections",
+        "sourceType": "what3words",
+        "what3words": "///mild.breeze.elections"
       }
     },
     {
