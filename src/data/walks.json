@@ -2,38 +2,38 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-06T04:42:12.625761+00:00",
-    "walkCount": 129,
-    "mappedCount": 129,
-    "countryCount": 23
+    "scrapedAt": "2026-08-07T00:07:23.958078+00:00",
+    "walkCount": 136,
+    "mappedCount": 136,
+    "countryCount": 25
   },
   "countries": [
     {
+      "country": "England",
+      "count": 24
+    },
+    {
       "country": "United States",
-      "count": 23
+      "count": 24
     },
     {
       "country": "Australia",
-      "count": 22
-    },
-    {
-      "country": "England",
-      "count": 22
+      "count": 23
     },
     {
       "country": "Italy",
       "count": 20
     },
     {
+      "country": "Wales",
+      "count": 7
+    },
+    {
       "country": "Canada",
       "count": 6
     },
     {
-      "country": "Wales",
-      "count": 6
-    },
-    {
-      "country": "Scotland",
+      "country": "New Zealand",
       "count": 5
     },
     {
@@ -41,7 +41,7 @@
       "count": 4
     },
     {
-      "country": "New Zealand",
+      "country": "Scotland",
       "count": 4
     },
     {
@@ -51,6 +51,10 @@
     {
       "country": "South Africa",
       "count": 2
+    },
+    {
+      "country": "Argentina",
+      "count": 1
     },
     {
       "country": "Austria",
@@ -70,6 +74,10 @@
     },
     {
       "country": "Hungary",
+      "count": 1
+    },
+    {
+      "country": "Ireland",
       "count": 1
     },
     {
@@ -102,6 +110,39 @@
     }
   ],
   "walks": [
+    {
+      "id": "argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires",
+      "title": "Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
+      "country": "Argentina",
+      "region": "Ciudad Autónoma de Buenos Aires",
+      "locality": "Ciudad Autónoma de Buenos Aires",
+      "address": "Parque Saavedra - Roque Perez y Paroissien Ciudad Autónoma de Buenos Aires Ciudad Autónoma de Buenos Aires",
+      "postcode": "1429",
+      "what3words": "https://what3words.com/teclado.moscas.polic%C3%ADa",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "Una hora",
+      "meetingPoint": "Nos encontramos en Parque Saavedra, en la esquina de Roque Pérez y Paroissien, en la zona de la estación saludable.",
+      "parking": "Se puede estacionar en los alrededores del parque, sin cargo",
+      "organiser": "Adoptá un Galgo en Argentina",
+      "leader": "Gabriela Alvero",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Nos encontramos 10:45 hs para empezar a caminar a las 11 hs. En el parque se puede hacer picnic y hay puestos y negocios donde comprar comida. Adoptá un Galgo en Argentina va a tener algunas sorpresas para que puedas comprarle a tu(s) flaquito(s)",
+      "organiserUrl": "https://adoptaungalgoenargentina.com/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires/",
+      "location": {
+        "lat": -34.609558,
+        "lng": -58.38879,
+        "displayName": "Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina",
+        "query": "Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires, 1429, Argentina",
+        "precision": "locality",
+        "countryCode": "ar",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
     {
       "id": "australia-new-south-wales-narrabeen-nsw",
       "title": "Australia, New South Wales, Narrabeen",
@@ -365,6 +406,39 @@
         "query": "Muddy's Playground, 174 Esplanade, Cairns",
         "precision": "published meeting point",
         "verificationUrl": "https://toiletmap.gov.au/49251"
+      }
+    },
+    {
+      "id": "australia-queensland-clontarf",
+      "title": "Australia, Queensland, Clontarf",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Clontarf",
+      "address": "Pelican Park Clontarf Queensland",
+      "postcode": "4019",
+      "what3words": "what3Words: ///bystanders.cuisines.nature",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "7:30 am",
+      "duration": "45-60mins at a relaxed pace",
+      "meetingPoint": "We will gather at Pelican Park, near the boat ramp opposite the Shell service station on Hornibrook Esplanade, Clontarf. We will meet from 7:00 am for a 7:30 am departure. The walk follows the beautiful Clontarf foreshore towards Bicentennial Park before returning to the starting point. It's approximately 2.2 km return, but if you or your greyhound would prefer a shorter walk, you're welcome to turn back at any time. There is plenty of parking at Pelican Park, with additional parking on Hornibrook Esplanade.",
+      "parking": "Public car park and street parking available at no cost",
+      "organiser": "",
+      "leader": "Jodi",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "The walk is flat and follows sealed pathways at a relaxed, social pace, making it suitable for all ages and abilities. There are plenty of shade trees, drinking water taps and poop bag dispensers along the route. Please bring water for yourself, be courteous to cyclists and other shared path users, and help us leave the area as we found it. Public toilets, several drinking water taps and a cafe are located along the route. We will be walking along Bells Beach, so the pups are welcome to enjoy an on-lead paddle or swim to cool off. A few reminders: All breeds are welcome. Only sighthounds will count towards the official Great Global Greyhound Walk total. Greyhounds that are legally required to wear a muzzle, or whose owners prefer them to wear one, are warmly welcome. All dogs must remain on lead in accordance with local laws. Route map: https://www.google.com/maps/d/u/0/viewer?mid=1-EgiJnK_zB9B4jKOLj54yQwXKIpzqAk&usp=sharing",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-clontarf/",
+      "location": {
+        "lat": -27.256763,
+        "lng": 153.090061,
+        "displayName": "Hornibrook Esp at Pelican Park East, Hornibrook Esplanade, Clontarf, Brisbane, Queensland, 4019, Australia",
+        "query": "Pelican Park Clontarf Queensland, 4019, Australia",
+        "precision": "address",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -1379,6 +1453,39 @@
       }
     },
     {
+      "id": "england-city-of-london-london",
+      "title": "England, City Of London, London",
+      "country": "England",
+      "region": "City Of London",
+      "locality": "London",
+      "address": "Greenwich Park London City Of London",
+      "postcode": "SE10",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet at St Mary’s Gate - we will then walk through the main field, past the Queen’s House and up the hill to the Bandstand (this should make for a good group pic location!). Then loop back down. One mild hill incline only (not going up the steep path to the Observatory!) and wide enough paths for all hounds to walk in a group 🙂 Let’s embrace this year’s theme of “mythical mutts”! Any questions, drop me a message 🙂",
+      "parking": "On street parking only (public transport recommended)",
+      "organiser": "Sighthounds of SE London",
+      "leader": "Lorenza",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-city-of-london-london/",
+      "location": {
+        "lat": 51.514162,
+        "lng": -0.088939,
+        "displayName": "Bank of England, 8AH, Threadneedle Street, Leadenhall Market, Bank, City of London, Greater London, England, EC2R 8AH, United Kingdom",
+        "query": "London, City Of London, SE10, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "england-cornwall-bude",
       "title": "England, Cornwall, Bude",
       "country": "England",
@@ -1646,6 +1753,39 @@
         "lng": -2.732548,
         "displayName": "Up Holland, Upholland, West Lancashire, Lancashire, England, United Kingdom",
         "query": "Up Holland, Lancashire, Wn8 7ru, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-lincolnshire-chapel-st-leonards",
+      "title": "England, Lincolnshire, Chapel St Leonards",
+      "country": "England",
+      "region": "Lincolnshire",
+      "locality": "Chapel St Leonards",
+      "address": "Seaside Greyhounds Shop Vine Street Chapel St Leonards Lincolnshire",
+      "postcode": "PE24 5TD",
+      "what3words": "///doped.clothed.sensitive",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "Max 1 hr",
+      "meetingPoint": "The Green outside Seaside Greyhounds shop Chapel St Leonards",
+      "parking": "Car parking is available close by, first 2 hrs are free, small charges apply for longer stays. What3words /// wiggling.column.proposes",
+      "organiser": "Seaside Greyhounds",
+      "leader": "Kim Holmes",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Refreshments will be available from the Seaside Greyhounds shop afterwards and the shop will be open for browsing/buying for anyone who wants to.",
+      "organiserUrl": "https://www.seasidegreyhounds.org.uk/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-lincolnshire-chapel-st-leonards/",
+      "location": {
+        "lat": 53.228558,
+        "lng": 0.331034,
+        "displayName": "Chapel St. Leonards, East Lindsey, Lincolnshire, Greater Lincolnshire, England, United Kingdom",
+        "query": "Chapel St Leonards, Lincolnshire, PE24 5TD, England",
         "precision": "locality",
         "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
@@ -2187,6 +2327,39 @@
         "query": "Mátyásföldi repülőtér Budapest Budapest, 1163, Hungary",
         "precision": "address",
         "countryCode": "hu",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "ireland-galway-oranmore",
+      "title": "Ireland, Galway, Oranmore",
+      "country": "Ireland",
+      "region": "Galway",
+      "locality": "Oranmore",
+      "address": "Rinville Park Oranmore Galway",
+      "postcode": "N/A",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "12:00 pm",
+      "duration": "45 mins",
+      "meetingPoint": "Beside the picnic benches",
+      "parking": "Parking is free and widely available",
+      "organiser": "Galway SPCA",
+      "leader": "Anita Burgoyne",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "On the day we will have a selection of hound-related items including jackets and collars. Plus a raffle.",
+      "organiserUrl": "https://gspca.ie",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/ireland-galway-oranmore/",
+      "location": {
+        "lat": 53.275488,
+        "lng": -8.94727,
+        "displayName": "Oranmore, Coast Road, Ballintemple ED, Oranmore, County Galway, Connacht, Éire / Ireland",
+        "query": "Oranmore, Galway, Ireland",
+        "precision": "locality",
+        "countryCode": "ie",
         "provider": "OpenStreetMap Nominatim"
       }
     },
@@ -3014,6 +3187,39 @@
       }
     },
     {
+      "id": "new-zealand-canterbury-christchurch-bridge-of-remembrance",
+      "title": "New Zealand, Canterbury, Christchurch, Bridge of Remembrance",
+      "country": "New Zealand",
+      "region": "Canterbury, Christchurch",
+      "locality": "Bridge of Remembrance",
+      "address": "Bridge of Remembrance- Cashel Street Christchurch Canterbury",
+      "postcode": "8011",
+      "what3words": "Bridge of Remembrance",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "30 minutes to 1 hour with a shorter route for those that need it",
+      "meetingPoint": "Meet at the Bridge of Remembrance in Central Christchurch for a city stroll",
+      "parking": "Car parking can be found at riverside market, the high rise car park beside, or across the road from the Bridge.",
+      "organiser": "Nightrave Greyhounds",
+      "leader": "Karen Vuidreketi",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.facebook.com/share/1PUSnt9yeT/?mibextid=wwXIfr",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-canterbury-christchurch-bridge-of-remembrance/",
+      "location": {
+        "lat": -43.533159,
+        "lng": 172.633289,
+        "displayName": "Bridge of Remembrance, Christchurch Central, Linwood-Central-Heathcote Community, Christchurch City, Canterbury, 8011, New Zealand / Aotearoa",
+        "query": "Bridge of Remembrance, Canterbury, Christchurch, 8011, New Zealand",
+        "precision": "locality",
+        "countryCode": "nz",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "new-zealand-hawkes-bay-napier",
       "title": "New Zealand, Hawkes Bay, Napier",
       "country": "New Zealand",
@@ -3185,39 +3391,6 @@
         "query": "///issues.sailor.producers",
         "sourceType": "what3words",
         "what3words": "///issues.sailor.producers"
-      }
-    },
-    {
-      "id": "scotland-fife-dysart-kirkcaldy",
-      "title": "Scotland, Fife, Dysart, Kirkcaldy",
-      "country": "Scotland",
-      "region": "Fife, Dysart",
-      "locality": "Kirkcaldy",
-      "address": "Dysart Harbour Dysart, Kirkcaldy Fife",
-      "postcode": "KY1 2TQ",
-      "what3words": "",
-      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
-      "startTime": "11:00 am",
-      "duration": "Approx 1 hour",
-      "meetingPoint": "Car park at Dysart Harbour.",
-      "parking": "No charge.",
-      "organiser": "Greyt Greys of Scotland",
-      "leader": "Mary Rodgers",
-      "shortWalk": "Yes",
-      "refreshments": "Yes",
-      "accessible": "No",
-      "toilets": "Yes",
-      "info": "",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-fife-dysart-kirkcaldy/",
-      "location": {
-        "lat": 56.122507,
-        "lng": -3.124166,
-        "displayName": "Dysart Harbour, Hot Pot Wynd, Dysart, Kirkcaldy, Fife, Alba / Scotland, KY1 2TF, United Kingdom",
-        "query": "Dysart Harbour Dysart, Kirkcaldy Fife, KY1 2TQ, Scotland",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -3852,6 +4025,39 @@
       }
     },
     {
+      "id": "united-states-maine-hallowell",
+      "title": "United States, Maine, Hallowell",
+      "country": "United States",
+      "region": "Maine",
+      "locality": "Hallowell",
+      "address": "Granite city Park Hallowell Maine",
+      "postcode": "04347",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "One hour",
+      "meetingPoint": "We will meet at the park by the grandstand at 11am. The walk will be a half mile, culminating in a meet and greet at the Quary Tap Room lower outdoor seating.",
+      "parking": "Free parking at the park by the river.",
+      "organiser": "Maine Greyhound Placement Service",
+      "leader": "Sheila Axell",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.greyhoundplacement.com",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-maine-hallowell/",
+      "location": {
+        "lat": 44.285624,
+        "lng": -69.79028,
+        "displayName": "Hallowell, Kennebec County, Maine, 04347, United States",
+        "query": "Hallowell, Maine, 04347, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "united-states-massachusetts-buzzards-bay",
       "title": "United States, Massachusetts, Buzzards Bay",
       "country": "United States",
@@ -4213,6 +4419,39 @@
         "query": "Richardson, Texas, 75081, United States",
         "precision": "locality",
         "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "wales-carmarthenshire-gorslas",
+      "title": "Wales, Carmarthenshire, Gorslas",
+      "country": "Wales",
+      "region": "Carmarthenshire",
+      "locality": "Gorslas",
+      "address": "Llyn llech Owain Country Park Gorslas, Nr. Cross Hands Carmarthenshire",
+      "postcode": "SA14 7NF",
+      "what3words": "branching.validated.kinds",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "usually 1 hour",
+      "meetingPoint": "Llyn Llech Owain Country Park Main Car Park Meet Outside Cafe",
+      "parking": "Parking Charge £2.20 for 2 hours",
+      "organiser": "GREYHOUND TRUST, SOUTH WEST WALES.",
+      "leader": "HAYLEY DONOVAN",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://swwgreyhounds.org.uk/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-carmarthenshire-gorslas/",
+      "location": {
+        "lat": 51.803159,
+        "lng": -4.07366,
+        "displayName": "Gorslas, Sir Gaerfyrddin / Carmarthenshire, Cymru / Wales, SA14 6RS, United Kingdom",
+        "query": "Gorslas, Carmarthenshire, SA14 7NF, Wales",
+        "precision": "locality",
+        "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
       }
     },

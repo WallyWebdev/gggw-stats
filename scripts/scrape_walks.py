@@ -20,9 +20,9 @@ OUTPUT = ROOT / "src" / "data" / "walks.json"
 CACHE = ROOT / ".cache" / "geocodes.json"
 VERIFIED_LOCATIONS_FILE = ROOT / "scripts" / "verified-locations.json"
 EXPECTED_COUNTRY_CODES = {
-    "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
+    "Argentina": "ar", "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
     "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
-    "Gibraltar": "gi", "Hungary": "hu", "Italy": "it", "Japan": "jp",
+    "Gibraltar": "gi", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
     "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
     "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch",
     "United States": "us", "Wales": "gb",
