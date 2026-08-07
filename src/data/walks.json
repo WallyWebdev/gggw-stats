@@ -2,12 +2,16 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-07T00:07:23.958078+00:00",
-    "walkCount": 136,
-    "mappedCount": 136,
+    "scrapedAt": "2026-08-07T10:51:01.160065+00:00",
+    "walkCount": 142,
+    "mappedCount": 142,
     "countryCount": 25
   },
   "countries": [
+    {
+      "country": "Australia",
+      "count": 27
+    },
     {
       "country": "England",
       "count": 24
@@ -17,12 +21,12 @@
       "count": 24
     },
     {
-      "country": "Australia",
-      "count": 23
-    },
-    {
       "country": "Italy",
       "count": 20
+    },
+    {
+      "country": "New Zealand",
+      "count": 7
     },
     {
       "country": "Wales",
@@ -31,10 +35,6 @@
     {
       "country": "Canada",
       "count": 6
-    },
-    {
-      "country": "New Zealand",
-      "count": 5
     },
     {
       "country": "Czech Republic",
@@ -112,9 +112,9 @@
   "walks": [
     {
       "id": "argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires",
-      "title": "Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
+      "title": "Argentina, Ciudad Autónoma de Buenos Aires",
       "country": "Argentina",
-      "region": "Ciudad Autónoma de Buenos Aires",
+      "region": "",
       "locality": "Ciudad Autónoma de Buenos Aires",
       "address": "Parque Saavedra - Roque Perez y Paroissien Ciudad Autónoma de Buenos Aires Ciudad Autónoma de Buenos Aires",
       "postcode": "1429",
@@ -134,16 +134,16 @@
       "organiserUrl": "https://adoptaungalgoenargentina.com/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires/",
       "location": {
-        "lat": -34.551733,
-        "lng": -58.482112,
-        "displayName": "Confirmed meeting point — Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
-        "query": "///teclado.moscas.policía",
-        "precision": "exact meeting point",
-        "sourceType": "what3words",
-        "what3words": "///teclado.moscas.policía",
         "accuracy": "three-metre square",
         "coordinateStatus": "confirmed",
-        "provider": "What3Words user-resolved coordinate"
+        "displayName": "Confirmed meeting point — Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
+        "lat": -34.551733,
+        "lng": -58.482112,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///teclado.moscas.policía",
+        "sourceType": "what3words",
+        "what3words": "///teclado.moscas.policía"
       }
     },
     {
@@ -348,6 +348,39 @@
       }
     },
     {
+      "id": "australia-queensland-arana-hills",
+      "title": "Australia, Queensland, Arana Hills",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Arana Hills",
+      "address": "Leslie Patrick Park 135 Olearia Street W (entry via Dawson Parade) Arana Hills Queensland",
+      "postcode": "4054",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meeting point: grassy space across the road from Hungry Jack’s. Location: Leslie Patrick Park, 135 Olearia Street W (entry via Dawson Parade), Arana Hills 4054. Time: The walk kicks off at 9:00am (arrive from 8:30am). On arrival: Please check in with one of our friendly GAP team members so your greyhound can be counted towards the global sighthound tally. Pre-register your attendance for quick sign-in: https://gapqld.com.au/events/upcoming-events/great-global-greyhound-walk",
+      "parking": "Parking is available off Dawson Parade (via The Hills District Community Centre entry) and also on the other side of the athletics field (via Olearia Street West). Plenty of free parking.",
+      "organiser": "Greyhound Adoption Program - QLD (GAP QLD)",
+      "leader": "Bec Rose",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Facilities: , toilets at meeting point, and water stations for both people and dogs along the walk. Date: Sunday 27 September. Time: 9am.",
+      "organiserUrl": "https://gapqld.com.au/events/upcoming-events/great-global-greyhound-walk",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-arana-hills/",
+      "location": {
+        "lat": -27.394623,
+        "lng": 152.953503,
+        "displayName": "Arana Hills, Brisbane, Queensland, 4054, Australia",
+        "query": "Arana Hills, Queensland, 4054, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "australia-queensland-benowa-gold-coast-qld",
       "title": "Australia, Queensland, Benowa, Gold Coast",
       "country": "Australia",
@@ -377,6 +410,39 @@
         "query": "Gold Coast Regional Botanic Gardens, Ashmore Road, Benowa",
         "precision": "published meeting point",
         "verificationUrl": "https://toiletmap.gov.au/10279"
+      }
+    },
+    {
+      "id": "australia-queensland-bongaree",
+      "title": "Australia, Queensland, Bongaree",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Bongaree",
+      "address": "2 Toorbul Street Bongaree Queensland",
+      "postcode": "4507",
+      "what3words": "Bribie Bongaree Jetty",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "4:00 pm",
+      "duration": "1 hour",
+      "meetingPoint": "We will meet under the big tree next to Scoopy’s café in front of the jetty and then proceed to walk down the Pumicestone Passage Esplanade toward the bridge.",
+      "parking": "Free parking",
+      "organiser": "Bribie Island Rescued Greyhound Walks",
+      "leader": "Vickie Sublette",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "We will have a table of goodies from Friends of the Hound.",
+      "organiserUrl": "https://www.facebook.com/share/19AF7hQnSo/?mibextid=wwXIfr",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-bongaree/",
+      "location": {
+        "lat": -27.084443,
+        "lng": 153.158634,
+        "displayName": "At The Jetty, 2, Toorbul Street, Bongaree, Brisbane, Queensland, 4507, Australia",
+        "query": "2 Toorbul Street Bongaree Queensland, 4507, Australia",
+        "precision": "address",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -435,16 +501,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-clontarf/",
       "location": {
-        "lat": -27.258072,
-        "lng": 153.085805,
-        "displayName": "Confirmed meeting point — Australia, Queensland, Clontarf",
-        "query": "///bystanders.cuisines.nature",
-        "precision": "exact meeting point",
-        "sourceType": "what3words",
-        "what3words": "///bystanders.cuisines.nature",
         "accuracy": "three-metre square",
         "coordinateStatus": "confirmed",
-        "provider": "What3Words user-resolved coordinate"
+        "displayName": "Confirmed meeting point — Australia, Queensland, Clontarf",
+        "lat": -27.258072,
+        "lng": 153.085805,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///bystanders.cuisines.nature",
+        "sourceType": "what3words",
+        "what3words": "///bystanders.cuisines.nature"
       }
     },
     {
@@ -849,6 +915,72 @@
         "query": "///until.risen.move",
         "sourceType": "what3words",
         "what3words": "///until.risen.move"
+      }
+    },
+    {
+      "id": "australia-victoria-seville",
+      "title": "Australia, Victoria, Seville",
+      "country": "Australia",
+      "region": "Victoria",
+      "locality": "Seville",
+      "address": "Carriage Cafe -35 Seymour Street Seville Victoria",
+      "postcode": "3139",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "2:30 pm",
+      "duration": "60 mins",
+      "meetingPoint": "Meet at the entrance to carriage Cafe. Park your car in the Cafe carpark and walk down the path to the Cafe entrance",
+      "parking": "Limited parking available in the Cafe parking space but on-street parking available",
+      "organiser": "",
+      "leader": "Belinda Anderson",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-victoria-seville/",
+      "location": {
+        "lat": -37.769687,
+        "lng": 145.457742,
+        "displayName": "Carriage Café, 35, Seymour Street, Seville, Victoria, 3139, Australia",
+        "query": "Carriage Cafe -35 Seymour Street Seville Victoria, 3139, Australia",
+        "precision": "address",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-western-australia-geraldton",
+      "title": "Australia, Western Australia, Geraldton",
+      "country": "Australia",
+      "region": "Western Australia",
+      "locality": "Geraldton",
+      "address": "AJ’s Beach Cafe, Beresford Foreshore Geraldton Western Australia",
+      "postcode": "6530",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "9:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Our starting and ending point will be AJ’s Beach Cafe, along the Beresford Foreshore.",
+      "parking": "Plenty of free parking available at the end of Stella Maris Drive, or along the Chapman Road parking areas.",
+      "organiser": "",
+      "leader": "Mackenzie Clarke",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Greyhounds as Pets WA are supporting our walk with some coffees (and maybe some cheeky puppuccinos) for the sighthounds and owners that join us! Hounds will be gifted a special GAPWA x GGGW 2026 bandana, and there will be information available on just how greyt greyhounds are as pets 🙂",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-western-australia-geraldton/",
+      "location": {
+        "lat": -28.77035,
+        "lng": 114.614716,
+        "displayName": "Geraldton, Western Australia, 6530, Australia",
+        "query": "Geraldton, Western Australia, 6530, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -1459,39 +1591,6 @@
       }
     },
     {
-      "id": "england-city-of-london-london",
-      "title": "England, City Of London, London",
-      "country": "England",
-      "region": "City Of London",
-      "locality": "London",
-      "address": "Greenwich Park London City Of London",
-      "postcode": "SE10",
-      "what3words": "",
-      "walkType": "Public Group Walk - Sighthounds Only",
-      "startTime": "10:00 am",
-      "duration": "1 hour",
-      "meetingPoint": "Meet at St Mary’s Gate - we will then walk through the main field, past the Queen’s House and up the hill to the Bandstand (this should make for a good group pic location!). Then loop back down. One mild hill incline only (not going up the steep path to the Observatory!) and wide enough paths for all hounds to walk in a group 🙂 Let’s embrace this year’s theme of “mythical mutts”! Any questions, drop me a message 🙂",
-      "parking": "On street parking only (public transport recommended)",
-      "organiser": "Sighthounds of SE London",
-      "leader": "Lorenza",
-      "shortWalk": "No",
-      "refreshments": "No",
-      "accessible": "Yes",
-      "toilets": "No",
-      "info": "",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-city-of-london-london/",
-      "location": {
-        "lat": 51.514162,
-        "lng": -0.088939,
-        "displayName": "Bank of England, 8AH, Threadneedle Street, Leadenhall Market, Bank, City of London, Greater London, England, EC2R 8AH, United Kingdom",
-        "query": "London, City Of London, SE10, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
-      }
-    },
-    {
       "id": "england-cornwall-bude",
       "title": "England, Cornwall, Bude",
       "country": "England",
@@ -1699,6 +1798,39 @@
       }
     },
     {
+      "id": "england-city-of-london-london",
+      "title": "England, Greater London, London",
+      "country": "England",
+      "region": "Greater London",
+      "locality": "London",
+      "address": "Greenwich Park London City Of London",
+      "postcode": "SE10",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet at St Mary’s Gate - we will then walk through the main field, past the Queen’s House and up the hill to the Bandstand (this should make for a good group pic location!). Then loop back down. One mild hill incline only (not going up the steep path to the Observatory!) and wide enough paths for all hounds to walk in a group 🙂 Let’s embrace this year’s theme of “mythical mutts”! Any questions, drop me a message 🙂",
+      "parking": "On street parking only (public transport recommended)",
+      "organiser": "Sighthounds of SE London",
+      "leader": "Lorenza",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-city-of-london-london/",
+      "location": {
+        "lat": 51.514162,
+        "lng": -0.088939,
+        "displayName": "Bank of England, 8AH, Threadneedle Street, Leadenhall Market, Bank, City of London, Greater London, England, EC2R 8AH, United Kingdom",
+        "query": "London, Greater London, SE10, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "england-isle-of-wight-sandown",
       "title": "England, Isle Of Wight, Sandown",
       "country": "England",
@@ -1788,16 +1920,16 @@
       "organiserUrl": "https://www.seasidegreyhounds.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-lincolnshire-chapel-st-leonards/",
       "location": {
-        "lat": 53.22379,
-        "lng": 0.338086,
-        "displayName": "Confirmed meeting point — England, Lincolnshire, Chapel St Leonards",
-        "query": "///doped.clothed.sensitive",
-        "precision": "exact meeting point",
-        "sourceType": "what3words",
-        "what3words": "///doped.clothed.sensitive",
         "accuracy": "three-metre square",
         "coordinateStatus": "confirmed",
-        "provider": "What3Words user-resolved coordinate"
+        "displayName": "Confirmed meeting point — England, Lincolnshire, Chapel St Leonards",
+        "lat": 53.22379,
+        "lng": 0.338086,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///doped.clothed.sensitive",
+        "sourceType": "what3words",
+        "what3words": "///doped.clothed.sensitive"
       }
     },
     {
@@ -3196,6 +3328,39 @@
       }
     },
     {
+      "id": "new-zealand-bay-of-plenty-tauranga",
+      "title": "New Zealand, Bay Of Plenty, Tauranga",
+      "country": "New Zealand",
+      "region": "Bay Of Plenty",
+      "locality": "Tauranga",
+      "address": "Robbins Park, Cliff Road, Tauranga Tauranga Bay Of Plenty",
+      "postcode": "3110",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "45 minutes",
+      "meetingPoint": "Robbins Park Cliff Road Tauranga CBD Meeting point in the open space between the Vintage Car Club and Rose Garden.",
+      "parking": "Free street parking",
+      "organiser": "Greyhounds As Pets",
+      "leader": "Lauren Kramer",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Show off your hound along the waterfront! Prizes for best dressed. Lunch at Clarence Restaurant after walk for those that wish to join (pay your own).",
+      "organiserUrl": "https://greyhoundsaspets.org.nz/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-bay-of-plenty-tauranga/",
+      "location": {
+        "lat": -37.685901,
+        "lng": 176.167505,
+        "displayName": "Tauranga, Tauranga City, Bay of Plenty, 3110, New Zealand / Aotearoa",
+        "query": "Tauranga, Bay Of Plenty, 3110, New Zealand",
+        "precision": "locality",
+        "countryCode": "nz",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "new-zealand-canterbury-christchurch-bridge-of-remembrance",
       "title": "New Zealand, Canterbury, Christchurch, Bridge of Remembrance",
       "country": "New Zealand",
@@ -3223,6 +3388,39 @@
         "lng": 172.633289,
         "displayName": "Bridge of Remembrance, Christchurch Central, Linwood-Central-Heathcote Community, Christchurch City, Canterbury, 8011, New Zealand / Aotearoa",
         "query": "Bridge of Remembrance, Canterbury, Christchurch, 8011, New Zealand",
+        "precision": "locality",
+        "countryCode": "nz",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "new-zealand-gisborne",
+      "title": "New Zealand, Gisborne",
+      "country": "New Zealand",
+      "region": "",
+      "locality": "Gisborne",
+      "address": "WATTIES WHARF GISBORNE Gisborne",
+      "postcode": "4010",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "9:00 am",
+      "duration": "30-60mins",
+      "meetingPoint": "Watties wharf car park opposite portside hotel",
+      "parking": "nil",
+      "organiser": "Gizzy Greyts",
+      "leader": "Anna Colvin",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "might stop at Waikanae for a coffee",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-gisborne/",
+      "location": {
+        "lat": -38.661326,
+        "lng": 178.020649,
+        "displayName": "Gisborne, Gisborne District, Gisborne, 4020, New Zealand / Aotearoa",
+        "query": "Gisborne, 4010, New Zealand",
         "precision": "locality",
         "countryCode": "nz",
         "provider": "OpenStreetMap Nominatim"
@@ -4455,16 +4653,16 @@
       "organiserUrl": "https://swwgreyhounds.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-carmarthenshire-gorslas/",
       "location": {
-        "lat": 51.813834,
-        "lng": -4.082439,
-        "displayName": "Confirmed meeting point — Wales, Carmarthenshire, Gorslas",
-        "query": "///branching.validated.kinds",
-        "precision": "exact meeting point",
-        "sourceType": "what3words",
-        "what3words": "///branching.validated.kinds",
         "accuracy": "three-metre square",
         "coordinateStatus": "confirmed",
-        "provider": "What3Words user-resolved coordinate"
+        "displayName": "Confirmed meeting point — Wales, Carmarthenshire, Gorslas",
+        "lat": 51.813834,
+        "lng": -4.082439,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///branching.validated.kinds",
+        "sourceType": "what3words",
+        "what3words": "///branching.validated.kinds"
       }
     },
     {
