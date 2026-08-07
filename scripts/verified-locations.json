@@ -1,4 +1,16 @@
 {
+  "argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
+    "lat": -34.551733,
+    "lng": -58.482112,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///teclado.moscas.policía",
+    "sourceType": "what3words",
+    "what3words": "///teclado.moscas.policía"
+  },
   "australia-new-south-wales-tuncurry": {
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
@@ -10,6 +22,18 @@
     "query": "///sprain.panning.fury",
     "sourceType": "what3words",
     "what3words": "///sprain.panning.fury"
+  },
+  "australia-queensland-clontarf": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — Australia, Queensland, Clontarf",
+    "lat": -27.258072,
+    "lng": 153.085805,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///bystanders.cuisines.nature",
+    "sourceType": "what3words",
+    "what3words": "///bystanders.cuisines.nature"
   },
   "australia-queensland-dayboro": {
     "accuracy": "three-metre square",
@@ -143,6 +167,18 @@
     "sourceType": "what3words",
     "what3words": "///verbs.vets.legal"
   },
+  "england-lincolnshire-chapel-st-leonards": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — England, Lincolnshire, Chapel St Leonards",
+    "lat": 53.22379,
+    "lng": 0.338086,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///doped.clothed.sensitive",
+    "sourceType": "what3words",
+    "what3words": "///doped.clothed.sensitive"
+  },
   "england-norfolk-aylsham": {
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
@@ -262,6 +298,18 @@
     "query": "///fragments.good.reluctantly",
     "sourceType": "what3words",
     "what3words": "///fragments.good.reluctantly"
+  },
+  "wales-carmarthenshire-gorslas": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — Wales, Carmarthenshire, Gorslas",
+    "lat": 51.813834,
+    "lng": -4.082439,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///branching.validated.kinds",
+    "sourceType": "what3words",
+    "what3words": "///branching.validated.kinds"
   },
   "wales-carmarthenshire-pembrey": {
     "accuracy": "three-metre square",

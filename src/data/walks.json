@@ -134,13 +134,16 @@
       "organiserUrl": "https://adoptaungalgoenargentina.com/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/argentina-ciudad-autonoma-de-buenos-aires-ciudad-autonoma-de-buenos-aires/",
       "location": {
-        "lat": -34.609558,
-        "lng": -58.38879,
-        "displayName": "Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina",
-        "query": "Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires, 1429, Argentina",
-        "precision": "locality",
-        "countryCode": "ar",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": -34.551733,
+        "lng": -58.482112,
+        "displayName": "Confirmed meeting point — Argentina, Ciudad Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires",
+        "query": "///teclado.moscas.policía",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///teclado.moscas.policía",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
@@ -432,13 +435,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-clontarf/",
       "location": {
-        "lat": -27.256763,
-        "lng": 153.090061,
-        "displayName": "Hornibrook Esp at Pelican Park East, Hornibrook Esplanade, Clontarf, Brisbane, Queensland, 4019, Australia",
-        "query": "Pelican Park Clontarf Queensland, 4019, Australia",
-        "precision": "address",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": -27.258072,
+        "lng": 153.085805,
+        "displayName": "Confirmed meeting point — Australia, Queensland, Clontarf",
+        "query": "///bystanders.cuisines.nature",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///bystanders.cuisines.nature",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
@@ -1782,13 +1788,16 @@
       "organiserUrl": "https://www.seasidegreyhounds.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-lincolnshire-chapel-st-leonards/",
       "location": {
-        "lat": 53.228558,
-        "lng": 0.331034,
-        "displayName": "Chapel St. Leonards, East Lindsey, Lincolnshire, Greater Lincolnshire, England, United Kingdom",
-        "query": "Chapel St Leonards, Lincolnshire, PE24 5TD, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": 53.22379,
+        "lng": 0.338086,
+        "displayName": "Confirmed meeting point — England, Lincolnshire, Chapel St Leonards",
+        "query": "///doped.clothed.sensitive",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///doped.clothed.sensitive",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
@@ -4446,13 +4455,16 @@
       "organiserUrl": "https://swwgreyhounds.org.uk/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-carmarthenshire-gorslas/",
       "location": {
-        "lat": 51.803159,
-        "lng": -4.07366,
-        "displayName": "Gorslas, Sir Gaerfyrddin / Carmarthenshire, Cymru / Wales, SA14 6RS, United Kingdom",
-        "query": "Gorslas, Carmarthenshire, SA14 7NF, Wales",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": 51.813834,
+        "lng": -4.082439,
+        "displayName": "Confirmed meeting point — Wales, Carmarthenshire, Gorslas",
+        "query": "///branching.validated.kinds",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///branching.validated.kinds",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {

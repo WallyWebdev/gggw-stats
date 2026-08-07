@@ -3,6 +3,7 @@ import argparse
 import json
 import re
 from pathlib import Path
+from urllib.parse import unquote
 from urllib.request import Request, urlopen
 
 SOURCE_URL = "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/"
@@ -45,7 +46,7 @@ for walk in walks:
         assert location.get("accuracy") == "three-metre square", f"Missing W3W accuracy record: {walk['title']}"
         assert location.get("what3words"), f"Missing W3W code record: {walk['title']}"
         assert location.get("coordinateStatus") == "confirmed", f"Unconfirmed W3W coordinate: {walk['title']}"
-        assert location["what3words"].replace("///", "").lower() in walk["what3words"].lower(), (
+        assert location["what3words"].replace("///", "").lower() in unquote(walk["what3words"]).lower(), (
             f"W3W code does not match listing: {walk['title']}"
         )
     else:
