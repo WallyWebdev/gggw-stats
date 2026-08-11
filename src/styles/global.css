@@ -45,6 +45,13 @@
   .nav-links a { min-height: 40px; padding: 0 13px; display: grid; place-items: center; border-radius: 8px; color: #475467; text-decoration: none; font-size: .82rem; font-weight: 650; }
   .nav-links a:hover { color: var(--ink); background: var(--paper); }
 
+  .independence-notice { width: min(1240px, calc(100% - 40px)); margin: 14px auto 0; padding: 13px 15px; display: flex; justify-content: space-between; align-items: center; gap: 18px; border: 2px solid var(--red); border-radius: 10px; color: #65231f; background: var(--red-soft); }
+  .independence-notice > div { display: grid; gap: 3px; }
+  .independence-notice strong { font-size: .82rem; line-height: 1.35; }
+  .independence-notice span { font-size: .76rem; line-height: 1.4; }
+  .independence-notice a { min-height: 44px; flex: 0 0 auto; padding: 0 13px; display: inline-flex; align-items: center; gap: 8px; border-radius: 7px; color: #fff; background: var(--red); text-decoration: none; font-size: .72rem; font-weight: 750; white-space: nowrap; }
+  .independence-notice a:hover { background: #a82f29; }
+
   .hero-grid { width: min(1240px, calc(100% - 40px)); min-height: 310px; margin: 0 auto; padding: 34px 0 38px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 430px); align-items: center; gap: 46px; }
   .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 13px; color: var(--red); font-size: .76rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 750; }
   .eyebrow span { width: 24px; height: 2px; background: currentColor; }
@@ -169,9 +176,11 @@
     .walk-card { grid-template-columns: 42px minmax(200px, 1fr) minmax(220px, .8fr) auto; }
   }
   @media (max-width: 760px) {
-    .topbar, .hero-grid, main { width: calc(100% - 28px); }
+    .topbar, .independence-notice, .hero-grid, main { width: calc(100% - 28px); }
     .topbar { min-height: 62px; }
     .nav-links { display: none; }
+    .independence-notice { margin-top: 10px; padding: 13px; align-items: flex-start; flex-direction: column; gap: 10px; }
+    .independence-notice a { width: 100%; justify-content: center; }
     .hero-grid { min-height: 0; padding: 32px 0; grid-template-columns: 1fr; }
     .hero-figure { display: none; }
     h1 { font-size: 2.55rem; }
