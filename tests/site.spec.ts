@@ -8,6 +8,7 @@ test('renders stats, map and complete country table', async ({ page }) => {
   page.on('pageerror', (error) => errors.push(error.message));
 
   await page.goto('/');
+  await expect(page).toHaveTitle(/^UNOFFICIAL — Great Global Greyhound Walk 2026/);
   await expect(page.getByRole('heading', { name: /Global walk dashboard/i })).toBeVisible();
   await expect(page.locator('#walk-map')).toBeVisible();
   const notice = page.getByRole('complementary', { name: /independent website notice/i });
