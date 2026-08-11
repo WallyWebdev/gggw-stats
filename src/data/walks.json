@@ -2,23 +2,23 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-09T22:03:07.634522+00:00",
-    "walkCount": 208,
-    "mappedCount": 208,
-    "countryCount": 28
+    "scrapedAt": "2026-08-11T23:12:07.660950+00:00",
+    "walkCount": 237,
+    "mappedCount": 237,
+    "countryCount": 31
   },
   "countries": [
     {
       "country": "England",
-      "count": 48
+      "count": 53
     },
     {
       "country": "United States",
-      "count": 42
+      "count": 50
     },
     {
       "country": "Australia",
-      "count": 34
+      "count": 42
     },
     {
       "country": "Italy",
@@ -26,19 +26,23 @@
     },
     {
       "country": "Canada",
-      "count": 8
+      "count": 9
+    },
+    {
+      "country": "Wales",
+      "count": 9
     },
     {
       "country": "New Zealand",
       "count": 8
     },
     {
-      "country": "Wales",
-      "count": 8
+      "country": "Scotland",
+      "count": 7
     },
     {
-      "country": "Scotland",
-      "count": 6
+      "country": "Ireland",
+      "count": 5
     },
     {
       "country": "Czech Republic",
@@ -46,10 +50,6 @@
     },
     {
       "country": "Germany",
-      "count": 4
-    },
-    {
-      "country": "Ireland",
       "count": 4
     },
     {
@@ -69,15 +69,19 @@
       "count": 2
     },
     {
+      "country": "Switzerland",
+      "count": 2
+    },
+    {
       "country": "Austria",
       "count": 1
     },
     {
-      "country": "Belgium",
+      "country": "Bulgaria",
       "count": 1
     },
     {
-      "country": "Bulgaria",
+      "country": "Croatia (Hrvatska)",
       "count": 1
     },
     {
@@ -86,6 +90,10 @@
     },
     {
       "country": "Gibraltar",
+      "count": 1
+    },
+    {
+      "country": "Greece",
       "count": 1
     },
     {
@@ -101,6 +109,10 @@
       "count": 1
     },
     {
+      "country": "Jersey",
+      "count": 1
+    },
+    {
       "country": "Luxembourg",
       "count": 1
     },
@@ -109,11 +121,11 @@
       "count": 1
     },
     {
-      "country": "San Marino",
+      "country": "Portugal",
       "count": 1
     },
     {
-      "country": "Switzerland",
+      "country": "San Marino",
       "count": 1
     },
     {
@@ -188,6 +200,39 @@
         "query": "Costanera Villa María Villa María Córdoba, 5900, Argentina",
         "precision": "address",
         "countryCode": "ar",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-new-south-wales-mittagong",
+      "title": "Australia, New South Wales, Mittagong",
+      "country": "Australia",
+      "region": "New South Wales",
+      "locality": "Mittagong",
+      "address": "Lake Alexandra Mittagong New South Wales",
+      "postcode": "2575",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet in the car park next to the playground at Lake Alexandra",
+      "parking": "Free parking",
+      "organiser": "Greyhounds in the Southern Highlands",
+      "leader": "Andrew McMillan",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.facebook.com/share/g/19S6BDeNAm/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-new-south-wales-mittagong/",
+      "location": {
+        "lat": -34.447156,
+        "lng": 150.446162,
+        "displayName": "Public Toilet Lake Alexandra Reserve, Tennis Courts, Mittagong, New South Wales, 2575, Australia",
+        "query": "Lake Alexandra Mittagong New South Wales, 2575, Australia",
+        "precision": "address",
+        "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
       }
     },
@@ -459,6 +504,72 @@
       }
     },
     {
+      "id": "australia-new-south-wales-wentworth-falls-nsw",
+      "title": "Australia, New South Wales, Wentworth Falls",
+      "country": "Australia",
+      "region": "New South Wales",
+      "locality": "Wentworth Falls",
+      "address": "Wentworth Falls Lake 31 Sinclair Cres Wentworth Falls New South Wales",
+      "postcode": "2782",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "Usually an hour with options for a long and short walk depending on your comfort as the long walk is on a partial bush track",
+      "meetingPoint": "Meet on the right-hand side of the fenced playground",
+      "parking": "Parking permit required for parking spot. On-street parking is free.",
+      "organiser": "Adventure Hounds Blue Mountains",
+      "leader": "Catherine Willis",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "We have Adventure Hounds scarf for sale for members @ $15 each",
+      "organiserUrl": "https://www.bing.com/ck/a?!&&p=90546397826b1e21dc4ef133954add8ffae0e1b1426802c4b2d5f053091f0442JmltdHM9MTc4NjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=0e9b34c2-d366-6d5c-1fc5-223ed2b86c5e&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2dyb3Vwcy8xOTYzODQ2Nzc5Nzc3OTQv",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-new-south-wales-wentworth-falls-nsw/",
+      "location": {
+        "lat": -33.72802,
+        "lng": 150.374063,
+        "displayName": "Wentworth Falls, National Pass Track, Wentworth Falls, New South Wales, 2782, Australia",
+        "query": "Wentworth Falls, New South Wales, 2782, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-northern-territory-darwin",
+      "title": "Australia, Northern Territory, Darwin",
+      "country": "Australia",
+      "region": "Northern Territory",
+      "locality": "Darwin",
+      "address": "Nightcliff Foreshore Darwin Northern Territory",
+      "postcode": "0810",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "5:00 pm",
+      "duration": "1 hour",
+      "meetingPoint": "Nightcliff swimming pool carpark",
+      "parking": "Free parking at the pool and on the street",
+      "organiser": "Greyhound Rehoming Association NT",
+      "leader": "Fiona Johnson",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.grant.org.au/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-northern-territory-darwin/",
+      "location": {
+        "lat": -12.46044,
+        "lng": 130.841047,
+        "displayName": "Darwin, Northern Territory, 0800, Australia",
+        "query": "Darwin, Northern Territory, 0810, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "australia-queensland-arana-hills",
       "title": "Australia, Queensland, Arana Hills",
       "country": "Australia",
@@ -694,6 +805,39 @@
       }
     },
     {
+      "id": "australia-queensland-forest-lake",
+      "title": "Australia, Queensland, Forest Lake",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Forest Lake",
+      "address": "Forest Lake Park, 3 The Esplanade Forest Lake Queensland",
+      "postcode": "4078",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "30 to 45 mins depending on your walk speed",
+      "meetingPoint": "Meet at Simple Bliss Cafe carpark. Note, there are several car parks close by.",
+      "parking": "Free parking, there are several car parks near the park and cafes",
+      "organiser": "",
+      "leader": "Alexis Mulhearn",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "This walk is being organised by members of the Borzoi Club Qld. We walk regularly with a variety of sighthound breeds.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-forest-lake/",
+      "location": {
+        "lat": -27.622877,
+        "lng": 152.970248,
+        "displayName": "Forest Lake, Queensland, 4078, Australia",
+        "query": "Forest Lake, Queensland, 4078, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "australia-queensland-hervey-bay",
       "title": "Australia, Queensland, Hervey Bay",
       "country": "Australia",
@@ -721,6 +865,39 @@
         "lng": 152.853522,
         "displayName": "Hervey Bay, Queensland, 4655, Australia",
         "query": "Hervey Bay, Queensland, 4655, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-queensland-loganholme",
+      "title": "Australia, Queensland, Loganholme",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Loganholme",
+      "address": "Alexander Clark Park, 107-119 Dewar Drive Loganholme Queensland",
+      "postcode": "4129",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "We will meet in the park near the carpark at the back of the park. When you arrive at Alexander Clark Park, turn left at the roundabout, drive past the dog parks and follow the road to the end of the road - you will see the carpark there. It’s a lovely, easy spot for everyone to gather and for the Houndies to greet each other before we start our walk.",
+      "parking": "There is one entry into Alexander Clark Park at the end of Dewar Drive. When you arrive, turn left at the roundabout, drive past the dog parks, and follow the road all the way to the end — you’ll see the carpark there. If the carpark is full, just head back along the road and you’ll find plenty of parking in the nearby parking areas. All parking is free. After the walk, feel free to stay and enjoy some extra time together. Bring along a picnic rug or chair, some water, your favourite drink, and a small share plate of picnic nibbles. It’s a wonderful chance for the Houndies to mingle and for us humans to catch up and connect.",
+      "organiser": "Logan Houndies",
+      "leader": "Sonya",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "If you would like to stay and enjoy some extra time together after the walk, we will be having a relaxed little picnic. Bring along a picnic rug or chair, some water, your favourite drink, and a small share plate of nibbles. It’s a lovely chance for the Houndies to mingle and for us humans to catch up and connect.",
+      "organiserUrl": "https://www.facebook.com/groups/loganhoundie/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-loganholme/",
+      "location": {
+        "lat": -27.683054,
+        "lng": 153.189438,
+        "displayName": "Loganholme, Queensland, 4129, Australia",
+        "query": "Loganholme, Queensland, 4129, Australia",
         "precision": "locality",
         "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
@@ -885,6 +1062,39 @@
         "lng": 137.584357,
         "displayName": "Whyalla, South Australia, 5600, Australia",
         "query": "Whyalla, South Australia, 5600, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-tasmania-montrose",
+      "title": "Australia, Tasmania, Montrose",
+      "country": "Australia",
+      "region": "Tasmania",
+      "locality": "Montrose",
+      "address": "Montrose Foreshore 825 Brooker Highway Montrose Tasmania Australia 7010 Montrose Tasmania",
+      "postcode": "7010",
+      "what3words": "benched.unto.deprive",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "Walking as far as you like along the Gasp trail",
+      "meetingPoint": "Meeting at the huts next to the skate park",
+      "parking": "Parking is free",
+      "organiser": "Greyhounds As Pets Tasmania",
+      "leader": "Susan Gittus",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "A lucky walker prize will be awarded at the start. The best dressed greyhound an handler to the theme will win a prize",
+      "organiserUrl": "https://tasracing.com.au/gap",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-tasmania-montrose/",
+      "location": {
+        "lat": -42.826422,
+        "lng": 147.267143,
+        "displayName": "Montrose, Hobart, Tasmania, 7010, Australia",
+        "query": "Montrose, Tasmania, 7010, Australia",
         "precision": "locality",
         "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
@@ -1105,7 +1315,7 @@
       "duration": "20 minutes - We will walk to Shippys and back.",
       "meetingPoint": "Bobby + Me - Riverfront Cafe.",
       "parking": "Free parking available",
-      "organiser": "Chrissie Carey",
+      "organiser": "Mildura Greyhounds",
       "leader": "Chrissie Carey",
       "shortWalk": "Yes",
       "refreshments": "Yes",
@@ -1194,6 +1404,39 @@
       }
     },
     {
+      "id": "australia-western-australia-bunbury",
+      "title": "Australia, Western Australia, Bunbury",
+      "country": "Australia",
+      "region": "Western Australia",
+      "locality": "Bunbury",
+      "address": "Frank Buswell Foreshore Reserve Bunbury Western Australia",
+      "postcode": "6230",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Frank Buswell Foreshore Reserve Corner of Austral Parade and King Road",
+      "parking": "Free street parking",
+      "organiser": "Greyhounds As Pets WA",
+      "leader": "Bonnie McClurg",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.greyhoundsaspets.com.au/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-western-australia-bunbury/",
+      "location": {
+        "lat": -33.32678,
+        "lng": 115.636698,
+        "displayName": "Bunbury, Western Australia, 6230, Australia",
+        "query": "Bunbury, Western Australia, 6230, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "australia-western-australia-busselton",
       "title": "Australia, Western Australia, Busselton",
       "country": "Australia",
@@ -1222,6 +1465,39 @@
         "displayName": "Foreshore Parade, Busselton Jetty Foreshore, Busselton, Western Australia, 6280, Australia",
         "query": "1 Foreshore Parade Busselton Western Australia, 6280, Australia",
         "precision": "address",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-western-australia-edgewater",
+      "title": "Australia, Western Australia, Edgewater",
+      "country": "Australia",
+      "region": "Western Australia",
+      "locality": "Edgewater",
+      "address": "Yellagonga Regional Park Edgewater Western Australia",
+      "postcode": "6027",
+      "what3words": "Woodvale Secondary College",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "1 hour",
+      "meetingPoint": "Woodvale Secondary College. Follow the signs!",
+      "parking": "Free Parking at Woodvale Secondary College",
+      "organiser": "Greyhound Adoptions WA",
+      "leader": "Elizabeth Barker",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "We will have stalls and a coffee van for food and refreshments, sausage sizzle, plus hound gear, nail clipping, raffles and prizes for best dressed hounds, plus much more! Our event runs from 0900 -1400 with the walk commencing at 1030.",
+      "organiserUrl": "https://greyhoundadoptionswa.com.au/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-western-australia-edgewater/",
+      "location": {
+        "lat": -31.76322,
+        "lng": 115.7818,
+        "displayName": "Edgewater, Joondalup, Western Australia, 6027, Australia",
+        "query": "Edgewater, Western Australia, 6027, Australia",
+        "precision": "locality",
         "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
       }
@@ -1355,39 +1631,6 @@
         "query": "Hard, Vorarlberg, 6971, Austria",
         "precision": "locality",
         "countryCode": "at",
-        "provider": "OpenStreetMap Nominatim"
-      }
-    },
-    {
-      "id": "belgium-west-flanders-torhout",
-      "title": "Belgium, West Flanders, Torhout",
-      "country": "Belgium",
-      "region": "West Flanders",
-      "locality": "Torhout",
-      "address": "Galgebossen Torhout West Flanders",
-      "postcode": "8908",
-      "what3words": "Ok",
-      "walkType": "Public Group Walk - Sighthounds Only",
-      "startTime": "10:30 am",
-      "duration": "6,5km",
-      "meetingPoint": "TO BE CONFIRMED 1 week before the walk (27th September)",
-      "parking": "Near the Woods, free costs.",
-      "organiser": "Chantal Royers",
-      "leader": "Chantal Royers",
-      "shortWalk": "No",
-      "refreshments": "Yes",
-      "accessible": "No",
-      "toilets": "Yes",
-      "info": "Picknick",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/belgium-west-flanders-torhout/",
-      "location": {
-        "lat": 51.064784,
-        "lng": 3.101641,
-        "displayName": "Torhout, Brugge, West-Vlaanderen, Vlaanderen, 8820, België / Belgique / Belgien",
-        "query": "Torhout, West Flanders, 8908, Belgium",
-        "precision": "locality",
-        "countryCode": "be",
         "provider": "OpenStreetMap Nominatim"
       }
     },
@@ -1626,6 +1869,39 @@
       }
     },
     {
+      "id": "canada-ontario-toronto",
+      "title": "Canada, Ontario, Toronto",
+      "country": "Canada",
+      "region": "Ontario",
+      "locality": "Toronto",
+      "address": "High Park, Toronto - Keele (Parkside) and Bloor Street West Toronto Ontario",
+      "postcode": "M6P 1B2",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "12:30 pm",
+      "duration": "1hr 30 min",
+      "meetingPoint": "Hi all, We will meet at 12:30pm at High Park at the Keele St. (Parkside) and Bloor Street West Entrance. The park entrance on the Southwest corner, kitty corner to the Keele Street Subway entrance. We will wait a little bit before we leave in case anyone is running late,",
+      "parking": "Free Parking available on Parkside and Keele Street as well as the surrounding side streets. Meter parking is available on Bloor Street.",
+      "organiser": "Junction Greyhounds",
+      "leader": "Marissa Page",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.facebook.com/share/g/167kqctQmFd/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/canada-ontario-toronto/",
+      "location": {
+        "lat": 43.653482,
+        "lng": -79.383935,
+        "displayName": "Toronto, Golden Horseshoe, Ontario, Canada",
+        "query": "Toronto, Ontario, M6P 1B2, Canada",
+        "precision": "locality",
+        "countryCode": "ca",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "canada-quebec-montreal",
       "title": "Canada, Quebec, Montreal",
       "country": "Canada",
@@ -1692,6 +1968,39 @@
       }
     },
     {
+      "id": "croatia-hrvatska-city-of-zagreb",
+      "title": "Croatia (Hrvatska), City of Zagreb",
+      "country": "Croatia (Hrvatska)",
+      "region": "",
+      "locality": "City of Zagreb",
+      "address": "Tuškanac Zagreb City of Zagreb",
+      "postcode": "10000",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "1h",
+      "meetingPoint": "Kino Tuškanac",
+      "parking": "Garage Tuškanac",
+      "organiser": "",
+      "leader": "Brigita Horvat-Sudec",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/croatia-hrvatska-city-of-zagreb/",
+      "location": {
+        "lat": 45.729652,
+        "lng": 16.059919,
+        "displayName": "Hrvatska kontrola zračne plovidbe, 2, Ulica Rudolfa Fizira, Gradska četvrt Pleso, Velika Gorica, Grad Velika Gorica, Zagrebačka županija, 10410, Hrvatska",
+        "query": "City of Zagreb, 10000, Croatia (Hrvatska)",
+        "precision": "locality",
+        "countryCode": "hr",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "czech-republic-central-bohemian-podebrady",
       "title": "Czech Republic, Central Bohemian, Poděbrady",
       "country": "Czech Republic",
@@ -1748,16 +2057,13 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/czech-republic-karlovy-vary-potucky/",
       "location": {
-        "accuracy": "three-metre square",
-        "coordinateStatus": "confirmed",
-        "displayName": "Confirmed meeting point — Czech Republic, Karlovy Vary, Potůčky",
-        "lat": 50.400375,
-        "lng": 12.806662,
-        "precision": "exact meeting point",
-        "provider": "What3Words user-resolved coordinate",
-        "query": "///mrknul.fenka.kolínko",
-        "sourceType": "what3words",
-        "what3words": "///mrknul.fenka.kolínko"
+        "lat": 50.400388,
+        "lng": 12.80666,
+        "displayName": "Meet at the main public car park on Road 22141 near Potůčky, Czech Republic. Please gather at the parking area before the walk starts. GPS: 50.400388, 12.806660.",
+        "query": "Meet at the main public car park on Road 22141 near Potůčky, Czech Republic. Please gather at the parking area before the walk starts. GPS: 50.400388, 12.806660.",
+        "precision": "published coordinates",
+        "provider": "Official GGGW listing",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/czech-republic-karlovy-vary-potucky/"
       }
     },
     {
@@ -1964,6 +2270,39 @@
         "query": "///chain.sketch.nails",
         "sourceType": "what3words",
         "what3words": "///chain.sketch.nails"
+      }
+    },
+    {
+      "id": "england-buckinghamshire-milton-keynes",
+      "title": "England, Buckinghamshire, Milton Keynes",
+      "country": "England",
+      "region": "Buckinghamshire",
+      "locality": "Milton Keynes",
+      "address": "Willen Lake, Brickhill street Milton Keynes Buckinghamshire",
+      "postcode": "MK15 0DS",
+      "what3words": "///duplicate.reporters.table",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "1-1.5hr - Willen Lake South loop (2hours for south and north loop for those interested).",
+      "meetingPoint": "We will meet at the main area of the lake, just in front of the observation wheel (big grassy area).",
+      "parking": "There are several car parks, with the largest (and closest to the meeting point) being Car Park B off Brickhill Road. Parking is £1.50 for the first hour then an additional £1/hr thereafter (i.e. 3 hours is £3.50). You can pay via RingGo or on pay machines.",
+      "organiser": "",
+      "leader": "Jess Smith",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "The area near our meeting place and the cafe/pub are paved and accessible, however not all paths are paved around the lake so be aware there are gravel paths (largely flat, wide, and well maintained). Note that Willen Lake is a public park and there are likely to be other dogs, children, and wildlife around.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-buckinghamshire-milton-keynes/",
+      "location": {
+        "lat": 51.971509,
+        "lng": -0.770796,
+        "displayName": "Newton Longville Church of England Primary School, School Drive, Newton Longville, Milton Keynes, Buckinghamshire, England, MK17 0BZ, United Kingdom",
+        "query": "Milton Keynes, Buckinghamshire, MK15 0DS, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -2192,6 +2531,39 @@
         "lng": -1.476549,
         "displayName": "Derby, Derbyshire, East Midlands, England, DE1 3AE, United Kingdom",
         "query": "Derby, Derbyshire, De22 4Aa, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-devon-plymouth",
+      "title": "England, Devon, Plymouth",
+      "country": "England",
+      "region": "Devon",
+      "locality": "Plymouth",
+      "address": "Saltram Estate Plymouth Devon",
+      "postcode": "PL15 9QA",
+      "what3words": "///cafe.bend.swing",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "About an hour",
+      "meetingPoint": "We will meet beside the duck pond in the disabled car park",
+      "parking": "Free parking for National trust members £3 for non members",
+      "organiser": "Greyhound walks, Saltram, Devon",
+      "leader": "Nick Kent",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-devon-plymouth/",
+      "location": {
+        "lat": 50.545106,
+        "lng": -4.152815,
+        "displayName": "Plymouth Road, Tavistock, West Devon, Devon, Devon and Torbay, England, PL19 8DA, United Kingdom",
+        "query": "Plymouth, Devon, PL15 9QA, England",
         "precision": "locality",
         "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
@@ -3071,6 +3443,39 @@
       }
     },
     {
+      "id": "england-somerset-shepton-mallet",
+      "title": "England, Somerset, Shepton Mallet",
+      "country": "England",
+      "region": "Somerset",
+      "locality": "Shepton Mallet",
+      "address": "Haddon Wood. Alhampton Alhampton. Shepton Mallet Somerset",
+      "postcode": "BA4 6PY",
+      "what3words": "///adding.hungry.removers",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "The walk will be around an Hour there is a shorter route.",
+      "meetingPoint": "We will be meeting at: The Alhampton Inn. Alhampton, Shepton Mallet. BA4 6PY.",
+      "parking": "Free parking in the Pub Carpark and surrounding streets.",
+      "organiser": "Forever Hounds Trust",
+      "leader": "Kim Ellis",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "Forever Hounds Trust are having a stall at this event, we will have refreshments on sale, cakes and beverages, alongside our merchandise, and Jams and chutneys. We hope to hold a small raffle on the day. The Alhampton Inn will be open at 12pm for lunch, however you must book this separately and in advance with the Pub.",
+      "organiserUrl": "https://foreverhoundstrust.org/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-somerset-shepton-mallet/",
+      "location": {
+        "lat": 51.190945,
+        "lng": -2.54613,
+        "displayName": "Shepton Mallet, Somerset, England, United Kingdom",
+        "query": "Shepton Mallet, Somerset, BA4 6PY, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "england-yorkshire-barnsley",
       "title": "England, South Yorkshire, Barnsley",
       "country": "England",
@@ -3266,6 +3671,72 @@
         "lng": -0.573206,
         "displayName": "Guildford, Surrey, England, GU1 3DP, United Kingdom",
         "query": "Guildford, Surrey, GU4 8SH, England",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-tyne-wear-sunderland",
+      "title": "England, Tyne & Wear, Sunderland",
+      "country": "England",
+      "region": "Tyne & Wear",
+      "locality": "Sunderland",
+      "address": "Herrington Country park Sunderland Tyne & Wear",
+      "postcode": "Dh47el",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:30 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet at the Swan lake car park at 9.20am for a 9.30am start",
+      "parking": "Free parking",
+      "organiser": "North east UK greyhound and sighthound walking group",
+      "leader": "Bianca Willis",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-tyne-wear-sunderland/",
+      "location": {
+        "lat": 54.87842,
+        "lng": -1.480672,
+        "displayName": "Herrington Country Park parking, Chester Road, Mount Pleasant, Penshaw, Sunderland, Tyne and Wear, North East, England, DH4 7NJ, United Kingdom",
+        "query": "Herrington Country park Sunderland Tyne & Wear, Dh47el, England",
+        "precision": "address",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-warwickshire-coventry",
+      "title": "England, Warwickshire, Coventry",
+      "country": "England",
+      "region": "Warwickshire",
+      "locality": "Coventry",
+      "address": "Coventry War Memorial Park Coventry Warwickshire",
+      "postcode": "CV3 6PT",
+      "what3words": "Marker.Sample.burns",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "Just under an hour",
+      "meetingPoint": "Meet in the left hand corner of the main car park by the little bridge",
+      "parking": "Free Parking",
+      "organiser": "Coventry Greyhound Walk",
+      "leader": "Zoe Spencer",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-warwickshire-coventry/",
+      "location": {
+        "lat": 52.370059,
+        "lng": -1.481202,
+        "displayName": "Coventry Airport, Siskin Parkway East, Baginton, Warwick, Warwickshire, England, CV3 4FZ, United Kingdom",
+        "query": "Coventry, Warwickshire, CV3 6PT, England",
         "precision": "locality",
         "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
@@ -3637,6 +4108,39 @@
       }
     },
     {
+      "id": "greece-nestos-delta-imeros",
+      "title": "Greece, Nestos Delta, Imeros",
+      "country": "Greece",
+      "region": "Nestos Delta",
+      "locality": "Imeros",
+      "address": "Imeros-Imeros Port Imeros Nestos Delta",
+      "postcode": "694 00",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "8:00 am",
+      "duration": "how much you feel like. depending on the weather",
+      "meetingPoint": "https://maps.app.goo.gl/xWzd6qwS2RjFGfBL9 Ancient Maroneia. Maroneia-Sapes 694 00, Greece. 40.925233, 25.367975",
+      "parking": "free. there is parking on the side of the road",
+      "organiser": "Holliday in Greece - Ímeros",
+      "leader": "Cristina Kiss",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "It's a wild beach. I will walk my dogs there if anyone else wants to join, they are welcome.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/greece-nestos-delta-imeros/",
+      "location": {
+        "lat": 40.925233,
+        "lng": 25.367975,
+        "displayName": "https://maps.app.goo.gl/xWzd6qwS2RjFGfBL9 Ancient Maroneia. Maroneia-Sapes 694 00, Greece. 40.925233, 25.367975",
+        "query": "https://maps.app.goo.gl/xWzd6qwS2RjFGfBL9 Ancient Maroneia. Maroneia-Sapes 694 00, Greece. 40.925233, 25.367975",
+        "precision": "published coordinates",
+        "provider": "Official GGGW listing",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/greece-nestos-delta-imeros/"
+      }
+    },
+    {
       "id": "guernsey-pembroke",
       "title": "Guernsey, Pembroke (Channel Islands)",
       "country": "Guernsey",
@@ -3763,6 +4267,39 @@
         "displayName": "Oranmore, Coast Road, Ballintemple ED, Oranmore, County Galway, Connacht, Éire / Ireland",
         "query": "Oranmore, Galway, Ireland",
         "precision": "locality",
+        "countryCode": "ie",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "ireland-kildare-celbridge",
+      "title": "Ireland, Kildare, Celbridge",
+      "country": "Ireland",
+      "region": "Kildare",
+      "locality": "Celbridge",
+      "address": "Castletown House Celbridge Kildare",
+      "postcode": "W23 V9H3",
+      "what3words": "Front of Castletown House",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "12:00 am",
+      "duration": "45 min",
+      "meetingPoint": "Front of House on main lawn",
+      "parking": "Free on site parking",
+      "organiser": "Sighthound Adventures Ireland",
+      "leader": "Tracey Carroll",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Fun show, Charity's info stalls and raffle",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/ireland-kildare-celbridge/",
+      "location": {
+        "lat": 53.348981,
+        "lng": -6.530532,
+        "displayName": "Castletown House, Avenue, Celbridge, The Municipal District of Celbridge — Leixlip, County Kildare, Leinster, W23 V9H3, Éire / Ireland",
+        "query": "Castletown House Celbridge Kildare, W23 V9H3, Ireland",
+        "precision": "address",
         "countryCode": "ie",
         "provider": "OpenStreetMap Nominatim"
       }
@@ -4525,6 +5062,38 @@
       }
     },
     {
+      "id": "jersey-st-lawrence-and-st-peter-st-helier",
+      "title": "Jersey, St Lawrence and St Peter , St Helier",
+      "country": "Jersey",
+      "region": "St Lawrence and St Peter",
+      "locality": "St Helier",
+      "address": "Westpark to St Aubin St Helier St Lawrence and St Peter",
+      "postcode": "JE2",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "9:00 am",
+      "duration": "As long or short as walkers want",
+      "meetingPoint": "All walkers to meet at West Park, St Helier (Just before the 1st Layby on Victoria Avenue)",
+      "parking": "Free parking on Sundays",
+      "organiser": "Jersey Rescue Dogs",
+      "leader": "Corrina Mourant",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Doggie goodie bags",
+      "organiserUrl": "https://www.jerseyrescuedogs.co.uk/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/jersey-st-lawrence-and-st-peter-st-helier/",
+      "location": {
+        "lat": 49.190372,
+        "lng": -2.119226,
+        "displayName": "West Park, St Helier, Jersey",
+        "query": "West Park, St Helier, Jersey",
+        "precision": "published meeting point",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/jersey-st-lawrence-and-st-peter-st-helier/"
+      }
+    },
+    {
       "id": "luxembourg-luxembourg-eischen",
       "title": "Luxembourg, Eischen",
       "country": "Luxembourg",
@@ -4827,14 +5396,14 @@
       "country": "New Zealand",
       "region": "Manawatu – Wanganui",
       "locality": "Palmerston North",
-      "address": "The Square, Palmerston North Central Palmerston North Manawatu - Wanganui",
+      "address": "336 Main Road Palmerston North Manawatu - Wanganui",
       "postcode": "4410",
       "what3words": "",
       "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
       "startTime": "11:00 am",
-      "duration": "45mins or less",
-      "meetingPoint": "Outside the I Site",
-      "parking": "Pay to park Parking Available",
+      "duration": "45 mins or less",
+      "meetingPoint": "On the grass by the Palmerston North convention centre.",
+      "parking": "Free parking",
       "organiser": "Nightrave Greyhounds",
       "leader": "Rachel Rae",
       "shortWalk": "Yes",
@@ -4845,11 +5414,11 @@
       "organiserUrl": "https://www.nightrave.co.nz/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-manawatu-wanganui-palmerston-north/",
       "location": {
-        "lat": -40.355347,
-        "lng": 175.609852,
-        "displayName": "The Square, Palmerston North Central, Palmerston North, Palmerston North City, Manawatū-Whanganui, 4410, New Zealand / Aotearoa",
-        "query": "The Square, Palmerston North Central Palmerston North Manawatu - Wanganui, 4410, New Zealand",
-        "precision": "address",
+        "lat": -40.356317,
+        "lng": 175.611239,
+        "displayName": "Palmerston North, Palmerston North City, Manawatū-Whanganui, 4410, New Zealand / Aotearoa",
+        "query": "Palmerston North, Manawatu – Wanganui, 4410, New Zealand",
+        "precision": "locality",
         "countryCode": "nz",
         "provider": "OpenStreetMap Nominatim"
       }
@@ -4924,6 +5493,39 @@
         "query": "///walks.remedies.stealth",
         "sourceType": "what3words",
         "what3words": "///walks.remedies.stealth"
+      }
+    },
+    {
+      "id": "portugal-lisbon-lisbon",
+      "title": "Portugal, Lisbon, Parque Florestal de Monsanto",
+      "country": "Portugal",
+      "region": "Lisbon",
+      "locality": "Parque Florestal de Monsanto",
+      "address": "Parque Florestal de Monsanto Lisbon Lisbon",
+      "postcode": "1500-215 Lisbon",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "1 hour",
+      "meetingPoint": "Restaurante Monte Verde car park Av. Tenente Martins Monsanto",
+      "parking": "Free parking",
+      "organiser": "Amigos da Katefriends",
+      "leader": "Jacqui Sarbib",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/portugal-lisbon-lisbon/",
+      "location": {
+        "lat": 38.720971,
+        "lng": -9.190807,
+        "displayName": "Parque Canino do Parque Florestal de Monsanto, Alameda Keil do Amaral, Alcântara, Lisboa, 1300-477, Portugal",
+        "query": "Parque Florestal de Monsanto Lisbon Lisbon, 1500-215 Lisbon, Portugal",
+        "precision": "address",
+        "countryCode": "pt",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -5026,6 +5628,39 @@
         "query": "///issues.sailor.producers",
         "sourceType": "what3words",
         "what3words": "///issues.sailor.producers"
+      }
+    },
+    {
+      "id": "scotland-east-lothian-portobello",
+      "title": "Scotland, East Lothian, Portobello",
+      "country": "Scotland",
+      "region": "East Lothian",
+      "locality": "Portobello",
+      "address": "20 Westbank St, Edinburgh EH15 1DR Portobello East Lothian",
+      "postcode": "Eh15 1dr",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "20 Westbank St, Edinburgh EH15 1DR",
+      "parking": "Free parking at the weekend",
+      "organiser": "Wander Dog",
+      "leader": "Darren",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-east-lothian-portobello/",
+      "location": {
+        "lat": 55.957017,
+        "lng": -3.117922,
+        "displayName": "Westbank Street, Rosebank, Joppa, Portobello, City of Edinburgh, Alba / Scotland, EH15 1DT, United Kingdom",
+        "query": "20 Westbank St, Edinburgh EH15 1DR, Scotland",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -5327,6 +5962,39 @@
       }
     },
     {
+      "id": "switzerland-ticino-lugano",
+      "title": "Switzerland, Ticino, Lugano",
+      "country": "Switzerland",
+      "region": "Ticino",
+      "locality": "Lugano",
+      "address": "Campo Marzio Lugano Ticino",
+      "postcode": "6900",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "1 h 30 min",
+      "meetingPoint": "Parcheggio in Campo Marzio",
+      "parking": "gratuito per la prima mezz'ora, poi 2 CHF per la prima ora, 1 CHF ogni 30 minuti fino a 3 ore, e 4 CHF all'ora dopo le 3 ore.",
+      "organiser": "SOS LEVRIERI",
+      "leader": "Nicole",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Passeggiata lungo lago a attraverso il parco Ciani. Per chi vuole è prevista una sosta al ristorante Porto Bello. Stroll along the lake and through Ciani Park. For those who want, there is a stop at the Porto Bello restaurant",
+      "organiserUrl": "https://www.soslevrieri.eu",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/switzerland-ticino-lugano/",
+      "location": {
+        "lat": 46.00606,
+        "lng": 8.961319,
+        "displayName": "Campo Marzio, Viale Castagnola, Cassarate, Circolo di Lugano est, Lugano, Distretto di Lugano, Ticino, 6901, Schweiz/Suisse/Svizzera/Svizra",
+        "query": "Campo Marzio Lugano Ticino, 6900, Switzerland",
+        "precision": "address",
+        "countryCode": "ch",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "switzerland-zurich-hongg-trinkbrunnen-zurich",
       "title": "Switzerland, Zurich, Höngg",
       "country": "Switzerland",
@@ -5448,13 +6116,13 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-arkansas-maumelle/",
       "location": {
-        "lat": 34.852626,
-        "lng": -92.409727,
-        "displayName": "Lake Willastein Drive, Maumelle, Hill Township, Pulaski County, Arkansas, 72113, United States",
-        "query": "Lake Willastein Maumelle Arkansas, 72113, United States",
-        "precision": "address",
-        "countryCode": "us",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": 34.852169,
+        "lng": -92.413473,
+        "displayName": "We will meet at 8:30am at Lake Willastein large pavilion rain or shine. GPS location 34.852169,-92.413473 https://goo.gl/maps/GnUuJin4A8tvetV77",
+        "query": "We will meet at 8:30am at Lake Willastein large pavilion rain or shine. GPS location 34.852169,-92.413473 https://goo.gl/maps/GnUuJin4A8tvetV77",
+        "precision": "published coordinates",
+        "provider": "Official GGGW listing",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-arkansas-maumelle/"
       }
     },
     {
@@ -5584,6 +6252,39 @@
         "lng": -121.890591,
         "displayName": "San Jose, Santa Clara County, California, United States",
         "query": "San Jose, California, 95136, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-colorado-denver",
+      "title": "United States, Colorado, Denver",
+      "country": "United States",
+      "region": "Colorado",
+      "locality": "Denver",
+      "address": "Bible Park at 6802 E Yale Ave Denver Colorado",
+      "postcode": "80224",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "8:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "This is not a CGA event, we just did the registration! All well behaved dogs and humans are welcome. The relaxed walk takes about 45 minutes to an hour, with about 15 minutes of socializing afterward. It's a greyt way for hounds and people to get to know each other, and get some fresh air. We meet in the parking lot off of the Yale entrance, on the grassy area near the sidewalk. If your dogs can't make the whole walk, just come to socialize toward the end, or only walk part way. Please bring water for your hound for after the walk",
+      "parking": "We meet in the parking lot off of the Yale entrance, on the grassy area near the sidewalk. No charge",
+      "organiser": "Colorado Greyhound Adoption",
+      "leader": "Cora Shanley",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "https://www.greyhoundadoption.com/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-colorado-denver/",
+      "location": {
+        "lat": 39.739236,
+        "lng": -104.984862,
+        "displayName": "Denver, Colorado, United States",
+        "query": "Denver, Colorado, 80224, United States",
         "precision": "locality",
         "countryCode": "us",
         "provider": "OpenStreetMap Nominatim"
@@ -5857,6 +6558,39 @@
       }
     },
     {
+      "id": "united-states-hawaii-hilo",
+      "title": "United States, Hawaii, Hilo",
+      "country": "United States",
+      "region": "Hawaii",
+      "locality": "Hilo",
+      "address": "350 Kalanikoa Streer Hilo Hawaii",
+      "postcode": "96778",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet near the bridge and parking lot to Coconut Island.",
+      "parking": "Free",
+      "organiser": "",
+      "leader": "Chris Shatto",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Looking forward to seeing everyone- rain or shine! Lei for the dogs and humans are strongly encouraged!",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-hawaii-hilo/",
+      "location": {
+        "lat": 19.685446,
+        "lng": -155.100375,
+        "displayName": "Hilo, Hawaiʻi County, Hawaii, 96720, United States",
+        "query": "Hilo, Hawaii, 96778, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "united-states-idaho-boise",
       "title": "United States, Idaho, Boise",
       "country": "United States",
@@ -6055,6 +6789,39 @@
       }
     },
     {
+      "id": "united-states-massachusetts-fitchburg",
+      "title": "United States, Massachusetts, Fitchburg",
+      "country": "United States",
+      "region": "Massachusetts",
+      "locality": "Fitchburg",
+      "address": "Coolidge Park, 198 Townsend St. Fitchburg Massachusetts",
+      "postcode": "01420",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "1-2 hours",
+      "meetingPoint": "Meet at southwest corner of the park (free and plentiful parking) we will walk as many (or few) loops as the hounds and weather will allow",
+      "parking": "Free and ample parking",
+      "organiser": "",
+      "leader": "Dani Kumpulanian",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "https://www.facebook.com/share/1EP7RYKgaa/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-massachusetts-fitchburg/",
+      "location": {
+        "lat": 42.583898,
+        "lng": -71.803827,
+        "displayName": "Fitchburg, Worcester County, Massachusetts, 01420, United States",
+        "query": "Fitchburg, Massachusetts, 01420, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "united-states-michigan-muskegon",
       "title": "United States, Michigan, Muskegon",
       "country": "United States",
@@ -6115,6 +6882,39 @@
         "lng": -83.611765,
         "displayName": "Ypsilanti, Washtenaw County, Michigan, United States",
         "query": "Ypsilanti, Michigan, 48197, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-minnesota-st-paul",
+      "title": "United States, Minnesota, St. Paul",
+      "country": "United States",
+      "region": "Minnesota",
+      "locality": "St. Paul",
+      "address": "COMO PARK - 1360 LEXINGTON PARKWAY NORTH, ST. PAUL, MN 55103 ST. PAUL Minnesota",
+      "postcode": "55103",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "About 1 hour to walk, then a little post-walk socializing, snacks, and photos. EVERYONE WELCOME!",
+      "meetingPoint": "Meet at the Como Lakeside Pavilion, located on the west side of Como Lake. We walk around Como Lake, which takes about an hour. Distance around the lake is 1.7 miles, all on a paved walking trail. Plenty of free parking available. Please join us! Everyone is welcome, and if this is your first time doing the \"Sunday Como Walk,\" you'll have the opportunity to meet some really friendly people and their dogs. If you prefer to walk just partway and then hang out at the pavilion, the rest of the group will meet up with you as they circle around the lake. PLEASE STICK AROUND FOR A GROUP PHOTO AFTER THE WALK!",
+      "parking": "Free in parking lot near the Como Lakeside Pavilion.",
+      "organiser": "Wanna Go To Como?",
+      "leader": "Lisa K",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Might be some surprises!",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-minnesota-st-paul/",
+      "location": {
+        "lat": 44.949749,
+        "lng": -93.093103,
+        "displayName": "Saint Paul, Ramsey County, Minnesota, United States",
+        "query": "St. Paul, Minnesota, 55103, United States",
         "precision": "locality",
         "countryCode": "us",
         "provider": "OpenStreetMap Nominatim"
@@ -6247,6 +7047,39 @@
         "displayName": "110, Sussex Avenue, Spring Lake, Monmouth County, New Jersey, 07762, United States",
         "query": "110 Sussex Avenue Spring Lake New Jersey, 07762, United States",
         "precision": "address",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-new-mexico-albuquerque",
+      "title": "United States, New Mexico, Albuquerque",
+      "country": "United States",
+      "region": "New Mexico",
+      "locality": "Albuquerque",
+      "address": "HYDER PARK, 700 Richmond Dr. SE Albuquerque, NM New Mexico",
+      "postcode": "87106",
+      "what3words": "Registration will start at 8:30am at the corner of Richmond Dr. SE and Santa Cruz.",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "30 Minutes or longer depending on temperatures.",
+      "meetingPoint": "We will meet at the corner of Richmond Dr. SE and Santa Cruz Ave. Registration will begin at 8:30am. The walk will begin at 9:00am and last about 30 minutes. We will be walking along the perimeter of the park (sidewalk) or you can cut through the park to take a shorter walk. Don't forget to bring water for your hounds! If you don't want to walk, feel free to bring your hounds, a chair or blanket and just enjoy the atmosphere! There are plenty of large shade trees to help stay cool.",
+      "parking": "Parking is free around the perimeter of the park.",
+      "organiser": "Greyhound Adoption League TX, New Mexico Chapter",
+      "leader": "Donna Howland",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "RAFFLE TICKETS - We will have gift baskets donated by our generous local community supporters and even a few surprise items! Buy tickets in advance by emailing Donna Howland at dhowland@galtx.org (cash or check only), or on the day of the event in person. PURPLE PAW PET CARE will be joining us again this year to perform care and hygiene services. Briana will generously donate a portion of the proceeds to GALT New Mexico. Services Available: Nail Trims $25 Ear Cleaning $25 Gland Expression $25",
+      "organiserUrl": "https://galtx.org/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-new-mexico-albuquerque/",
+      "location": {
+        "lat": 35.084103,
+        "lng": -106.650985,
+        "displayName": "Albuquerque, Bernalillo County, New Mexico, United States",
+        "query": "Albuquerque, New Mexico, 87106, United States",
+        "precision": "locality",
         "countryCode": "us",
         "provider": "OpenStreetMap Nominatim"
       }
@@ -6651,6 +7484,105 @@
       }
     },
     {
+      "id": "united-states-south-carolina-hilton-head-island",
+      "title": "United States, South Carolina, Hilton Head Island",
+      "country": "United States",
+      "region": "South Carolina",
+      "locality": "Hilton Head Island",
+      "address": "Coligny Beach, 1 North Forest Beach Drive Hilton Head Island, SC South Carolina",
+      "postcode": "29928",
+      "what3words": "beach, walkway, Coligny",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "Minimum of one hour; participants are welcome to stay and enjoy the ocean!",
+      "meetingPoint": "The group with gather on the beach at the end of the walkway entrance to Coligny Beach",
+      "parking": "Parking is free at Coligny Beach - ample parking is available.",
+      "organiser": "James River Greyhounds - Low Country Chapter",
+      "leader": "Chris Schlentner",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "Those with older dogs or owners with walking issues are welcome to attend with lawn chairs and join the fun in place! The more the merrier.",
+      "organiserUrl": "http://www.jamesrivergreyhounds.org",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-south-carolina-hilton-head-island/",
+      "location": {
+        "lat": 32.143554,
+        "lng": -80.7503,
+        "displayName": "Billy's Beach Club/Bikes & Things, 1, North Forest Beach Drive, Forest Beach, Coligny, Hilton Head Island, Beaufort County, South Carolina, 29928, United States",
+        "query": "Coligny Beach, 1 North Forest Beach Drive Hilton Head Island, SC South Carolina, 29928, United States",
+        "precision": "address",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-south-carolina-moncks-corner",
+      "title": "United States, South Carolina, Moncks Corner",
+      "country": "United States",
+      "region": "South Carolina",
+      "locality": "Moncks Corner",
+      "address": "Moncks Corner Regional Recreation Complex 418 E main street Moncks Corner South Carolina",
+      "postcode": "29461",
+      "what3words": "Under the Pavilion",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "1 hour or shorter depending on weather.",
+      "meetingPoint": "Meeting under the pavilion at Moncks Corner Recreational Complex . All breeds welcome to join.",
+      "parking": "No cost park in parking lot near pavilion",
+      "organiser": "",
+      "leader": "Michelle Dobbels",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Nothing special just meet up walk and enjoy the event and share some chit chat and free smile.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-south-carolina-moncks-corner/",
+      "location": {
+        "lat": 33.196003,
+        "lng": -80.013137,
+        "displayName": "Moncks Corner, Berkeley County, South Carolina, United States",
+        "query": "Moncks Corner, South Carolina, 29461, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-tennessee-brentwood",
+      "title": "United States, Tennessee, Brentwood",
+      "country": "United States",
+      "region": "Tennessee",
+      "locality": "Brentwood",
+      "address": "Crockett Park, 1500 Volunteer Pkwy Brentwood Tennessee",
+      "postcode": "37027",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "12:00 pm",
+      "duration": "1 hour",
+      "meetingPoint": "Crockett Park. We plan to meet by the tennis courts, which are at the very back of the park. Once you turn into the park you will go straight through 2 stop signs to get to them (there are also signs that say tennis courts). Google map of parking lot - https://maps.app.goo.gl/TgfjPmqerAeLnu2o9",
+      "parking": "There is a parking lot in front of the tennis courts/restrooms.",
+      "organiser": "Music City Greyhound Adoption",
+      "leader": "Lori Lorenzen",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "This is a flat paved path, there is a mile loop and options to continue or end your walk after the loop. Restrooms are available at the tennis building and along the route. Come on out for the sighthound socialization part, not everyone always goes on the walks. We will have pupcups for the dogs. Info will also be on the Music City Greyhound Association facebook page as well as more information on the monthly group walks around the Nashville area.",
+      "organiserUrl": "https://www.musiccitygreyhoundadoption.org/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-tennessee-brentwood/",
+      "location": {
+        "lat": 36.032569,
+        "lng": -86.782523,
+        "displayName": "Brentwood, Williamson County, Middle Tennessee, Tennessee, United States",
+        "query": "Brentwood, Tennessee, 37027, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "united-states-texas-georgetown",
       "title": "United States, Texas, Georgetown",
       "country": "United States",
@@ -6852,6 +7784,38 @@
         "query": "///campsites.rang.certainty",
         "sourceType": "what3words",
         "what3words": "///campsites.rang.certainty"
+      }
+    },
+    {
+      "id": "wales-conway-llanfairfechan",
+      "title": "Wales, Conway, Llanfairfechan",
+      "country": "Wales",
+      "region": "Conway",
+      "locality": "Llanfairfechan",
+      "address": "Pavilion Cafe, Promenade LLANFAIRFECHAN Conway",
+      "postcode": "LL33 OBY",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "Approximately 1 hour",
+      "meetingPoint": "By Pavilion Cafe on the promenade",
+      "parking": "Pay and display car park",
+      "organiser": "Hector's Greyhound Rescue",
+      "leader": "MISS CAROL A EDWARDS",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Collection for Hector's Greyhound Rescue",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-conway-llanfairfechan/",
+      "location": {
+        "lat": 53.25992,
+        "lng": -3.97594,
+        "displayName": "Llanfairfechan Promenade, near Pavilion Cafe, Wales",
+        "query": "Llanfairfechan Promenade, Wales",
+        "precision": "published meeting area",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-conway-llanfairfechan/"
       }
     },
     {
