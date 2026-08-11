@@ -49,8 +49,10 @@
   .independence-notice > div { display: grid; gap: 3px; }
   .independence-notice strong { font-size: .82rem; line-height: 1.35; }
   .independence-notice span { font-size: .76rem; line-height: 1.4; }
-  .independence-notice a { min-height: 44px; flex: 0 0 auto; padding: 0 13px; display: inline-flex; align-items: center; gap: 8px; border-radius: 7px; color: #fff; background: var(--red); text-decoration: none; font-size: .72rem; font-weight: 750; white-space: nowrap; }
-  .independence-notice a:hover { background: #a82f29; }
+  .notice-contact { color: var(--subtle); font-size: .72rem; line-height: 1.4; }
+  .notice-contact a { color: #8a2722; font-weight: 750; }
+  .independence-notice > a { min-height: 44px; flex: 0 0 auto; padding: 0 13px; display: inline-flex; align-items: center; gap: 8px; border-radius: 7px; color: #fff; background: var(--red); text-decoration: none; font-size: .72rem; font-weight: 750; white-space: nowrap; }
+  .independence-notice > a:hover { background: #a82f29; }
 
   .hero-grid { width: min(1240px, calc(100% - 40px)); min-height: 310px; margin: 0 auto; padding: 34px 0 38px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 430px); align-items: center; gap: 46px; }
   .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 13px; color: var(--red); font-size: .76rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 750; }

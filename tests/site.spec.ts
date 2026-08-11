@@ -14,6 +14,7 @@ test('renders stats, map and complete country table', async ({ page }) => {
   await expect(notice).toContainText(/not the official great global greyhound walk website/i);
   await expect(notice).toContainText(/made by an individual/i);
   await expect(notice.getByRole('link', { name: /visit the official website/i })).toHaveAttribute('href', 'https://greatglobalgreyhoundwalk.co.uk/');
+  await expect(notice.getByRole('link', { name: /connect on linkedin/i })).toHaveAttribute('href', 'https://au.linkedin.com/in/nathanoldfield');
   const totalWalks = Number(await page.locator('#visible-map-count').textContent());
   expect(totalWalks).toBeGreaterThan(0);
   await expect(page.locator('.walk-marker')).toHaveCount(totalWalks);
