@@ -47,6 +47,18 @@
     "sourceType": "what3words",
     "what3words": "///fluke.chaos.tadpole"
   },
+  "australia-tasmania-montrose": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — Australia, Tasmania, Montrose",
+    "lat": -42.822378,
+    "lng": 147.269823,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///benched.unto.deprive",
+    "sourceType": "what3words",
+    "what3words": "///benched.unto.deprive"
+  },
   "australia-victoria-diamond-creek": {
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
@@ -131,6 +143,18 @@
     "sourceType": "what3words",
     "what3words": "///marble.labs.wipe"
   },
+  "england-buckinghamshire-milton-keynes": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — England, Buckinghamshire, Milton Keynes",
+    "lat": 52.05114,
+    "lng": -0.723355,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///duplicate.reporters.table",
+    "sourceType": "what3words",
+    "what3words": "///duplicate.reporters.table"
+  },
   "england-cornwall-bude": {
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
@@ -142,6 +166,18 @@
     "query": "///devoured.under.downturn",
     "sourceType": "what3words",
     "what3words": "///devoured.under.downturn"
+  },
+  "england-devon-plymouth": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — England, Devon, Plymouth",
+    "lat": 50.380835,
+    "lng": -4.080816,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///cafe.bend.swing",
+    "sourceType": "what3words",
+    "what3words": "///cafe.bend.swing"
   },
   "england-essex-harlow": {
     "accuracy": "three-metre square",
@@ -203,6 +239,18 @@
     "sourceType": "what3words",
     "what3words": "///bakers.tungsten.mondays"
   },
+  "england-somerset-shepton-mallet": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — England, Somerset, Shepton Mallet",
+    "lat": 51.111268,
+    "lng": -2.533655,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///adding.hungry.removers",
+    "sourceType": "what3words",
+    "what3words": "///adding.hungry.removers"
+  },
   "england-staffordshire-stoke-on-trent": {
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
@@ -214,6 +262,18 @@
     "query": "///ridge.wrong.fakes",
     "sourceType": "what3words",
     "what3words": "///ridge.wrong.fakes"
+  },
+  "england-warwickshire-coventry": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — England, Warwickshire, Coventry",
+    "lat": 52.391615,
+    "lng": -1.526533,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///Marker.Sample.burns",
+    "sourceType": "what3words",
+    "what3words": "///Marker.Sample.burns"
   },
   "england-west-midlands-solihull": {
     "accuracy": "three-metre square",

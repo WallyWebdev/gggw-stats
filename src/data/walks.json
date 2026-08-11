@@ -2,7 +2,7 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-11T23:12:07.660950+00:00",
+    "scrapedAt": "2026-08-11T23:22:26.735309+00:00",
     "walkCount": 237,
     "mappedCount": 237,
     "countryCount": 31
@@ -1091,13 +1091,16 @@
       "organiserUrl": "https://tasracing.com.au/gap",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-tasmania-montrose/",
       "location": {
-        "lat": -42.826422,
-        "lng": 147.267143,
-        "displayName": "Montrose, Hobart, Tasmania, 7010, Australia",
-        "query": "Montrose, Tasmania, 7010, Australia",
-        "precision": "locality",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Australia, Tasmania, Montrose",
+        "lat": -42.822378,
+        "lng": 147.269823,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///benched.unto.deprive",
+        "sourceType": "what3words",
+        "what3words": "///benched.unto.deprive"
       }
     },
     {
@@ -2296,13 +2299,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-buckinghamshire-milton-keynes/",
       "location": {
-        "lat": 51.971509,
-        "lng": -0.770796,
-        "displayName": "Newton Longville Church of England Primary School, School Drive, Newton Longville, Milton Keynes, Buckinghamshire, England, MK17 0BZ, United Kingdom",
-        "query": "Milton Keynes, Buckinghamshire, MK15 0DS, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Buckinghamshire, Milton Keynes",
+        "lat": 52.05114,
+        "lng": -0.723355,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///duplicate.reporters.table",
+        "sourceType": "what3words",
+        "what3words": "///duplicate.reporters.table"
       }
     },
     {
@@ -2560,13 +2566,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-devon-plymouth/",
       "location": {
-        "lat": 50.545106,
-        "lng": -4.152815,
-        "displayName": "Plymouth Road, Tavistock, West Devon, Devon, Devon and Torbay, England, PL19 8DA, United Kingdom",
-        "query": "Plymouth, Devon, PL15 9QA, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Devon, Plymouth",
+        "lat": 50.380835,
+        "lng": -4.080816,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///cafe.bend.swing",
+        "sourceType": "what3words",
+        "what3words": "///cafe.bend.swing"
       }
     },
     {
@@ -3466,13 +3475,16 @@
       "organiserUrl": "https://foreverhoundstrust.org/",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-somerset-shepton-mallet/",
       "location": {
-        "lat": 51.190945,
-        "lng": -2.54613,
-        "displayName": "Shepton Mallet, Somerset, England, United Kingdom",
-        "query": "Shepton Mallet, Somerset, BA4 6PY, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Somerset, Shepton Mallet",
+        "lat": 51.111268,
+        "lng": -2.533655,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///adding.hungry.removers",
+        "sourceType": "what3words",
+        "what3words": "///adding.hungry.removers"
       }
     },
     {
@@ -3733,13 +3745,16 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-warwickshire-coventry/",
       "location": {
-        "lat": 52.370059,
-        "lng": -1.481202,
-        "displayName": "Coventry Airport, Siskin Parkway East, Baginton, Warwick, Warwickshire, England, CV3 4FZ, United Kingdom",
-        "query": "Coventry, Warwickshire, CV3 6PT, England",
-        "precision": "locality",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — England, Warwickshire, Coventry",
+        "lat": 52.391615,
+        "lng": -1.526533,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///Marker.Sample.burns",
+        "sourceType": "what3words",
+        "what3words": "///Marker.Sample.burns"
       }
     },
     {
