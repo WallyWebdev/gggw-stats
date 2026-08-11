@@ -9,11 +9,11 @@ from urllib.request import Request, urlopen
 SOURCE_URL = "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/"
 PATTERN = re.compile(r'https://greatglobalgreyhoundwalk\.co\.uk/walks/[^/"#?]+/')
 EXPECTED_COUNTRY_CODES = {
-    "Argentina": "ar", "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
-    "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
-    "Gibraltar": "gi", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
+    "Argentina": "ar", "Australia": "au", "Austria": "at", "Belgium": "be", "Bulgaria": "bg", "Canada": "ca",
+    "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de", "Gibraltar": "gi",
+    "Guernsey": "gg", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
     "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
-    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch",
+    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch", "United Arab Emirates": "ae",
     "United States": "us", "Wales": "gb",
 }
 

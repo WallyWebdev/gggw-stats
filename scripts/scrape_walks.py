@@ -20,14 +20,46 @@ OUTPUT = ROOT / "src" / "data" / "walks.json"
 CACHE = ROOT / ".cache" / "geocodes.json"
 VERIFIED_LOCATIONS_FILE = ROOT / "scripts" / "verified-locations.json"
 EXPECTED_COUNTRY_CODES = {
-    "Argentina": "ar", "Australia": "au", "Austria": "at", "Bulgaria": "bg", "Canada": "ca",
-    "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de",
-    "Gibraltar": "gi", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
+    "Argentina": "ar", "Australia": "au", "Austria": "at", "Belgium": "be", "Bulgaria": "bg", "Canada": "ca",
+    "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de", "Gibraltar": "gi",
+    "Guernsey": "gg", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
     "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
-    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch",
+    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch", "United Arab Emirates": "ae",
     "United States": "us", "Wales": "gb",
 }
 MANUAL_LOCATIONS = {
+    "england-cheshire-stalybridge": {
+        "lat": 53.478371,
+        "lng": -2.049595,
+        "displayName": "Cheetham Park, Stalybridge, England",
+        "query": "Cheetham Park, 33 Acres Lane, Stalybridge, SK15 2JR",
+        "precision": "published venue",
+        "verificationUrl": "https://mapcarta.com/W369652530",
+    },
+    "england-county-durham-eaglescliffe": {
+        "lat": 54.536,
+        "lng": -1.337,
+        "displayName": "Preston Park Museum & Grounds, Eaglescliffe, England",
+        "query": "Preston Park Museum, Yarm Road, Eaglescliffe, TS18 3RH",
+        "precision": "published meeting point",
+        "verificationUrl": "https://www.prestonparkmuseum.co.uk/",
+    },
+    "guernsey-pembroke": {
+        "lat": 49.50313,
+        "lng": -2.53241,
+        "displayName": "The Beach House, Pembroke Bay, Guernsey",
+        "query": "The Beach House, Pembroke Bay, Guernsey, GY3 5BY",
+        "precision": "published meeting point",
+        "verificationUrl": "https://gg.geoview.info/beach_house,2512820952n",
+    },
+    "sweden-bohuslan-uddevalla": {
+        "lat": 58.329717,
+        "lng": 11.90645,
+        "displayName": "Bodelefälten, Gustavsberg, Uddevalla, Sweden",
+        "query": "Bodelefälten, Gustavsberg 306, 451 91 Uddevalla",
+        "precision": "published meeting point",
+        "verificationUrl": "https://www.uddevalla.se/uppleva-och-gora/idrott-motion-och-friluftsliv/hallar-och-idrottsanlaggningar/bodelefalten.html",
+    },
     "australia-south-australia-adelaide-wynne-vale-dam": {
         "lat": -34.799341,
         "lng": 138.700651,
