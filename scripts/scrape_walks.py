@@ -21,13 +21,29 @@ CACHE = ROOT / ".cache" / "geocodes.json"
 VERIFIED_LOCATIONS_FILE = ROOT / "scripts" / "verified-locations.json"
 EXPECTED_COUNTRY_CODES = {
     "Argentina": "ar", "Australia": "au", "Austria": "at", "Belgium": "be", "Bulgaria": "bg", "Canada": "ca",
-    "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de", "Gibraltar": "gi",
-    "Guernsey": "gg", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
-    "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "San Marino": "sm",
+    "Croatia": "hr", "Croatia (Hrvatska)": "hr", "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de", "Gibraltar": "gi",
+    "Greece": "gr", "Guernsey": "gg", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
+    "Jersey": "je", "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "Portugal": "pt", "San Marino": "sm",
     "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch", "United Arab Emirates": "ae",
     "United States": "us", "Wales": "gb",
 }
 MANUAL_LOCATIONS = {
+    "jersey-st-lawrence-and-st-peter-st-helier": {
+        "lat": 49.190372,
+        "lng": -2.119226,
+        "displayName": "West Park, St Helier, Jersey",
+        "query": "West Park, St Helier, Jersey",
+        "precision": "published meeting point",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/jersey-st-lawrence-and-st-peter-st-helier/",
+    },
+    "wales-conway-llanfairfechan": {
+        "lat": 53.25992,
+        "lng": -3.97594,
+        "displayName": "Llanfairfechan Promenade, near Pavilion Cafe, Wales",
+        "query": "Llanfairfechan Promenade, Wales",
+        "precision": "published meeting area",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-conway-llanfairfechan/",
+    },
     "england-cheshire-stalybridge": {
         "lat": 53.478371,
         "lng": -2.049595,
@@ -240,6 +256,7 @@ def query_candidates(walk: dict[str, Any]) -> list[str]:
     country = walk["country"]
     candidates = [
         ", ".join(filter(None, [walk["address"], walk["postcode"], country])),
+        ", ".join(filter(None, [walk["meetingPoint"], country])),
         ", ".join(filter(None, [walk["locality"], walk["region"], walk["postcode"], country])),
         ", ".join(filter(None, [walk["locality"], walk["region"], country])),
         walk["title"],
@@ -253,6 +270,17 @@ def geocode(
     cache: dict[str, Any],
     confirmed_locations: dict[str, dict[str, Any]],
 ) -> dict[str, Any] | None:
+    coordinates = re.search(r"(?<!\d)(-?\d{1,2}\.\d+)\s*,\s*(-?\d{1,3}\.\d+)(?!\d)", walk["meetingPoint"])
+    if coordinates:
+        return {
+            "lat": round(float(coordinates.group(1)), 6),
+            "lng": round(float(coordinates.group(2)), 6),
+            "displayName": walk["meetingPoint"],
+            "query": walk["meetingPoint"],
+            "precision": "published coordinates",
+            "provider": "Official GGGW listing",
+            "verificationUrl": walk["sourceUrl"],
+        }
     if walk["id"] in confirmed_locations:
         return confirmed_locations[walk["id"]]
     if walk["id"] in MANUAL_LOCATIONS:
