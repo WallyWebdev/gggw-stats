@@ -430,5 +430,65 @@
     "query": "///mild.breeze.elections",
     "sourceType": "what3words",
     "what3words": "///mild.breeze.elections"
+  },
+  "england-greater-london-london": {
+    "lat": 51.43153,
+    "lng": -0.146482,
+    "displayName": "Confirmed meeting point — Tooting Common carpark, off Tooting Bec Road, London",
+    "query": "///silks.delay.magic",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///silks.delay.magic",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "england-kent-tonbridge": {
+    "lat": 51.196623,
+    "lng": 0.27404,
+    "displayName": "Confirmed meeting point — Tonbridge Castle, near car park, Tonbridge",
+    "query": "///stick.rescue.strike",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///stick.rescue.strike",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "england-northumberland-craster": {
+    "lat": 55.472685,
+    "lng": -1.594345,
+    "displayName": "Confirmed meeting point — grassy area next to Craster RNLI station, opposite harbour",
+    "query": "///forensic.dose.gentlemen",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///forensic.dose.gentlemen",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "scotland-aberdeenshire-methlick-ellon": {
+    "lat": 57.382209,
+    "lng": -2.209209,
+    "displayName": "Confirmed meeting point — Haddo House & Country Park main car park, Methlick",
+    "query": "///rebounded.compress.freed",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///rebounded.compress.freed",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "wales-torfaen-cwmbran": {
+    "lat": 51.656223,
+    "lng": -3.013491,
+    "displayName": "Confirmed meeting point — Northfields Recreational Ground, Olive Tree club corner, Cwmbran",
+    "query": "///simple.such.lives",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///simple.such.lives",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
   }
 }
