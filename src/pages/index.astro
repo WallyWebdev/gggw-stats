@@ -8,6 +8,7 @@ const mappedWalks = walks.filter((walk) => walk.location);
 const shortWalks = walks.filter((walk) => walk.shortWalk.toLowerCase() === 'yes').length;
 const accessibleWalks = walks.filter((walk) => walk.accessible.toLowerCase() === 'yes').length;
 const leadingCountry = countries[0];
+const countriesAlphabetical = [...countries].sort((a, b) => a.country.localeCompare(b.country, 'en'));
 const updated = new Intl.DateTimeFormat('en-GB', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(meta.scrapedAt));
 const safeJson = JSON.stringify(mappedWalks).replaceAll('<', '\\u003c');
 const structuredData = JSON.stringify({
@@ -127,7 +128,7 @@ const structuredData = JSON.stringify({
               <caption>All countries and territories</caption>
               <thead><tr><th scope="col">Country / territory</th><th scope="col">Walks</th></tr></thead>
               <tbody>
-                {countries.map((item) => (
+                {countriesAlphabetical.map((item) => (
                   <tr><th scope="row"><button data-country={item.country}>{item.country}</button></th><td>{item.count}</td></tr>
                 ))}
               </tbody>
@@ -147,7 +148,7 @@ const structuredData = JSON.stringify({
             <label for="country-filter">Filter country</label>
             <select id="country-filter">
               <option value="all">All countries</option>
-              {countries.map((item) => <option value={item.country}>{item.country} ({item.count})</option>)}
+              {countriesAlphabetical.map((item) => <option value={item.country}>{item.country} ({item.count})</option>)}
             </select>
             <button id="reset-map" type="button">Reset map</button>
           </div>

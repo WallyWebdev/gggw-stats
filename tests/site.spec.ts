@@ -24,6 +24,11 @@ test('renders stats, map and complete country table', async ({ page }) => {
   await page.locator('#show-more').click();
   await expect(page.locator('.walk-card:not([hidden])')).toHaveCount(40);
   expect(await page.locator('#countries tbody tr').count()).toBeGreaterThan(0);
+  const sidePanelCountries = await page.locator('#countries tbody th button').allTextContents();
+  expect(sidePanelCountries).toEqual([...sidePanelCountries].sort((a, b) => a.localeCompare(b, 'en')));
+  const mapFilterCountries = await page.locator('#country-filter option:not([value="all"])').allTextContents();
+  const mapFilterNames = mapFilterCountries.map((option) => option.replace(/ \(\d+\)$/, ''));
+  expect(mapFilterNames).toEqual([...mapFilterNames].sort((a, b) => a.localeCompare(b, 'en')));
   await expect(page.locator('footer')).toContainText(/not an official/i);
 
   await page.locator('.walk-place').first().click();
