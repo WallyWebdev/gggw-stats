@@ -46,7 +46,8 @@ for walk in walks:
         assert location.get("accuracy") == "three-metre square", f"Missing W3W accuracy record: {walk['title']}"
         assert location.get("what3words"), f"Missing W3W code record: {walk['title']}"
         assert location.get("coordinateStatus") == "confirmed", f"Unconfirmed W3W coordinate: {walk['title']}"
-        assert location["what3words"].replace("///", "").lower() in unquote(walk["what3words"]).lower(), (
+        normalise_w3w = lambda value: ".".join(re.findall(r"\w+", unquote(value))).casefold()
+        assert normalise_w3w(location["what3words"]) in normalise_w3w(walk["what3words"]), (
             f"W3W code does not match listing: {walk['title']}"
         )
     else:

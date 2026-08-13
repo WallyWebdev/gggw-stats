@@ -2,23 +2,23 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-12T13:26:53.021718+00:00",
-    "walkCount": 258,
-    "mappedCount": 258,
+    "scrapedAt": "2026-08-13T08:46:27.107165+00:00",
+    "walkCount": 266,
+    "mappedCount": 266,
     "countryCount": 31
   },
   "countries": [
     {
       "country": "England",
-      "count": 61
+      "count": 63
     },
     {
       "country": "United States",
-      "count": 53
+      "count": 54
     },
     {
       "country": "Australia",
-      "count": 44
+      "count": 47
     },
     {
       "country": "Italy",
@@ -26,18 +26,18 @@
     },
     {
       "country": "Wales",
-      "count": 11
+      "count": 12
     },
     {
       "country": "Canada",
-      "count": 10
-    },
-    {
-      "country": "New Zealand",
-      "count": 8
+      "count": 11
     },
     {
       "country": "Scotland",
+      "count": 9
+    },
+    {
+      "country": "New Zealand",
       "count": 8
     },
     {
@@ -53,11 +53,11 @@
       "count": 4
     },
     {
-      "country": "Portugal",
-      "count": 4
+      "country": "Mexico",
+      "count": 3
     },
     {
-      "country": "Mexico",
+      "country": "Portugal",
       "count": 3
     },
     {
@@ -970,6 +970,72 @@
       }
     },
     {
+      "id": "australia-queensland-rockhampton",
+      "title": "Australia, Queensland, Rockhampton",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Rockhampton",
+      "address": "Kershaw Gardens Rockhampton Queensland",
+      "postcode": "4701",
+      "what3words": "Off Knight St",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "4:30 pm",
+      "duration": "30 mins",
+      "meetingPoint": "Shelter 9 Kershaw Gardens Rockhampton",
+      "parking": "Free",
+      "organiser": "Love A Greyhound",
+      "leader": "Jo",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Merch",
+      "organiserUrl": "https://loveagreyhound.org.au/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-rockhampton/",
+      "location": {
+        "lat": -23.364705,
+        "lng": 150.516452,
+        "displayName": "Kershaw Gardens Dog Park, Charles Street, Berserker, Rockhampton, Queensland, 4701, Australia",
+        "query": "Kershaw Gardens Rockhampton Queensland, 4701, Australia",
+        "precision": "address",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-queensland-townsville",
+      "title": "Australia, Queensland, Townsville",
+      "country": "Australia",
+      "region": "Queensland",
+      "locality": "Townsville",
+      "address": "The Strand Rockpool, North Ward Townsville Queensland",
+      "postcode": "4810",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "8:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "The Strand Rockpool. There is free parking and toilets nearby. At the beginning/end of the walk is a dog friendly café that sell puppuccinos for your greyhound to enjoy.",
+      "parking": "Street parking",
+      "organiser": "Greyhound Adoption Program - QLD (GAP QLD)",
+      "leader": "Lisa Barker",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://gapqld.com.au/events/upcoming-events/great-global-greyhound-walk-townsville",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-queensland-townsville/",
+      "location": {
+        "lat": -19.256939,
+        "lng": 146.823954,
+        "displayName": "Townsville, Queensland, 4810, Australia",
+        "query": "Townsville, Queensland, 4810, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "australia-south-australia-adelaide-south-terrace",
       "title": "Australia, South Australia, Adelaide, South Terrace",
       "country": "Australia",
@@ -1128,6 +1194,39 @@
         "lng": 137.584357,
         "displayName": "Whyalla, South Australia, 5600, Australia",
         "query": "Whyalla, South Australia, 5600, Australia",
+        "precision": "locality",
+        "countryCode": "au",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-tasmania-hobart",
+      "title": "Australia, Tasmania, Hobart",
+      "country": "Australia",
+      "region": "Tasmania",
+      "locality": "Hobart",
+      "address": "Parliament Lawns Hobart Tasmania",
+      "postcode": "7000",
+      "what3words": "parlaiment lawns salamanca",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "45 minutes",
+      "meetingPoint": "parliament lawns Salamanca",
+      "parking": "parking in salamanca",
+      "organiser": "Adopted Greyhounds Tasmania",
+      "leader": "Rosie Saville",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.facebook.com/groups/1125151709678438/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-tasmania-hobart/",
+      "location": {
+        "lat": -42.882509,
+        "lng": 147.328123,
+        "displayName": "Hobart, Tasmania, Australia",
+        "query": "Hobart, Tasmania, 7000, Australia",
         "precision": "locality",
         "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
@@ -1869,6 +1968,39 @@
       }
     },
     {
+      "id": "canada-ontario-guelph",
+      "title": "Canada, Ontario, Guelph",
+      "country": "Canada",
+      "region": "Ontario",
+      "locality": "Guelph",
+      "address": "Royal City Park, 139 Gordon Street Guelph Ontario",
+      "postcode": "N1H 4H7",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:30 am",
+      "duration": "1 hour",
+      "meetingPoint": "Meet at the bandstand. You can park in the park or the Starbucks/LCBO parking lot.",
+      "parking": "Parking is available in the park or in the Starbucks/LCBO parking lot",
+      "organiser": "Guelph Greyhounds",
+      "leader": "Tracey Parfect",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/canada-ontario-guelph/",
+      "location": {
+        "lat": 43.546052,
+        "lng": -80.249328,
+        "displayName": "Guelph, Southwestern Ontario, Ontario, Canada",
+        "query": "Guelph, Ontario, N1H 4H7, Canada",
+        "precision": "locality",
+        "countryCode": "ca",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "canada-ontario-mississauga-jack-darling-park",
       "title": "Canada, Ontario, Mississauga, Jack Darling Park",
       "country": "Canada",
@@ -2085,7 +2217,7 @@
       "parking": "Garage Tuškanac",
       "organiser": "​Sighthound Noodle Gang Croatia",
       "leader": "Brigita Horvat-Sudec",
-      "shortWalk": "No",
+      "shortWalk": "Yes",
       "refreshments": "No",
       "accessible": "No",
       "toilets": "No",
@@ -2231,6 +2363,42 @@
         "precision": "address",
         "countryCode": "cz",
         "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-bedfordshire-ampthill",
+      "title": "England, Bedfordshire, Ampthill",
+      "country": "England",
+      "region": "Bedfordshire",
+      "locality": "Ampthill",
+      "address": "Ampthill Great Park Ampthill Bedfordshire",
+      "postcode": "MK45 2GU",
+      "what3words": "///hotspot/leave/chariots",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "45-60 mins",
+      "meetingPoint": "Meet at Ampthill Great Park, West Car Park, Woburn Street, Ampthill, MK45 2GU. The post code may not take you to the exact place. Please look up the destination on a map before leaving home. The West Car Park can become very busy however there is parking on the roads nearby.",
+      "parking": "Ampthill Great Park, West Car Park, Woburn Street, Ampthill, MK45 2GU. The car park is free",
+      "organiser": "Accolade Hounds Rescue and Sanctuary",
+      "leader": "Cheryl George",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Please join us afterwards for refreshments and a chat, we'll be holding a raffle and selling dog treats and crafts. With all money raised going directly to helping our homeless hounds get prepared for rehoming. If you use an extending lead please keep it locked at all times. Please also keep in mind that there will be homeless hounds walking with us who might be new to walking in public and have never seen other breeds before.",
+      "organiserUrl": "https://accoladehounds.com/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-bedfordshire-ampthill/",
+      "location": {
+        "lat": 52.032759,
+        "lng": -0.508084,
+        "displayName": "Confirmed meeting point — Ampthill Great Park West Car Park, Ampthill",
+        "query": "///hotspot.leave.chariots",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///hotspot.leave.chariots",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
@@ -2876,6 +3044,42 @@
         "precision": "address",
         "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-essex-southend-on-sea",
+      "title": "England, Essex, Southend on sea",
+      "country": "England",
+      "region": "Essex",
+      "locality": "Southend on sea",
+      "address": "Priory park, Victoria Avenue Southend on sea Essex",
+      "postcode": "SS2 6NB",
+      "what3words": "///bumpy.forest.socket",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:30 am",
+      "duration": "1 hour",
+      "meetingPoint": "Bandstand near cafe",
+      "parking": "Free but limited",
+      "organiser": "",
+      "leader": "Michelle Turner",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-essex-southend-on-sea/",
+      "location": {
+        "lat": 51.553862,
+        "lng": 0.703802,
+        "displayName": "Confirmed meeting point — Priory Park bandstand, Southend-on-Sea",
+        "query": "///bumpy.forest.socket",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///bumpy.forest.socket",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
@@ -5917,9 +6121,9 @@
     },
     {
       "id": "portugal-bombarral-bombarral",
-      "title": "Portugal, Bombarral, Bombarral",
+      "title": "Portugal, Bombarral",
       "country": "Portugal",
-      "region": "Bombarral",
+      "region": "",
       "locality": "Bombarral",
       "address": "N361 Zona das Actividades Económicas de Comercio Bombarral Bombarral",
       "postcode": "2540-095",
@@ -5939,10 +6143,10 @@
       "organiserUrl": "https://www.instagram.com/rehomeandrescue?igsh=MXA5YnBtcnNxdTM4Yw%3D%3D&utm_source=qr",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/portugal-bombarral-bombarral/",
       "location": {
-        "lat": 39.265077,
-        "lng": -9.153303,
-        "displayName": "Bombarral, Rua Julio Tornelli, Cintrão, Bombarral e Vale Covo, Bombarral, Leiria, 2540-127, Portugal",
-        "query": "Bombarral, Bombarral, 2540-095, Portugal",
+        "lat": 39.266146,
+        "lng": -9.15898,
+        "displayName": "Café Portugal, Azinhaga do Cotovelo, Bombarral e Vale Covo, Bombarral, Leiria, 2540-031, Portugal",
+        "query": "Bombarral, 2540-095, Portugal",
         "precision": "locality",
         "countryCode": "pt",
         "provider": "OpenStreetMap Nominatim"
@@ -6010,39 +6214,6 @@
         "displayName": "Área de Serviço de Vila do Conde, Autoestrada do Litoral Norte, Modivas, Vila do Conde, Porto, 4485-300, Portugal",
         "query": "Vila do Conde, Norte, 4480-659, Portugal",
         "precision": "locality",
-        "countryCode": "pt",
-        "provider": "OpenStreetMap Nominatim"
-      }
-    },
-    {
-      "id": "portugal-vila-do-conde",
-      "title": "Portugal, Vila do conde",
-      "country": "Portugal",
-      "region": "",
-      "locality": "Vila do conde",
-      "address": "Castelo de Vila do Conde Vila do Conde Vila do conde",
-      "postcode": "4480-659",
-      "what3words": "",
-      "walkType": "Public Group Walk - Sighthounds Only",
-      "startTime": "10:00 am",
-      "duration": "2 hour",
-      "meetingPoint": "Castelo Vila do Conde",
-      "parking": "Free",
-      "organiser": "",
-      "leader": "Pipo Moreira da Rocha",
-      "shortWalk": "Yes",
-      "refreshments": "Yes",
-      "accessible": "Yes",
-      "toilets": "Yes",
-      "info": "",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/portugal-vila-do-conde/",
-      "location": {
-        "lat": 41.027071,
-        "lng": -7.063306,
-        "displayName": "Congregação Cristã em Portugal, Rua do Conde de Castelo Melhor, Castelo Melhor, Vila Nova de Foz Côa, Guarda, Portugal",
-        "query": "Castelo de Vila do Conde Vila do Conde Vila do conde, 4480-659, Portugal",
-        "precision": "address",
         "countryCode": "pt",
         "provider": "OpenStreetMap Nominatim"
       }
@@ -6144,6 +6315,39 @@
         "lng": -4.934225,
         "displayName": "West Bay Swing Park, Victoria Parade, Kilbride, Dunoon, Argyll and Bute, Alba / Scotland, PA23 7LG, United Kingdom",
         "query": "West Bay Dunoon Argyll and Bute, PA23, Scotland",
+        "precision": "address",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "scotland-argyll-and-bute-port-bannatyne",
+      "title": "Scotland, Argyll and Bute, Port Bannatyne",
+      "country": "Scotland",
+      "region": "Argyll and Bute",
+      "locality": "Port Bannatyne",
+      "address": "Shore road Port Bannatyne Argyll and Bute",
+      "postcode": "PA20",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "1 Hour",
+      "meetingPoint": "Ardbeg Point",
+      "parking": "Street parking avaiy",
+      "organiser": "",
+      "leader": "June Rutherford",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-argyll-and-bute-port-bannatyne/",
+      "location": {
+        "lat": 55.860788,
+        "lng": -5.07809,
+        "displayName": "Shore Road, Port Bannatyne, Argyll and Bute, Alba / Scotland, PA20 0LH, United Kingdom",
+        "query": "Shore road Port Bannatyne Argyll and Bute, PA20, Scotland",
         "precision": "address",
         "countryCode": "gb",
         "provider": "OpenStreetMap Nominatim"
@@ -7110,6 +7314,39 @@
         "query": "///changes.fingerprints.silences",
         "sourceType": "what3words",
         "what3words": "///changes.fingerprints.silences"
+      }
+    },
+    {
+      "id": "united-states-georgia-savannah",
+      "title": "United States, Georgia, Savannah",
+      "country": "United States",
+      "region": "Georgia",
+      "locality": "Savannah",
+      "address": "Forsyth Park - Bull Street. Savannah Georgia",
+      "postcode": "31401",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Forsyth Park Fountain on the north end of the park",
+      "parking": "Parking is free in downtown Savannah and all neighboring streets to the Park on Sundays",
+      "organiser": "Greyhounds in Motion",
+      "leader": "Chris Comas",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://greyhoundsinmotion.com/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-georgia-savannah/",
+      "location": {
+        "lat": 32.079007,
+        "lng": -81.092134,
+        "displayName": "Savannah, Chatham County, Georgia, United States",
+        "query": "Savannah, Georgia, 31401, United States",
+        "precision": "locality",
+        "countryCode": "us",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -8366,6 +8603,42 @@
         "precision": "address",
         "countryCode": "us",
         "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "wales-caerphilly-hengoed",
+      "title": "Wales, Caerphilly, Hengoed",
+      "country": "Wales",
+      "region": "Caerphilly",
+      "locality": "Hengoed",
+      "address": "Parc Penallta Hengoed Caerphilly",
+      "postcode": "CF82 7GN",
+      "what3words": "///tablet.passwords.nowadays",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "Around 1 hour",
+      "meetingPoint": "Meet in the MAIN CAR PARK in front of the large field (around 'Sultan the Pit Pony' sculpture)",
+      "parking": "Free car parking",
+      "organiser": "",
+      "leader": "Lee Davies",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-caerphilly-hengoed/",
+      "location": {
+        "lat": 51.652234,
+        "lng": -3.253107,
+        "displayName": "Confirmed meeting point — Parc Penallta main car park, Hengoed",
+        "query": "///tablet.passwords.nowadays",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///tablet.passwords.nowadays",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words user-resolved coordinate"
       }
     },
     {
