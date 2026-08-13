@@ -490,5 +490,41 @@
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
     "provider": "What3Words user-resolved coordinate"
+  },
+  "england-bedfordshire-ampthill": {
+    "lat": 52.032759,
+    "lng": -0.508084,
+    "displayName": "Confirmed meeting point — Ampthill Great Park West Car Park, Ampthill",
+    "query": "///hotspot.leave.chariots",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///hotspot.leave.chariots",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "england-essex-southend-on-sea": {
+    "lat": 51.553862,
+    "lng": 0.703802,
+    "displayName": "Confirmed meeting point — Priory Park bandstand, Southend-on-Sea",
+    "query": "///bumpy.forest.socket",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///bumpy.forest.socket",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
+  },
+  "wales-caerphilly-hengoed": {
+    "lat": 51.652234,
+    "lng": -3.253107,
+    "displayName": "Confirmed meeting point — Parc Penallta main car park, Hengoed",
+    "query": "///tablet.passwords.nowadays",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///tablet.passwords.nowadays",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words user-resolved coordinate"
   }
 }
