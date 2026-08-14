@@ -100,6 +100,15 @@ def normalise_w3w(value: str) -> str:
     return ".".join(re.findall(r"\w+", value)).casefold()
 
 
+W3W_WORDS_RE = re.compile(r"[\w\u00C0-\uFFFF]+\.[\w\u00C0-\uFFFF]+\.[\w\u00C0-\uFFFF]+")
+
+
+def extract_w3w_words(value: str) -> str:
+    """Return the dotted three-word code from a w3w field (handles ///code, URL, slash forms)."""
+    m = W3W_WORDS_RE.search(value or "")
+    return m.group(0).casefold() if m else ""
+
+
 def resolve_w3w_coords(code: str) -> tuple[float, float, str]:
     """Return (lat, lng, description) from the w3w og:image minimap."""
     code = code.strip().lstrip("./").strip("/")
@@ -144,11 +153,12 @@ def verify_w3w_against_walk(code: str, walk: dict[str, Any], reverse_geocode_ena
     lat, lng, desc = resolve_w3w_coords(clean)
     ver = W3WVerification(code=clean, lat=lat, lng=lng)
 
-    # The listing's own w3w (if present) must match what we resolved.
-    listing_w3w = walk.get("what3words") or ""
-    if listing_w3w and normalise_w3w(listing_w3w) != clean:
+    # The listing's own w3w (if present) must match what we resolved. Extract the
+    # three-word code from URL/slash/dotted forms so the comparison is apples-to-apples.
+    listing_words = extract_w3w_words(walk.get("what3words") or "")
+    if listing_words and listing_words != clean:
         ver.reasons.append(
-            f"Code '{clean}' does not match the listing's own w3w '{normalise_w3w(listing_w3w)}'"
+            f"Code '{clean}' does not match the listing's own w3w '{listing_words}'"
         )
 
     # 1) Country agreement via reference radius.

@@ -2,19 +2,19 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-14T02:55:24.703693+00:00",
-    "walkCount": 272,
-    "mappedCount": 272,
+    "scrapedAt": "2026-08-14T05:37:03.513527+00:00",
+    "walkCount": 279,
+    "mappedCount": 279,
     "countryCount": 32
   },
   "countries": [
     {
       "country": "England",
-      "count": 64
+      "count": 65
     },
     {
       "country": "United States",
-      "count": 54
+      "count": 55
     },
     {
       "country": "Australia",
@@ -34,15 +34,15 @@
     },
     {
       "country": "Scotland",
-      "count": 10
+      "count": 11
     },
     {
       "country": "New Zealand",
-      "count": 8
+      "count": 10
     },
     {
       "country": "Ireland",
-      "count": 6
+      "count": 7
     },
     {
       "country": "Czech Republic",
@@ -54,7 +54,7 @@
     },
     {
       "country": "Mexico",
-      "count": 3
+      "count": 4
     },
     {
       "country": "Portugal",
@@ -9227,6 +9227,241 @@
         "query": "Alyn Waters country Park, Gwersyllt Wrexham Wrexham, LL11 4AG, Wales",
         "precision": "address",
         "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "england-northumberland-alnwick",
+      "title": "England, Northumberland, Alnwick",
+      "country": "England",
+      "region": "Northumberland",
+      "locality": "Alnwick",
+      "address": "ROCKING HORSE CAFE, ROCK MIDSTEAD FARM, RENNINGTON ALNWICK Northumberland",
+      "postcode": "NE662TH",
+      "what3words": "///BEGGINNING.PITY.POLLUTION",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "1:00 pm",
+      "duration": "45MINS- 1HRS DEPENDING ON WEATHER",
+      "meetingPoint": "ROCKING HORSE CAFE IS 800 METERS OFF THE A1ON THE B6347. FOLLOW FOR ROCK WHAT 3 WORDS ///BEGINNING.PITY.POLLUTION",
+      "parking": "PARKING ON SITE. NO COST BUT DONATION WELCOME",
+      "organiser": "ALEXA;S CANINE TRUST",
+      "leader": "carole green",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.alexascaninetrust.org",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-northumberland-alnwick/",
+      "location": {
+        "lat": 55.477186,
+        "lng": -1.710069,
+        "displayName": "Alnwick, Northumberland, England, United Kingdom",
+        "query": "55.477186,-1.710069",
+        "precision": "exact",
+        "sourceType": "user-verified",
+        "coordinateStatus": "confirmed",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "ireland-limerick-kilcornan",
+      "title": "Ireland, Limerick, Kilcornan",
+      "country": "Ireland",
+      "region": "Limerick",
+      "locality": "Kilcornan",
+      "address": "Curraghchase Forest Park Kilcornan Limerick",
+      "postcode": "V94 W425",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "12:00 pm",
+      "duration": "1 hour",
+      "meetingPoint": "The Eircode is for the nearest building to the main park entrance. The meeting point for the walk is inside the park, Main Carpark, near the cafe and toilet block.",
+      "parking": "Parking at Curraghchase is normally €5 per car. However we are hoping the Coillte will waive this fee for the day; they did last year.",
+      "organiser": "Deel Sighthound Rescue",
+      "leader": "Josie Fegan",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "There will be an information table about DEEL Sighthound Rescue, plus information leaflets and people to answer questions about fostering and adoption of these beautiful hounds.",
+      "organiserUrl": "https://deelsighthoundrescue.ie/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/ireland-limerick-kilcornan/",
+      "location": {
+        "lat": 52.61389,
+        "lng": -8.88716,
+        "displayName": "Kilcornan, The Municipal District of Adare — Rathkeale, County Limerick, Munster, Éire / Ireland",
+        "query": "Kilcornan, Limerick, V94 W425, Ireland",
+        "precision": "locality",
+        "countryCode": "ie",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "mexico-ciudad-de-mexico-ciudad-de-mexico",
+      "title": "Mexico, Ciudad de México , Ciudad de México",
+      "country": "Mexico",
+      "region": "Ciudad de México",
+      "locality": "Ciudad de México",
+      "address": "Parque México Ciudad de México Ciudad de México",
+      "postcode": "03920",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "12:00 pm",
+      "duration": "2 horas",
+      "meetingPoint": "Nos encontraremos atrás de la fuente frente al parque de perros de parque México.",
+      "parking": "Se pueden estacionar alrededor del parque o calles aledañas. Solo checar zonas de parquimetro.",
+      "organiser": "Galgos México",
+      "leader": "Fernanda brink",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://www.instagram.com/fer_brink_dog_coach?igsh=MWY1Z25sbDZ6YXRvNw==",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/mexico-ciudad-de-mexico-ciudad-de-mexico/",
+      "location": {
+        "lat": 19.411859,
+        "lng": -99.169805,
+        "displayName": "Parque México, Foro Lindbergh, Hipódromo, Condesa, Ciudad de México, Cuauhtémoc, Ciudad de México, 06100, México",
+        "query": "Parque México Ciudad de México Ciudad de México, 03920, Mexico",
+        "precision": "address",
+        "countryCode": "mx",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "new-zealand-canterbury-timaru",
+      "title": "New Zealand, Canterbury, Timaru",
+      "country": "New Zealand",
+      "region": "Canterbury",
+      "locality": "Timaru",
+      "address": "Caroline Bay Timaru Canterbury",
+      "postcode": "7910",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "30minutes",
+      "meetingPoint": "Car Park at the Virtue Avenue entrance",
+      "parking": "Parking at the carpark and walking across Caroline bay and back.",
+      "organiser": "",
+      "leader": "Claire Wilkins",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-canterbury-timaru/",
+      "location": {
+        "lat": -44.389056,
+        "lng": 171.246421,
+        "displayName": "Caroline Bay Playground, Virtue Avenue, Maori Hill, Timaru, Timaru District, Canterbury, 7910, New Zealand / Aotearoa",
+        "query": "Caroline Bay Timaru Canterbury, 7910, New Zealand",
+        "precision": "address",
+        "countryCode": "nz",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "new-zealand-waikato-hamilton",
+      "title": "New Zealand, Waikato, Hamilton",
+      "country": "New Zealand",
+      "region": "Waikato",
+      "locality": "Hamilton",
+      "address": "Gate 3 Brooklyn Road, Claudelands Hamilton Waikato",
+      "postcode": "3214",
+      "what3words": "https://w3w.co/skims.port.caring",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:30 am",
+      "duration": "30 - 45min",
+      "meetingPoint": "On the Grass In front of the Hamilton Farmers Market. No dogs allowed inside the market but there will be helpers to park your dogs with while you browse inside. Coffee, food and Toilets onsite",
+      "parking": "Parking is Free. Road parking on Brooklyn Road Farmers market Carpark inside Gate 3 off Brooklyn Road Carpark inside Gate 2 off Heaphy Terrace",
+      "organiser": "Mayhounds Charitable Trust",
+      "leader": "Ben And Amanda Hewitt",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Raffles Mayhounds Webstore onsite Best Dressed Competiton Spot Prizes Coffee Food",
+      "organiserUrl": "https://www.mayhounds.org.nz/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/new-zealand-waikato-hamilton/",
+      "location": {
+        "lat": -37.776776,
+        "lng": 175.290763,
+        "displayName": "Brooklyn Road, Five Cross Roads, Peachgrove, Claudelands, Hamilton City, Waikato, 3214, New Zealand / Aotearoa",
+        "query": "///skims.port.caring",
+        "precision": "exact meeting point",
+        "sourceType": "what3words",
+        "what3words": "///skims.port.caring",
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "provider": "What3Words resolution + reverse-geocode verification"
+      }
+    },
+    {
+      "id": "scotland-moray-burgie-forres",
+      "title": "Scotland, Moray, Burgie, Forres",
+      "country": "Scotland",
+      "region": "Moray, Burgie",
+      "locality": "Forres",
+      "address": "Burgie Woodland Garden/Arboretum, A96 Burgie, Forres Moray",
+      "postcode": "IV36 2QU",
+      "what3words": "https://w3w.co/retail.revise.badminton",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "11:00 am",
+      "duration": "1 hour",
+      "meetingPoint": "Directions - turn off the A96 between Elgin and Forres. The car park is situated 1/2 a mile off the main A96 up the Burgie Mains drive. It is sign posted next to Morven View, just before the Lodge gates. Meet in the car park.",
+      "parking": "Parking is free, but there is a donations box in the car park please.",
+      "organiser": "Give a Greyhound a Home - Moray Walk",
+      "leader": "Cath Wright",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "https://www.gagah.co.uk/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-moray-burgie-forres/",
+      "location": {
+        "lat": 57.61786,
+        "lng": -3.52204,
+        "displayName": "IV36 2QU, Moray, Alba / Scotland, United Kingdom",
+        "query": "IV36 2QU",
+        "precision": "locality",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "united-states-north-carolina-clemmons",
+      "title": "United States, North Carolina, Clemmons",
+      "country": "United States",
+      "region": "North Carolina",
+      "locality": "Clemmons",
+      "address": "Tanglewood Park 4061 Clemmons Rd Clemmons North Carolina",
+      "postcode": "27012",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "9:00 am",
+      "duration": "There will be a long and shorter option, but the first stretch is everyone together.",
+      "meetingPoint": "Please make the first left after you enter the park, driving towards the dog park. There is a parking lot to the right, across from the dog park and a trail head on the right side of the parking lot. That is where we will see you on the 27th @ 9:00 AM.",
+      "parking": "Parking is free and there are no costs involved in this walk! Bring extra poop bags.",
+      "organiser": "Greyhound Care and Adoption of North Carolina",
+      "leader": "Julie Schroeder",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "https://gca-nc.org/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/united-states-north-carolina-clemmons/",
+      "location": {
+        "lat": 36.021526,
+        "lng": -80.381998,
+        "displayName": "Clemmons, Forsyth County, North Carolina, 27012, United States",
+        "query": "Clemmons, North Carolina, 27012, United States",
+        "precision": "locality",
+        "countryCode": "us",
         "provider": "OpenStreetMap Nominatim"
       }
     }
