@@ -526,5 +526,17 @@
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
     "provider": "What3Words user-resolved coordinate"
+  },
+  "wales-pembrokeshire-carew": {
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "displayName": "Confirmed meeting point — Wales, Pembrokeshire, Carew",
+    "lat": 51.69762,
+    "lng": -4.828919,
+    "precision": "exact meeting point",
+    "provider": "What3Words user-resolved coordinate",
+    "query": "///strictest.torches.catch",
+    "sourceType": "what3words",
+    "what3words": "///strictest.torches.catch"
   }
 }
