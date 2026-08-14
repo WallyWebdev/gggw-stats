@@ -9254,12 +9254,13 @@
       "organiserUrl": "https://www.alexascaninetrust.org",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-northumberland-alnwick/",
       "location": {
-        "lat": 55.41334,
-        "lng": -1.707235,
-        "displayName": "Alnwick, Northumberland, North East, England, United Kingdom",
-        "query": "Alnwick, Northumberland, NE662TH, England",
-        "precision": "locality",
-        "countryCode": "gb",
+        "lat": 55.477186,
+        "lng": -1.710069,
+        "displayName": "Alnwick, Northumberland, England, United Kingdom",
+        "query": "55.477186,-1.710069",
+        "precision": "exact",
+        "sourceType": "user-verified",
+        "coordinateStatus": "confirmed",
         "provider": "OpenStreetMap Nominatim"
       }
     },
