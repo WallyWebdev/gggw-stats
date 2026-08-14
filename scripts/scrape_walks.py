@@ -164,13 +164,21 @@ MANUAL_LOCATIONS = {
         "precision": "published meeting point",
         "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/sweden-uppland-solna/",
     },
-    "switzerland-zurich-hongg-trinkbrunnen-zurich": {
-        "lat": 47.400813,
-        "lng": 8.517188,
-        "displayName": "Trinkbrunnen, Höngg, Zürich, Switzerland",
-        "query": "Trinkbrunnen, Höngg, 8037 Zürich",
+    "scotland-the-highland-alness-2": {
+        "lat": 57.695855,
+        "lng": -4.257797,
+        "displayName": "Crawl Park, Alness, Scotland",
+        "query": "Crawl Park, Alness",
         "precision": "published meeting point",
-        "verificationUrl": "https://www.google.com/maps?q=Trinkbrunnen,+H%C3%B6ngg,+8037+Z%C3%BCrich&ftid=0x47900b72a46c7d6f:0x7b5a10bf19436672&entry=gps",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-the-highland-alness-2/",
+    },
+    "singapore": {
+        "lat": 1.313826,
+        "lng": 103.715586,
+        "displayName": "Lawn E, Singapore Botanic Gardens",
+        "query": "Singapore Botanic Gardens, Lawn E",
+        "precision": "published meeting point",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/singapore/",
     },
 }
 
@@ -261,7 +269,17 @@ def query_candidates(walk: dict[str, Any]) -> list[str]:
         ", ".join(filter(None, [walk["locality"], walk["region"], country])),
         walk["title"],
     ]
-    return list(dict.fromkeys(clean(item) for item in candidates if clean(item)))
+    # Drop candidates that Nominatim rejects: URLs or overly long free-text
+    # (some listings embed the whole meeting-point paragraph + signup link).
+    cleaned = []
+    for item in candidates:
+        c = clean(item)
+        if not c:
+            continue
+        if "http" in c.lower() or len(c) > 120:
+            continue
+        cleaned.append(c)
+    return list(dict.fromkeys(cleaned))
 
 
 def geocode(

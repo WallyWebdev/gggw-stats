@@ -2,15 +2,15 @@
   "meta": {
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
-    "scrapedAt": "2026-08-13T08:46:27.107165+00:00",
-    "walkCount": 266,
-    "mappedCount": 266,
-    "countryCount": 31
+    "scrapedAt": "2026-08-14T02:55:24.703693+00:00",
+    "walkCount": 272,
+    "mappedCount": 272,
+    "countryCount": 32
   },
   "countries": [
     {
       "country": "England",
-      "count": 63
+      "count": 64
     },
     {
       "country": "United States",
@@ -18,7 +18,7 @@
     },
     {
       "country": "Australia",
-      "count": 47
+      "count": 48
     },
     {
       "country": "Italy",
@@ -26,7 +26,7 @@
     },
     {
       "country": "Wales",
-      "count": 12
+      "count": 13
     },
     {
       "country": "Canada",
@@ -34,7 +34,7 @@
     },
     {
       "country": "Scotland",
-      "count": 9
+      "count": 10
     },
     {
       "country": "New Zealand",
@@ -42,7 +42,7 @@
     },
     {
       "country": "Ireland",
-      "count": 5
+      "count": 6
     },
     {
       "country": "Czech Republic",
@@ -129,6 +129,10 @@
       "count": 1
     },
     {
+      "country": "Singapore",
+      "count": 1
+    },
+    {
       "country": "United Arab Emirates",
       "count": 1
     }
@@ -200,6 +204,39 @@
         "query": "Costanera Villa María Villa María Córdoba, 5900, Argentina",
         "precision": "address",
         "countryCode": "ar",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "australia-act-canberra",
+      "title": "Australia, ACT, Canberra",
+      "country": "Australia",
+      "region": "ACT",
+      "locality": "Canberra",
+      "address": "Parliamentary Triangle Canberra. Parkes Place W and Queen Elizabeth Terrace, between National Library and Reconciliation Place, Parkes, Canberra Canberra ACT",
+      "postcode": "2600",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "10:00 am",
+      "duration": "Less than one hour.",
+      "meetingPoint": "Meet on the grassed area near the car park (Mall Road W parking) situated at Parkes Place W and Queen Elizabeth Terrace, Parkes Canberra. Between The National Library and Reconciliation Place. Grassed area is at the top of the Reconciliation Place walkway to the lake.",
+      "parking": "Parking area closest to Reonciliation Place fills up quickly so please allow extra time to park further away and get to the start point. It may also be used for other events. Please familiarise yourself with other car parks nearby. More information on parking can be found on the ACT Greyhound Support Network, Greyhounds of Canberra, Italian Greyhounds Canberra and Whippets of Canberra Facebook pages.",
+      "organiser": "",
+      "leader": "Lavine Tee",
+      "shortWalk": "Yes",
+      "refreshments": "No",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-act-canberra/",
+      "location": {
+        "lat": -35.297591,
+        "lng": 149.101268,
+        "displayName": "Canberra, District of Canberra Central, Australian Capital Territory, 2600, Australia",
+        "query": "Canberra, ACT, 2600, Australia",
+        "precision": "locality",
+        "countryCode": "au",
         "provider": "OpenStreetMap Nominatim"
       }
     },
@@ -3320,6 +3357,39 @@
       }
     },
     {
+      "id": "england-hertfordshire-chipperfield",
+      "title": "England, Hertfordshire, Chipperfield",
+      "country": "England",
+      "region": "Hertfordshire",
+      "locality": "Chipperfield",
+      "address": "The Common Chipperfield Hertfordshire",
+      "postcode": "WD4 9BL",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "About a 1 hour gentle stroll",
+      "meetingPoint": "Meet next to the woods at the far end of the largest car park next to the cricket pitch",
+      "parking": "All car parks in the area are free",
+      "organiser": "Greyhound Walks",
+      "leader": "Philip Parkes",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "There is an excellent dog friendly cafe at the end of the walk and toilets in the cafe and pubs.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-hertfordshire-chipperfield/",
+      "location": {
+        "lat": 51.703691,
+        "lng": -0.4931,
+        "displayName": "St Paul's Church of England Primary School, The Common, Tower Hill, Chipperfield, Dacorum, Hertfordshire, England, WD4 9BS, United Kingdom",
+        "query": "The Common Chipperfield Hertfordshire, WD4 9BL, England",
+        "precision": "address",
+        "countryCode": "gb",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
       "id": "england-isle-of-wight-ryde",
       "title": "England, Isle of Wight, Ryde",
       "country": "England",
@@ -4793,6 +4863,39 @@
         "query": "Mátyásföldi repülőtér Budapest Budapest, 1163, Hungary",
         "precision": "address",
         "countryCode": "hu",
+        "provider": "OpenStreetMap Nominatim"
+      }
+    },
+    {
+      "id": "ireland-cork-co-cork",
+      "title": "Ireland, Cork, Doneraile Wildlife Park",
+      "country": "Ireland",
+      "region": "Cork",
+      "locality": "Doneraile Wildlife Park",
+      "address": "Doneraile Wildlife Park Co. CORK Cork",
+      "postcode": "R51XR66",
+      "what3words": "Signage outside carpark",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "1:00 pm",
+      "duration": "1 hour to 1.5 hours but you can take a shorter route to the finish, which is at Doneraile House.",
+      "meetingPoint": "Doneraile Wildlife Park, meeting point shall be at the first carpark on your left, after you enter the Doneraile Wildlife park entrance.",
+      "parking": "Parking is free, but we do recommend you arrive early. 12.30pm on would be ideal. If the car park is full, there is another available near the playground further inside the grounds on your right. Public toilets are available there also.",
+      "organiser": "",
+      "leader": "Susan Walsh",
+      "shortWalk": "Yes",
+      "refreshments": "Yes",
+      "accessible": "No",
+      "toilets": "Yes",
+      "info": "All pets shall receive a GGGW 2026 certificate, owners just need to fill in their pets name in their own time after the walk. Pets shall also receive a bow tie or colourful ribbon, these shall be limited so please dont be disappointed if we run out. It can be hard to gague how many Pets attend but we shall do our best.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/ireland-cork-co-cork/",
+      "location": {
+        "lat": 52.216645,
+        "lng": -8.575405,
+        "displayName": "Doneraile Wildlife Park, Doneraile, The Municipal District of Fermoy, County Cork, Munster, Éire / Ireland",
+        "query": "Doneraile Wildlife Park, Cork, Ireland",
+        "precision": "locality",
+        "countryCode": "ie",
         "provider": "OpenStreetMap Nominatim"
       }
     },
@@ -6522,6 +6625,38 @@
       }
     },
     {
+      "id": "scotland-the-highland-alness-2",
+      "title": "Scotland, The Highland, Alness",
+      "country": "Scotland",
+      "region": "The Highland",
+      "locality": "Alness",
+      "address": "Crawl Park Alness The Highland",
+      "postcode": "IV17 0PS",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "11:00 am",
+      "duration": "1 - 1.5hr",
+      "meetingPoint": "Meet at the old Bandstand in Crawl Park, Alness to walk to Yankee Pier",
+      "parking": "Free parking at Crawl Park or behind High Street Shops",
+      "organiser": "",
+      "leader": "Linda Barwell",
+      "shortWalk": "No",
+      "refreshments": "No",
+      "accessible": "No",
+      "toilets": "No",
+      "info": "",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-the-highland-alness-2/",
+      "location": {
+        "lat": 57.695855,
+        "lng": -4.257797,
+        "displayName": "Crawl Park, Alness, Scotland",
+        "query": "Crawl Park, Alness",
+        "precision": "published meeting point",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/scotland-the-highland-alness-2/"
+      }
+    },
+    {
       "id": "scotland-west-lothian-livingston",
       "title": "Scotland, West Lothian, Livingston",
       "country": "Scotland",
@@ -6555,6 +6690,39 @@
         "query": "///risky.when.social",
         "sourceType": "what3words",
         "what3words": "///risky.when.social"
+      }
+    },
+    {
+      "id": "singapore",
+      "title": "Singapore",
+      "country": "Singapore",
+      "region": "",
+      "locality": "Singapore",
+      "address": "Singapore Botanic Gardens (Lawn E, next to Swan Lake) Singapore Singapore",
+      "postcode": "259569",
+      "what3words": "",
+      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
+      "startTime": "8:00 am",
+      "duration": "1 to 1.5 hours",
+      "meetingPoint": "Singapore Botanic Gardens, Lawn E (next to Swan Lake)",
+      "parking": "The Tyersall Entrance / Learning Forest car park is the most convenient choice for Swan Lake. Parking rate: $1.20 per hour",
+      "organiser": "",
+      "leader": "Nicole Wong and Elinor Low",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "Wet Weather Plan. We hope for a dry morning, but as Singapore weather can be unpredictable, we will have a wet-weather contingency plan for the walk. Light rain: The walk will proceed if conditions remain safe. Please bring an umbrella or raincoat for yourself and suitable rain protection for your hound. If rain becomes heavier: We will shorten or pause the walk and make our way towards The Garage / Wildseed Café, which is a pet-friendly café within the Singapore Botanic Gardens. This will provide an opportunity for participants and their hounds to take a break while we assess the weather. For our hounds Please keep all dogs on leash and under control at all times. Bring a towel to dry your hound if necessary, and be mindful that wet surfaces may be slippery. Any decision to pause, shorten or cancel the walk will be communicated through the discussion post.",
+      "organiserUrl": "",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/singapore/",
+      "location": {
+        "lat": 1.296202,
+        "lng": 103.776898,
+        "displayName": "National University of Singapore, 21, Lower Kent Ridge Road, National University of Singapore, one-north, Queenstown, Central Region, Singapore, 119077, Singapore",
+        "query": "Singapore, 259569, Singapore",
+        "precision": "locality",
+        "countryCode": "sg",
+        "provider": "OpenStreetMap Nominatim"
       }
     },
     {
@@ -8884,6 +9052,42 @@
         "query": "///minivans.rank.fact",
         "sourceType": "what3words",
         "what3words": "///minivans.rank.fact"
+      }
+    },
+    {
+      "id": "wales-pembrokeshire-carew",
+      "title": "Wales, Pembrokeshire, Carew",
+      "country": "Wales",
+      "region": "Pembrokeshire",
+      "locality": "Carew",
+      "address": "Carew Castle Car Park Carew Pembrokeshire",
+      "postcode": "SA70 8SL",
+      "what3words": "strictest.torches.catch",
+      "walkType": "Public Group Walk - Sighthounds Only",
+      "startTime": "10:00 am",
+      "duration": "45 mins - 1 hour",
+      "meetingPoint": "We will meet at Carew Castle Car Park, SA70 8S",
+      "parking": "Parking at Carew Castle Car Park - no charge",
+      "organiser": "The Zoomie Zone",
+      "leader": "Julie Payne",
+      "shortWalk": "No",
+      "refreshments": "Yes",
+      "accessible": "Yes",
+      "toilets": "Yes",
+      "info": "There is no charge for the walk but I will be collecting donations for the Zoomie Zone who I work with closely trying to re-home as many stray lurchers as we can once they reach the end of their time in the council pounds. You can find out more about our work and the dogs we have up for adoption (like Rupert the Pharaoh Hound) on our website: https://www.thezoomiezone.co.uk/",
+      "organiserUrl": "https://www.thezoomiezone.co.uk/",
+      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/wales-pembrokeshire-carew/",
+      "location": {
+        "accuracy": "three-metre square",
+        "coordinateStatus": "confirmed",
+        "displayName": "Confirmed meeting point — Wales, Pembrokeshire, Carew",
+        "lat": 51.69762,
+        "lng": -4.828919,
+        "precision": "exact meeting point",
+        "provider": "What3Words user-resolved coordinate",
+        "query": "///strictest.torches.catch",
+        "sourceType": "what3words",
+        "what3words": "///strictest.torches.catch"
       }
     },
     {

@@ -13,7 +13,7 @@ EXPECTED_COUNTRY_CODES = {
     "Croatia": "hr", "Croatia (Hrvatska)": "hr", "Czech Republic": "cz", "England": "gb", "France": "fr", "Germany": "de", "Gibraltar": "gi",
     "Greece": "gr", "Guernsey": "gg", "Hungary": "hu", "Ireland": "ie", "Italy": "it", "Japan": "jp",
     "Jersey": "je", "Luxembourg": "lu", "Mexico": "mx", "Netherlands": "nl", "New Zealand": "nz", "Portugal": "pt", "San Marino": "sm",
-    "Scotland": "gb", "South Africa": "za", "Sweden": "se", "Switzerland": "ch", "United Arab Emirates": "ae",
+    "Scotland": "gb", "Singapore": "sg", "South Africa": "za", "Sweden": "se", "Switzerland": "ch", "United Arab Emirates": "ae",
     "United States": "us", "Wales": "gb",
 }
 
