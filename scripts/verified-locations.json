@@ -538,5 +538,17 @@
     "query": "///strictest.torches.catch",
     "sourceType": "what3words",
     "what3words": "///strictest.torches.catch"
+  },
+  "new-zealand-waikato-hamilton": {
+    "lat": -37.776776,
+    "lng": 175.290763,
+    "displayName": "Brooklyn Road, Five Cross Roads, Peachgrove, Claudelands, Hamilton City, Waikato, 3214, New Zealand / Aotearoa",
+    "query": "///skims.port.caring",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///skims.port.caring",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words resolution + reverse-geocode verification"
   }
 }

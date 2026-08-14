@@ -21,6 +21,7 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from w3w_verify import verify_w3w_against_walk
 
 ROOT = Path(__file__).resolve().parents[1]
 WALKS_JSON = ROOT / "src" / "data" / "walks.json"
@@ -44,10 +45,18 @@ def clean(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def get(session: requests.Session, url: str) -> requests.Response:
-    resp = session.get(url, timeout=45)
-    resp.raise_for_status()
-    return resp
+def get(session: requests.Session, url: str, retries: int = 4) -> requests.Response:
+    last: Exception | None = None
+    for attempt in range(retries):
+        try:
+            resp = session.get(url, timeout=45)
+            resp.raise_for_status()
+            return resp
+        except Exception as exc:  # transient resets/5xx -> retry with backoff
+            last = exc
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last
 
 
 def parse_walk(session: requests.Session, url: str) -> dict:
@@ -96,6 +105,7 @@ def query_candidates(walk: dict) -> list[str]:
         ", ".join(filter(None, [walk["address"], walk["postcode"], country])),
         ", ".join(filter(None, [walk["meetingPoint"], country])),
         ", ".join(filter(None, [walk["locality"], walk["region"], walk["postcode"], country])),
+        ", ".join(filter(None, [walk["postcode"], country])),
         ", ".join(filter(None, [walk["locality"], walk["region"], country])),
         walk["title"],
     ]
@@ -147,6 +157,40 @@ def geocode(session: requests.Session, walk: dict, cache: dict, confirmed: dict)
     return None
 
 
+W3W_RE = re.compile(
+    r"(?:///|w3w\.co/|www\.what3words\.com/)?"
+    r"([\w\u00C0-\uFFFF]+\.[\w\u00C0-\uFFFF]+\.[\w\u00C0-\uFFFF]+)"
+)
+
+
+def classify_w3w(walk: dict) -> tuple[str, object]:
+    """Return ('none', None) | ('confirmed', loc) | ('rejected', reasons) | ('error', reason)."""
+    raw = (walk.get("what3words") or "").strip()
+    m = W3W_RE.search(raw)
+    if not m:
+        return "none", None
+    code = m.group(1)
+    try:
+        ver = verify_w3w_against_walk(code, walk, reverse_geocode_enabled=True)
+    except Exception as exc:  # resolution/network failure -> never confirm
+        return "error", str(exc)
+    if ver.status == "confirmed":
+        loc = {
+            "lat": ver.lat,
+            "lng": ver.lng,
+            "displayName": ver.display_name or walk["title"],
+            "query": "///" + ver.code,
+            "precision": "exact meeting point",
+            "sourceType": "what3words",
+            "what3words": "///" + ver.code,
+            "accuracy": "three-metre square",
+            "coordinateStatus": "confirmed",
+            "provider": "What3Words resolution + reverse-geocode verification",
+        }
+        return "confirmed", loc
+    return "rejected", "; ".join(ver.reasons)
+
+
 def main() -> int:
     ids = sys.argv[1:]
     if not ids:
@@ -161,21 +205,44 @@ def main() -> int:
     confirmed = json.loads(VERIFIED_LOCATIONS_FILE.read_text()) if VERIFIED_LOCATIONS_FILE.exists() else {}
 
     added = []
+    flags = []
+    new_confirmed = {}
     for wid in ids:
         if wid in existing:
             print(f"skip (already present): {wid}")
             continue
         url = f"https://greatglobalgreyhoundwalk.co.uk/walks/{wid}/"
         walk = parse_walk(session, url)
-        loc = geocode(session, walk, cache, confirmed)
+        state, payload = classify_w3w(walk)
+        if state == "confirmed":
+            loc = payload
+            new_confirmed[wid] = loc
+            print(f"+ {walk['title']}: w3w CONFIRMED {loc['lat']},{loc['lng']} ({loc['what3words']})")
+        else:
+            if state != "none":
+                flags.append(f"{wid}: w3w {state} ({payload}); falling back to Nominatim")
+                print(f"  ! {wid}: w3w {state}: {payload}")
+            loc = geocode(session, walk, cache, confirmed)
+            if loc is None:
+                flags.append(f"{wid}: UNMAPPED (no coordinate found)")
+                print(f"+ {walk['title']}: UNMAPPED")
+            else:
+                print(f"+ {walk['title']}: {loc['lat']},{loc['lng']} ({loc.get('precision')})")
         walk["location"] = loc
         data["walks"].append(walk)
         added.append(walk)
-        print(f"+ {walk['title']}: {loc['lat']},{loc['lng']} ({loc.get('precision')})" if loc else f"+ {walk['title']}: UNMAPPED")
 
     if not added:
         print("Nothing to import.")
         return 0
+
+    if new_confirmed:
+        merged = dict(confirmed)
+        overlap = [k for k in new_confirmed if k in merged]
+        assert not overlap, f"Refusing to overwrite existing confirmed pins: {overlap}"
+        merged.update(new_confirmed)
+        VERIFIED_LOCATIONS_FILE.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n")
+        print(f"Updated {VERIFIED_LOCATIONS_FILE} with {len(new_confirmed)} confirmed w3w pin(s)")
 
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
@@ -193,6 +260,10 @@ def main() -> int:
     WALKS_JSON.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"\nWrote {WALKS_JSON}: {data['meta']['walkCount']} walks, {data['meta']['mappedCount']} mapped, {data['meta']['countryCount']} countries")
     print(f"Added {len(added)} new walks.")
+    if flags:
+        print("\nFLAGS:")
+        for f in flags:
+            print(f"  - {f}")
     return 0
 
 
