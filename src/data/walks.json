@@ -231,13 +231,15 @@
       "organiserUrl": "",
       "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-act-canberra/",
       "location": {
-        "lat": -35.297591,
-        "lng": 149.101268,
-        "displayName": "Canberra, District of Canberra Central, Australian Capital Territory, 2600, Australia",
-        "query": "Canberra, ACT, 2600, Australia",
-        "precision": "locality",
-        "countryCode": "au",
-        "provider": "OpenStreetMap Nominatim"
+        "lat": -35.297777,
+        "lng": 149.131599,
+        "displayName": "Canberra, ACT, Australia",
+        "query": "Canberra, ACT, Australia",
+        "precision": "exact meeting point",
+        "sourceType": "user-verified",
+        "coordinateStatus": "confirmed",
+        "provider": "User-supplied verified coordinate",
+        "verificationUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/australia-act-canberra/"
       }
     },
     {

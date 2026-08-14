@@ -50,6 +50,8 @@ for walk in walks:
         assert normalise_w3w(location["what3words"]) in normalise_w3w(walk["what3words"]), (
             f"W3W code does not match listing: {walk['title']}"
         )
+    elif location.get("sourceType") == "user-verified":
+        assert location.get("coordinateStatus") == "confirmed", f"Unconfirmed user-verified coordinate: {walk['title']}"
     else:
         assert location.get("provider") == "OpenStreetMap Nominatim", f"Missing geocoder provider: {walk['title']}"
         assert location.get("countryCode") == EXPECTED_COUNTRY_CODES[walk["country"]], f"Wrong geocoder country: {walk['title']}"
