@@ -3,14 +3,14 @@
     "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/",
     "eventDate": "2026-09-27",
     "scrapedAt": "2026-08-15T21:04:20.313753+00:00",
-    "walkCount": 291,
-    "mappedCount": 291,
+    "walkCount": 289,
+    "mappedCount": 289,
     "countryCount": 32
   },
   "countries": [
     {
       "country": "England",
-      "count": 71
+      "count": 70
     },
     {
       "country": "United States",
@@ -42,7 +42,7 @@
     },
     {
       "country": "Ireland",
-      "count": 8
+      "count": 7
     },
     {
       "country": "Czech Republic",
@@ -4337,39 +4337,6 @@
       }
     },
     {
-      "id": "england-tyne-wear-sunderland",
-      "title": "England, Tyne & Wear, Sunderland",
-      "country": "England",
-      "region": "Tyne & Wear",
-      "locality": "Sunderland",
-      "address": "Herrington Country park Sunderland Tyne & Wear",
-      "postcode": "Dh47el",
-      "what3words": "",
-      "walkType": "Public Group Walk - Sighthounds and other breeds from a Sighthound family",
-      "startTime": "9:30 am",
-      "duration": "1 hour",
-      "meetingPoint": "Meet at the Swan lake car park at 9.20am for a 9.30am start",
-      "parking": "Free parking",
-      "organiser": "North east UK greyhound and sighthound walking group",
-      "leader": "Bianca Willis",
-      "shortWalk": "Yes",
-      "refreshments": "No",
-      "accessible": "No",
-      "toilets": "No",
-      "info": "",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/england-tyne-wear-sunderland/",
-      "location": {
-        "lat": 54.87842,
-        "lng": -1.480672,
-        "displayName": "Herrington Country Park parking, Chester Road, Mount Pleasant, Penshaw, Sunderland, Tyne and Wear, North East, England, DH4 7NJ, United Kingdom",
-        "query": "Herrington Country park Sunderland Tyne & Wear, Dh47el, England",
-        "precision": "address",
-        "countryCode": "gb",
-        "provider": "OpenStreetMap Nominatim"
-      }
-    },
-    {
       "id": "england-warwickshire-coventry",
       "title": "England, Warwickshire, Coventry",
       "country": "England",
@@ -4896,39 +4863,6 @@
         "lng": -8.575405,
         "displayName": "Doneraile Wildlife Park, Doneraile, The Municipal District of Fermoy, County Cork, Munster, Éire / Ireland",
         "query": "Doneraile Wildlife Park, Cork, Ireland",
-        "precision": "locality",
-        "countryCode": "ie",
-        "provider": "OpenStreetMap Nominatim"
-      }
-    },
-    {
-      "id": "ireland-dublin-dublin",
-      "title": "Ireland, Dublin, Dublin",
-      "country": "Ireland",
-      "region": "Dublin",
-      "locality": "Dublin",
-      "address": "Marley Park The Courtyard Dublin Dublin",
-      "postcode": "D16",
-      "what3words": "Marley Park Courtyard",
-      "walkType": "Public Group Walk - Sighthounds Only",
-      "startTime": "6:00 pm",
-      "duration": "1 hour",
-      "meetingPoint": "Meeting point is The Courtyard in Marley Park, Lovely scenery, coffee shop, gardens and toilets on site",
-      "parking": "public parking onsite",
-      "organiser": "",
-      "leader": "Ingrid",
-      "shortWalk": "Yes",
-      "refreshments": "Yes",
-      "accessible": "Yes",
-      "toilets": "Yes",
-      "info": "",
-      "organiserUrl": "",
-      "sourceUrl": "https://greatglobalgreyhoundwalk.co.uk/walks/ireland-dublin-dublin/",
-      "location": {
-        "lat": 53.283962,
-        "lng": -6.325771,
-        "displayName": "112th Dublin (Knocklyon) Scout Den, Old Knocklyon Road, Knocklyon, Firhouse-Ballycullen DED 1986, Dublin, South Dublin, County Dublin, Leinster, D16, Éire / Ireland",
-        "query": "Dublin, Dublin, D16, Ireland",
         "precision": "locality",
         "countryCode": "ie",
         "provider": "OpenStreetMap Nominatim"
