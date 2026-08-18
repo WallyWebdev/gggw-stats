@@ -4,7 +4,8 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import unquote
-from urllib.request import Request, urlopen
+
+from gggw_browser import fetch_html
 
 SOURCE_URL = "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/"
 PATTERN = re.compile(r'https://greatglobalgreyhoundwalk\.co\.uk/walks/[^/"#?]+/')
@@ -57,8 +58,8 @@ for walk in walks:
         assert location.get("countryCode") == EXPECTED_COUNTRY_CODES[walk["country"]], f"Wrong geocoder country: {walk['title']}"
 
 if args.live:
-    request = Request(SOURCE_URL, headers={"User-Agent": "GGGW-Stats-Validator/1.0"})
-    html = urlopen(request, timeout=45).read().decode("utf-8", "replace")
+    # Use browser-based fetch to bypass SiteGround /sgcaptcha/ WAF.
+    html = fetch_html(SOURCE_URL)
     live_urls = set(PATTERN.findall(html))
     stored_urls = {walk["sourceUrl"] for walk in walks}
     assert live_urls == stored_urls, (

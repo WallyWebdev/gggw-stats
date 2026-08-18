@@ -13,6 +13,8 @@ from typing import Any
 import requests
 from bs4 import BeautifulSoup
 
+from gggw_browser import fetch_html
+
 SOURCE_URL = "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/"
 USER_AGENT = "GGGW-Stats/0.1 (non-commercial community stats prototype; source: greatglobalgreyhoundwalk.co.uk)"
 ROOT = Path(__file__).resolve().parents[1]
@@ -204,7 +206,9 @@ def get(session: requests.Session, url: str) -> requests.Response:
 
 
 def listing_urls(session: requests.Session) -> list[str]:
-    soup = BeautifulSoup(get(session, SOURCE_URL).text, "html.parser")
+    # Use browser-based fetch to bypass SiteGround /sgcaptcha/ WAF.
+    html = fetch_html(SOURCE_URL)
+    soup = BeautifulSoup(html, "html.parser")
     urls: list[str] = []
     for anchor in soup.select('a[href*="/walks/"]'):
         href = anchor.get("href", "").split("#", 1)[0]
@@ -214,7 +218,9 @@ def listing_urls(session: requests.Session) -> list[str]:
 
 
 def parse_walk(session: requests.Session, url: str) -> dict[str, Any]:
-    soup = BeautifulSoup(get(session, url).text, "html.parser")
+    # Use browser-based fetch to bypass SiteGround /sgcaptcha/ WAF.
+    html = fetch_html(url)
+    soup = BeautifulSoup(html, "html.parser")
     heading = soup.select_one("h1")
     if not heading:
         raise ValueError(f"No h1 found at {url}")

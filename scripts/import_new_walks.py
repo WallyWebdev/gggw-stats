@@ -23,10 +23,13 @@ import requests
 from bs4 import BeautifulSoup
 from w3w_verify import verify_w3w_against_walk
 
+from gggw_browser import fetch_html
+
 ROOT = Path(__file__).resolve().parents[1]
 WALKS_JSON = ROOT / "src" / "data" / "walks.json"
 VERIFIED_LOCATIONS_FILE = ROOT / "scripts" / "verified-locations.json"
 CACHE = ROOT / ".cache" / "geocodes.json"
+CACHE_DIR = ROOT / ".cache" / "walk-pages"
 
 USER_AGENT = "GGGW-Stats/0.1 (non-commercial community stats; source: greatglobalgreyhoundwalk.co.uk)"
 NOMINATIM_UA = "GGGW-Stats/0.1 (non-commercial community stats; source: greatglobalgreyhoundwalk.co.uk)"
@@ -59,8 +62,9 @@ def get(session: requests.Session, url: str, retries: int = 4) -> requests.Respo
     raise last
 
 
-def parse_walk(session: requests.Session, url: str) -> dict:
-    soup = BeautifulSoup(get(session, url).text, "html.parser")
+def parse_walk_html(html: str, url: str) -> dict:
+    """Parse a walk detail page from pre-fetched HTML (no fetch needed)."""
+    soup = BeautifulSoup(html, "html.parser")
     heading = soup.select_one("h1")
     title = clean(heading.get_text(" ", strip=True))
     fields: dict[str, str] = {}
@@ -97,6 +101,12 @@ def parse_walk(session: requests.Session, url: str) -> dict:
         "organiserUrl": fields.get("Organiser Website", ""),
         "sourceUrl": url,
     }
+
+
+def parse_walk(session: requests.Session, url: str) -> dict:
+    """Fetch and parse a walk detail page live (uses browser to bypass WAF)."""
+    html = fetch_html(url)
+    return parse_walk_html(html, url)
 
 
 def query_candidates(walk: dict) -> list[str]:
@@ -192,10 +202,14 @@ def classify_w3w(walk: dict) -> tuple[str, object]:
 
 
 def main() -> int:
-    ids = sys.argv[1:]
-    if not ids:
-        print("Usage: import_new_walks.py <id> [<id> ...]")
-        return 2
+    import argparse
+    parser = argparse.ArgumentParser(description="Import new GGGW walks into the dataset")
+    parser.add_argument("ids", nargs="+", help="Walk IDs to import")
+    parser.add_argument("--from-cache", action="store_true",
+                        help="Read walk HTML from .cache/walk-pages/<id>.html instead of fetching live")
+    args = parser.parse_args()
+
+    ids = args.ids
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
 
@@ -212,7 +226,15 @@ def main() -> int:
             print(f"skip (already present): {wid}")
             continue
         url = f"https://greatglobalgreyhoundwalk.co.uk/walks/{wid}/"
-        walk = parse_walk(session, url)
+        if args.from_cache:
+            cache_file = CACHE_DIR / f"{wid}.html"
+            if not cache_file.exists():
+                print(f"skip (no cache): {wid} — run fetch_walk_pages.py first")
+                continue
+            html = cache_file.read_text()
+            walk = parse_walk_html(html, url)
+        else:
+            walk = parse_walk(session, url)
         state, payload = classify_w3w(walk)
         if state == "confirmed":
             loc = payload
