@@ -11,20 +11,21 @@ import re
 import sys
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
 
+from gggw_browser import fetch_html
+
 SOURCE_URL = "https://greatglobalgreyhoundwalk.co.uk/walk-schedule/"
-USER_AGENT = "GGGW-Stats/0.1 (non-commercial community stats prototype; source: greatglobalgreyhoundwalk.co.uk)"
 ROOT = Path(__file__).resolve().parents[1]
 WALKS_JSON = ROOT / "src" / "data" / "walks.json"
 DIFF_OUT = ROOT / ".cache" / "scan-diff.json"
 
 
 def live_ids() -> set[str]:
-    session = requests.Session()
-    session.headers.update({"User-Agent": USER_AGENT})
-    soup = BeautifulSoup(session.get(SOURCE_URL, timeout=45).text, "html.parser")
+    # Use the browser-based fetcher to bypass SiteGround's /sgcaptcha/ WAF,
+    # which serves an HTTP 200 JS-challenge wall to non-browser clients.
+    html = fetch_html(SOURCE_URL)
+    soup = BeautifulSoup(html, "html.parser")
     urls: list[str] = []
     for anchor in soup.select('a[href*="/walks/"]'):
         href = anchor.get("href", "").split("#", 1)[0]

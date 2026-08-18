@@ -550,5 +550,41 @@
     "accuracy": "three-metre square",
     "coordinateStatus": "confirmed",
     "provider": "What3Words resolution + reverse-geocode verification"
+  },
+  "england-cambridgeshire-chatteris": {
+    "lat": 52.449884,
+    "lng": 0.042662,
+    "displayName": "Westbourne Road, Chatteris, Fenland, Cambridgeshire, Cambridgeshire and Peterborough, England, PE16 6HH, United Kingdom",
+    "query": "///product.clever.continues",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///product.clever.continues",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words resolution + reverse-geocode verification"
+  },
+  "england-suffolk-brandon": {
+    "lat": 52.434872,
+    "lng": 0.625288,
+    "displayName": "Brandon Park Nursing Home, Brandon Park, Brandon, West Suffolk, Suffolk, England, IP27 0SU, United Kingdom",
+    "query": "///slopes.appeal.select",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///slopes.appeal.select",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words resolution + reverse-geocode verification"
+  },
+  "england-west-sussex-bognor-regis": {
+    "lat": 50.786856,
+    "lng": -0.666389,
+    "displayName": "Hotham Park Bandstand, High Street, Bognor Regis, North Bersted, Arun, West Sussex, England, PO21 1PA, United Kingdom",
+    "query": "///faces.formal.recall",
+    "precision": "exact meeting point",
+    "sourceType": "what3words",
+    "what3words": "///faces.formal.recall",
+    "accuracy": "three-metre square",
+    "coordinateStatus": "confirmed",
+    "provider": "What3Words resolution + reverse-geocode verification"
   }
 }
